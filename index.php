@@ -12,10 +12,15 @@
 
 	<style type="text/css">
 		.pic {
-			width: 24.75%;
+			width: 24%;
 			display: inline-grid;
 			vertical-align: top;
 			padding-bottom: 5px;
+		}
+		@media (max-width: 980px) {
+			.pic {
+				width: 30%;
+			}
 		}
 	</style>
 
@@ -30,7 +35,7 @@
 			<section id="banner" style="background: url(./images/news.jpg); background-position: center; background-size: cover;">
 				<header>
 					<h2>BIIC LAB</h2>
-					<p>Behavioral Informatics &amp; Interaction Computation Lab</p>
+					<p style="text-align-last: center;">Behavioral Informatics &amp; Interaction Computation Lab</p>
 				</header>
 			</section>
 
@@ -90,16 +95,14 @@
 							<div id="overall"><img src="./images/facilities/bg.JPG"></div>
 							
 							<div style="padding: 1em 0; text-align: center;">
-								<h2 style="display: inline;">The enviroment of BIIC Lab.&emsp;</h2>
-								<p  style="display: inline;"><i>We are coding here.</i></p>
+								<h2>The enviroment of BIIC Lab.&emsp;</h2>
+								<i>We are coding here.</i>
 							</div>
 							<div class="image-gallery" style="text-align: center;">
 								<div class="pic"><img src="./images/facilities/01.JPG"></div>
 								<div class="pic"><img src="./images/facilities/02.JPG"></div>
 								<div class="pic"><img src="./images/facilities/03.JPG"></div>
 								<div class="pic"><img src="./images/facilities/04.JPG"></div>
-							</div>
-							<div class="image-gallery" style="text-align: center;">
 								<div class="pic"><img src="./images/facilities/05.JPG"></div>
 								<div class="pic"><img src="./images/facilities/07.JPG"></div>
 								<div class="pic"><img src="./images/facilities/08.JPG"></div>
