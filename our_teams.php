@@ -71,7 +71,7 @@
 									<a href="http://knds.myweb.hinet.net/cv.html" target="_blank" class="home-icon" title="Chen-Ying Hung's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Machine Learning for Healthcare, Electronic Health Record Analysis, Medical Image Analysis
+									<p>Machine Learning for Healthcare, Electronic Health Record Analysis, Medical Image Analysis</p>
 								</div>
 							</div>
 							<!-- Chin-Po -->
@@ -82,7 +82,7 @@
 									<a href="https://stu94116.wixsite.com/mysite" target="_blank" class="home-icon" title="Chin-Po Chen's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Multimodal Behavior Analysis, Behavioral Signal Processing, Mental Health Application
+									<p>Multimodal Behavior Analysis, Behavioral Signal Processing, Mental Health Application</p>
 								</div>
 							</div>
 							<!-- Chun-Min -->
@@ -93,7 +93,7 @@
 									<a href="https://s7894561118.wixsite.com/jimtak" target="_blank" class="home-icon" title="Chun-Min Chang's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Behavioral Signal Processing, Multitask and Multimodal Learning, Cross-cultural Affective Computing
+									<p>Behavioral Signal Processing, Multitask and Multimodal Learning, Cross-cultural Affective Computing</p>
 								</div>
 							</div>
 							<!-- Fu-Sheng Tsai -->
@@ -104,7 +104,7 @@
 									<a href="https://eason820316.wixsite.com/mysite" target="_blank" class="home-icon" title="Fu-Sheng Tsai's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Pain and Affect Computation, Multimodal NeuroImaging Modeling, Machine Learning for Health Application
+									<p>Pain and Affect Computation, Multimodal NeuroImaging Modeling, Machine Learning for Health Application</p>
 								</div>
 							</div>
 							<!-- Huang-Cheng -->
@@ -115,7 +115,7 @@
 									<a href="https://hcchou.wixsite.com/huangchengchou" target="_blank" class="home-icon" title="Huang-Cheng Chou's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Continuous Emotion Recognition, Multimodal Behavior Corpus, Behavioral Signal Processing
+									<p>Continuous Emotion Recognition, Multimodal Behavior Corpus, Behavioral Signal Processing</p>
 								</div>
 							</div>
 							<!-- Jeng-Lin -->
@@ -126,7 +126,7 @@
 									<a href="https://loxa9011.wixsite.com/jenglinli" target="_blank" class="home-icon" title="Jeng-Lin Li's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Interaction Modeling &amp; Analysis, Multimodal Representation Learning, Machine Learning for Medical Diagnosis
+									<p>Interaction Modeling &amp; Analysis, Multimodal Representation Learning, Machine Learning for Medical Diagnosis</p>
 								</div>
 							</div>
 							<!-- Yun-Shao -->
@@ -137,7 +137,7 @@
 									<a href="https://astanley18074.wixsite.com/stanleylin" target="_blank" class="home-icon" title="Yun-Shao Lin's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									Multi-party Interaction Modeling, Behavioral Signal Processing, Machine Learning
+									<p>Multi-party Interaction Modeling, Behavioral Signal Processing, Machine Learning</p>
 								</div>
 							</div>
 							<!-- Hao-Chun -->
@@ -148,7 +148,7 @@
 									<a href="https://chadyang.wixsite.com/haochun" target="_blank" class="home-icon" title="Hao-Chun Yang's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									***
+									<p>***</p>
 								</div>
 							</div>
 							<!-- Bo-Hao -->
@@ -159,7 +159,7 @@
 									<a href="https://borrissu.wixsite.com/borris" target="_blank" class="home-icon" title="Bo-Hao Su's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									zero resource concept learning of corpus
+									<p>zero resource concept learning of corpus</p>
 								</div>
 							</div>
 						</div>
