@@ -8,100 +8,12 @@
 	<title>BIIC Lab</title>
 
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/team_card.css" />
+
 	<style type="text/css">
 		.select {
 			display: inline;
 		}
-.group {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  margin-bottom: 80px;
-  -webkit-box-shadow: inset 0px 2px 2px white;
-  -moz-box-shadow: inset 0px 2px 2px white;
-  box-shadow: inset 0px 2px 2px white;
-  text-align: justify;
-  text-align-last: justify;
-}
-.card {
-  display: inline-block;
-  width: 30%;
-  height: 120px;
-  margin-bottom: 30px;
-  margin-right: 20px;
-  background-color: white;
-  border-left: 1px solid #ccc;
-  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  text-align-last: left;
-}
-.card:nth-of-type(3n) {
-  margin-right: 0;
-  /*float: right;*/
-}
-@media (max-width: 736px) {
-  .group {
-    margin-bottom: 40px;
-    width: 100%;
-    padding-top: 25px;
-  }
-  .card {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-right: 0px;
-  }
-}
-@media (min-width: 737px) and (max-width: 979px) {
-  .group {
-    margin-bottom: 40px;
-    width: 100%;
-    padding-top: 25px;
-  }
-  .card {
-    display: inline-block;
-    width: 48%;
-    margin-bottom: 10px;
-    margin-right: 10px;
-  }
-  .card:nth-of-type(2n) {
-    margin-right: 0px;
-  }
-}
-
-.card img {
-  display: inline-block;
-  width: 120px;
-  height: 120px;
-}
-.card .info {
-  display: inline-block;
-  vertical-align: top;
-  margin: 10px;
-  /*margin-right: -50px;*/
-  color: #888;
-  font-size: 10pt;
-  line-height: 1.5em;
-  /* Firefox */
-  width: -moz-calc(100% - 150px);
-  /* WebKit */
-  width: -webkit-calc(100% - 150px);
-  /* Standard */
-  width: calc(100% - 150px);
-}
-.card .name {
-  font-weight: bold;
-  font-size: 13pt;
-}
-.home-icon {
-	float: right;
-	margin-top: -3em;
-}
-
-#sec-phd .card {
-	height: calc(120px * 1.5);
-}
 	</style>
 </head>
 <body class="no-sidebar is-preload">
@@ -121,32 +33,32 @@
 						<h2>Our Teams</h2>
 						<!-- <p>Lorem ipsum dolor sit amet feugiat</p> -->
 
-	<div id="team-control">
-		<div class="team-layout" style="margin: 2em 0;">
-			<div id="format-tile-0" class="select">
-				<button class="all">All Members</button>
-			</div>
-			<div class="select">
-				<button class="phd">PhD Students</button>
-			</div>
-			<div class="select">
-				<button class="master">Master Students</button>
-			</div>
-			<div class="select">
-				<button class="alumni">Alumni Students</button>
-			</div>
-			<div class="select">
-				<button class="staff">Staff</button>
-			</div>
-		</div>
-		<div class="team-search">
-			<input class="team-search-box" type="text" placeholder="Search">
-			<i id="search-icon" class="fa fa-search"></i>
-		</div>
-	</div>
+						<div id="team-control">
+							<div class="team-layout" style="margin: 2em 0;">
+								<div class="select" id="layout-all">
+									<button class="all alt">All Members</button>
+								</div>
+								<div class="select">
+									<button class="phd">PhD Students</button>
+								</div>
+								<div class="select">
+									<button class="master">Master Students</button>
+								</div>
+								<div class="select">
+									<button class="alumni">Alumni Students</button>
+								</div>
+								<div class="select">
+									<button class="staff">Staff</button>
+								</div>
+							</div>
+							<div class="team-search">
+								<input id="team-search-box" type="text" placeholder="Search">
+								<i id="search-icon" class="fa fa-search"></i>
+							</div>
+						</div>
 					</header>
 
-					<section id="sec-phd">
+					<section id="sec-phd" class="members">
 						<header>
 							<h3>PhD Students</h3>
 						</header>
@@ -252,7 +164,7 @@
 							</div>
 						</div>
 					</section>
-					<section>
+					<section id="sec-master" class="members">
 						<header>
 							<h3>Master Students</h3>
 						</header>
@@ -360,7 +272,7 @@
 
 						</div>
 					</section>
-					<section>
+					<section id="sec-alumni" class="members">
 						<header>
 							<h3>Alumni Students</h3>
 						</header>
@@ -368,97 +280,97 @@
 							<div class="card">
 								<img src="./images/member/Po-Hsuan.jpg">
 								<div class="info">
-									<h4 class="member-name">陳柏軒<br>Po-Hsuan Chen</h4>
+									<h4 class="name">陳柏軒<br>Po-Hsuan Chen</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/yi-an.jpg">
 								<div class="info">
-									<h4 class="member-name">陳奕安<br>Yi-An Chen</h4>
+									<h4 class="name">陳奕安<br>Yi-An Chen</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/shiuan-yu.jpg">
 								<div class="info">
-									<h4 class="member-name">陳亘宇<br>Hsuan-Yu Chen</h4>
+									<h4 class="name">陳亘宇<br>Hsuan-Yu Chen</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Wei-Cheng.jpg">
 								<div class="info">
-									<h4 class="member-name">林維誠<br>Wei-Cheng Lin</h4>
+									<h4 class="name">林維誠<br>Wei-Cheng Lin</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Shan-Wen.jpg">
 								<div class="info">
-									<h4 class="member-name">蕭善文<br>Shan-Wen Hsiao</h4>
+									<h4 class="name">蕭善文<br>Shan-Wen Hsiao</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Hung-Ching.jpg">
 								<div class="info">
-									<h4 class="member-name">孫泓敬<br>Hung-Ching Sun</h4>
+									<h4 class="name">孫泓敬<br>Hung-Ching Sun</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/WeiChen.jpg">
 								<div class="info">
-									<h4 class="member-name">陳瑋晨<br>Wei-Chen Chen</h4>
+									<h4 class="name">陳瑋晨<br>Wei-Chen Chen</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Yu-Hsien.jpg">
 								<div class="info">
-									<h4 class="member-name">廖育賢<br>Yu-Hsien Liao</h4>
+									<h4 class="name">廖育賢<br>Yu-Hsien Liao</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/po-tsun.jpg">
 								<div class="info">
-									<h4 class="member-name">賴柏村<br>Po-Tsun Lai</h4>
+									<h4 class="name">賴柏村<br>Po-Tsun Lai</h4>
 								</div>
 							</div>
 
 							<div class="card">
 								<img src="./images/member/Wen-Yu.jpg">
 								<div class="info">
-									<h4 class="member-name">黃文俞<br>Wen-Yu Huang</h4>
+									<h4 class="name">黃文俞<br>Wen-Yu Huang</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Ling-Ling.jpg">
 								<div class="info">
-									<h4 class="member-name">廖伶伶<br>Ling-Ling Liao</h4>
+									<h4 class="name">廖伶伶<br>Ling-Ling Liao</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Xian-Hong.jpg">
 								<div class="info">
-									<h4 class="member-name">曾憲泓<br>Xian-Hong Zeng</h4>
+									<h4 class="name">曾憲泓<br>Xian-Hong Zeng</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Ya-Ling.jpg">
 								<div class="info">
-									<h4 class="member-name">徐雅玲<br>Ya-Ling Hsu</h4>
+									<h4 class="name">徐雅玲<br>Ya-Ling Hsu</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/shiuan-kai.jpg">
 								<div class="info">
-									<h4 class="member-name">高炫凱<br>Shiuan-Kai Kao</h4>
+									<h4 class="name">高炫凱<br>Shiuan-Kai Kao</h4>
 								</div>
 							</div>
 							<div class="card">
 								<img src="./images/member/Zhang-Yu.jpg">
 								<div class="info">
-									<h4 class="member-name">張雨<br>Yu Zhang</h4>
+									<h4 class="name">張雨<br>Yu Zhang</h4>
 								</div>
 							</div>
 						</div>
 					</section>
-					<section>
+					<section id="sec-staff" class="members">
 						<header>
 							<h3>Staff</h3>
 						</header>
@@ -486,6 +398,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/team_card.js"></script>
 
 	</body>
 </html>
