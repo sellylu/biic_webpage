@@ -8,12 +8,6 @@
 	<title>BIIC Lab</title>
 
 	<link rel="stylesheet" href="assets/css/main.css" />
-
-	<style type="text/css">
-		h3 {
-			color: #800080;
-		}
-	</style>
 </head>
 <body class="no-sidebar is-preload">
 	<div id="page-wrapper">
