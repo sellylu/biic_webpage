@@ -45,10 +45,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<!-- <a href="./blog.php?id=30&name=2018icmi&full=2018 ICMI in Boulder, Colorado, USA" rel="bookmark">2018 ICMI in Boulder, Colorado, USA</a> -->
@@ -71,10 +71,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -83,7 +83,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -95,10 +95,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -107,7 +107,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -119,10 +119,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -131,7 +131,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -143,10 +143,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -155,7 +155,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -169,10 +169,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo ($year+1).'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -181,7 +181,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -193,10 +193,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -205,7 +205,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -217,10 +217,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -229,7 +229,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -241,10 +241,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -253,7 +253,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -265,10 +265,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -277,7 +277,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -289,10 +289,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -301,7 +301,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -313,10 +313,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -325,7 +325,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -337,10 +337,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -349,7 +349,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -361,10 +361,10 @@
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post">
 					<div class="row">
-						<header class="post-meta col-sm-12 col-md-2">
+						<header class="post-meta col-12-medium col-2">
 							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
 						</header>
-						<section class="post-content col-sm-12 col-md-10">
+						<section class="post-content col-12-medium col-10">
 							<header>
 								<h2>
 									<?php
@@ -373,7 +373,7 @@
 									echo '</h2></header>';
 									echo '<div>';
 									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									echo $link.'<button>Read More →</button></a>'
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
