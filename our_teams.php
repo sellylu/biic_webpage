@@ -14,6 +14,7 @@
 		.select {
 			display: inline;
 		}
+		
 	</style>
 </head>
 <body class="no-sidebar is-preload">

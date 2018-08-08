@@ -35,7 +35,6 @@ body {
 
 p {
 	text-align: justify;
-	color: black;
 }
 
 img {
@@ -2277,6 +2276,10 @@ input, select, textarea {
 
 		#main .major h2 {
 			background: #f7f7f7 url("images/bg02.png");
+		}
+
+		#main p {
+			color: black;
 		}
 
 /* Footer */

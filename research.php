@@ -17,6 +17,7 @@
 			display: inline-grid;
 			margin: 1em;
 		}
+
 	</style>
 
 </head>
@@ -64,16 +65,30 @@
 						<h2>Research</h2>
 						<p>Download the brief introduction <a href="./research_intro.pdf" target="_blank"><strong style="font-weight: 900;">here</strong></a>.</p>
 					</header>
-					<section id="special-section">
+					<section id="special-section" class="col-5 col-12-medium">
 						<header>
 							<h3>Special Section</h3>
 						</header>
-						<ul class="org">
+						<ul>
 							<li><a href="#special-section" data-toggle="modal" data-target="#ai-flow-modal">AI for Leukemia Diagnosis</a></li>
 							<li><a href="http://nnime.ee.nthu.edu.tw/" target="_blank">NTHU-NTUA Chinese Interactive Emotion Database (NNIME)</a></li>
 						</ul>
 					</section>
-
+					<!-- <section class="col-7 col-12-medium">
+						<header>
+							<h3>BIC Collaborators</h3>
+						</header>
+						<ul style="list-style-type: none;">
+							<li>National Health Research Institute | Institute of Biomedical Engineering and Nanomedicine</li>
+							<li>Veteran General Hospital – Taichung | Department of Psychiatry, Medical Research</li>
+							<li>National Academy for Educational Research | Research Center for Testing &amp; Assessment</li>
+							<li>Academia Sinica | Research Center for Information Technology Innovation</li>
+							<li>National Taiwan University Hospital | Department of Psychiatry, Internal Medicine (Hematology)</li>
+							<li>Chang-Gung Memorial Hospital | Department of Emergency</li>
+							<li>National Chung Cheng University | Department of Psychology</li>
+							<li>National Taiwan University of Arts | Department of Drama</li>
+						</ul>
+					</section> -->
 					<section>
 						<header>
 							<h3>Human-centered Behavioral Signal Processing</h3>
