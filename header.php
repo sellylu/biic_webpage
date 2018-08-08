@@ -13,7 +13,7 @@
 				$disp = array("Home", "Introduction","News","Our Teams","Research","Professor","Publications");//,"Lab Facilities");
 				$file = array("index", "intro","news","our_teams","research","cclee","publications");//,"lab_fac");
 				for($j=0;$j<count($disp);$j++) {
-					if (!strcmp($here,$file[$j])) {
+					if ((!strcmp($here,$file[$j])) or ((!strcmp("news",$file[$j])) and (!strcmp($here,"blog")))) {
 						echo "<li class=\"current\"><a href=\"".$file[$j].".php\">".$disp[$j]."</a></li>";
 					} else {
 						echo "<li><a href=\"".$file[$j].".php\">".$disp[$j]."</a></li>";
