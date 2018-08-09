@@ -149,7 +149,7 @@
 									<a href="https://chadyang.wixsite.com/haochun" target="_blank" class="home-icon" title="Hao-Chun Yang's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									<p>***</p>
+									<p>Deep Learning, Physiological Signal, Time Series Representation</p>
 								</div>
 							</div>
 							<!-- Bo-Hao -->
