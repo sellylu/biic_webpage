@@ -17,7 +17,7 @@
 		margin-top: 0.5em;
 	} 
 	.pub strong {
-		font-weight: 500;
+		font-weight: 600;
 	}
 	</style>
 

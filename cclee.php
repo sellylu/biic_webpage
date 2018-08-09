@@ -174,6 +174,7 @@ position:fixed
 }
 td {
 	color: black;
+	vertical-align: middle;
 }
 
 	</style>
@@ -221,18 +222,21 @@ td {
 						<div id="accordion">
 							<div class="card">
 							<div class="card-header" id="headingOne">
-								<h3><button class="card-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Invited Talks</button></h3>
+								<h3><button class="card-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Invited Talks</button><small style="font-size: 70%;">&emsp;(update: Dec. 2017)</small></h3>
 							</div>
 							<div id="collapseOne" class="collapse" data-parent="#accordion">
 								<div class="card-body">
-<h4>Lecture (Keynote) Talks</h4>
-		<table>
+	<h4>Lecture (Keynote) Talks</h4>
+	<table>
+		<thead>
 			<tr>
-				<td>Lecture</td>
-				<td>Topic</td>
-				<td>Place</td>
-				<td>Date</td>
+				<th>Lecture</th>
+				<th>Topic</th>
+				<th>Place</th>
+				<th>Date</th>
 			</tr>
+		</thead>
+		<tbody>
 			<tr>
 				<td>圖書資訊學專題計畫成果發表暨研究發展趨勢研討會 Keynote</td>
 				<td>大數據分析於資訊行為之研究趨勢</td>
@@ -397,9 +401,10 @@ td {
 				<td>NTPU, Taiwan</td>
 				<td>2014/08/01</td>
 			</tr>
-		</table>
-		<h4>Graduate Student Seminar Talks</h4>
-		<p>NTHU-EE, NTU-EE, NCTU-EE, Academia Sinica-TIGP SNHCC, FJU-CSIE, PU-FMath, Academia Sinica-Econ, NTUH-Psychiatry, CCU-CogPsy, NCCU-CS, National Academy of Educational Research (NAER), National Academy of Civil Service (NACS)</p>
+		</tbody>
+	</table>
+	<h4>Graduate Student Seminar Talks</h4>
+	<p>NTHU-EE, NTU-EE, NCTU-EE, Academia Sinica-TIGP SNHCC, FJU-CSIE, PU-FMath, Academia Sinica-Econ, NTUH-Psychiatry, CCU-CogPsy, NCCU-CS, National Academy of Educational Research (NAER), National Academy of Civil Service (NACS)</p>
 
 								</div>
 							</div>
