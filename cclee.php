@@ -176,6 +176,12 @@ td {
 	color: black;
 	vertical-align: middle;
 }
+.title {
+    display: block;
+    font-style: italic;
+    margin: 0.5em 0 0 0;
+    padding-bottom: 0.5em;
+}
 
 	</style>
 </head>
@@ -191,28 +197,33 @@ td {
 
 				<!-- Content -->
 				<article class="box post">
-					<a href="#" class="image featured"><img src="images/jeremy.jpg" alt="" /></a>
+					<!-- <a href="#" class="image featured"><img src="images/jeremy.jpg" alt="" /></a> -->
 					<header>
-						<h2>Chi-Chun (Jeremy) Lee</h2>
-						<p>
-						Associate Professor of Electrical Engineering<br/>
-						National Tsing Hua University (NTHU)
-						</p>
-						<div>
-						<b>Office:</b>&emsp;&emsp;Room 868, Delta Building<br/>
-						<b>Email:</b>&emsp;&emsp;<a href="mailto: cclee@ee.nthu.edu.tw">cclee@ee.nthu.edu.tw</a><br/>
-						<b>Address:</b>&emsp;No. 101, Section 2, Kuang-Fu Road, 30013 Hsinchu City, Taiwan(R.O.C.)<br/>
+						<div class="row">
+							<div class="col-12-small col-5-medium col-3"><img src="images/jeremy.jpg"></div>
+							<div class="col-12-small col-7-medium col-9">
+								<h2>Chi-Chun (Jeremy) Lee</h2>
+								<p class="title">
+								Associate Professor of Electrical Engineering<br/>
+								National Tsing Hua University (NTHU)
+								</p>
+								<div>
+									<b>Office:</b>&emsp;&emsp;Room 868, Delta Building<br/>
+									<b>Email:</b>&emsp;&emsp;<a href="mailto: cclee@ee.nthu.edu.tw">cclee@ee.nthu.edu.tw</a><br/>
+									<b>Address:</b>&emsp;No. 101, Section 2, Kuang-Fu Road, 30013 Hsinchu City, Taiwan(R.O.C.)<br/>
+								</div>
+							</div>
 						</div>
 					</header>
 					<p>
-						Chi-Chun Lee (Jeremy) is an Associate Professor at the Electrical Engineering Department of the National Tsing Hua University (NTHU), Taiwan. He received his B.S. degree and Ph.D. degree both in Electrical Engineering from the University of Southern California, USA in 2007 and 2012. He was a data scientist at id:a lab at ID Analytics in 2013. His research interests are in the human-centered behavioral signal processing (BSP) and affective computing. He was awarded with the USC Annenberg Fellowship (2007 -2009). He led a team to participate and win the Emotion Challenge Classifierer Sub-Challenge in Interspeech 2009. He is a coauthor on the best paper award in Interspeech 2010, and the most cited paper published in 2013 in Journal of Speech Communication on automatic modeling of couples' behaviors during therapeutic sessions. He is a member of Tau Beta Pi, Phi Kappa Phi and Eta Kappa Nu. He is also a member of IEEE and ISCA. He has been a reviewer for multiple internationally-renowned journals and program committee for international technical conferences. He recently served as an area chair for Interspeech 2016 and 2018, senior program committee for ACII 2017, and a guest editor in Journal of Computer Speech and Language on special issue of Speech and Language Processing for Behavioral and Mental Health. He has been involved in multiple granted interdisciplinary research projects, including aspects on education, psychology, neuroscientific, and health-related applications, with a focus of modeling human behaviors using signal processing and machine learning.
+						Chi-Chun Lee (Jeremy) is an Associate Professor at the Electrical Engineering Department of the National Tsing Hua University (NTHU), Taiwan. He received his B.S. degree and Ph.D. degree both in Electrical Engineering from the University of Southern California, USA in 2007 and 2012. He was a data scientist at id:a lab at ID Analytics in 2013. His research interests are in the human-centered behavioral signal processing (BSP) and affective computing. He was awarded with the USC Annenberg Fellowship (2007 -2009). He led a team to participate and win the Emotion Challenge Classifierer Sub-Challenge in Interspeech 2009. He is a coauthor on the best paper award in Interspeech 2010, IEEE EMBC 2018, Interspeech 2018, and the most cited paper published in 2013 in Journal of Speech Communication on automatic modeling of couples' behaviors during therapeutic sessions. He is a member of Tau Beta Pi, Phi Kappa Phi and Eta Kappa Nu. He is also a member of IEEE and ISCA. He has been a reviewer for multiple internationally-renowned journals and program committee for international technical conferences. He recently served as an area chair for Interspeech 2016 and 2018, senior program committee for ACII 2017, ACM ICMI 2018, and a guest editor in Journal of Computer Speech and Language on special issue of Speech and Language Processing for Behavioral and Mental Health. He has been involved in multiple granted interdisciplinary research projects, including aspects on education, psychology, neuroscientific, and health-related applications, with a focus of modeling human behaviors using signal processing and machine learning.
 					</p>
 					<section>
 						<!-- <header>
 							<h3>Something else</h3>
 						</header> -->
 						<p class="personal-des"><a title="Google Scholar - Jeremy" href="http://scholar.google.com.tw/citations?user=MGqWqOAAAAAJ&hl=en" target="_blank">Google Scholar Profile</a></p>
-						<p class="personal-des""><a href="./Jeremy_CV.pdf" target="_blank">Jeremy's CV</a>&emsp;(update: Dec. 2017)</p>
+						<p class="personal-des""><a href="./Jeremy-CV_2018-Aug.pdf" target="_blank">Jeremy's CV</a>&emsp;(update: Aug. 2018)</p>
 						<p class="personal-des"><a title="Interdisciplinary Insights into Group and Team Dynamics" href="https://www.4tu.nl/ht/en/news/%21/112600/workshop-group-dynamics/" target="_blank">Workshop on Interdisciplinary Insights into Group and Team Dynamics</a></p>
 					</section>
 					<section>
@@ -222,7 +233,7 @@ td {
 						<div id="accordion">
 							<div class="card">
 							<div class="card-header" id="headingOne">
-								<h3><button class="card-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Invited Talks</button><small style="font-size: 70%;">&emsp;(update: Dec. 2017)</small></h3>
+								<h3><button class="card-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Invited Talks</button><small style="font-size: 70%;">&emsp;(update: Aug. 2018)</small></h3>
 							</div>
 							<div id="collapseOne" class="collapse" data-parent="#accordion">
 								<div class="card-body">
@@ -238,10 +249,106 @@ td {
 		</thead>
 		<tbody>
 			<tr>
-				<td>圖書資訊學專題計畫成果發表暨研究發展趨勢研討會 Keynote</td>
-				<td>大數據分析於資訊行為之研究趨勢</td>
-				<td>MOST, Taiwan</td>
-				<td>2017/12/08</td>
+				<td>宏盟媒體集團<br>PHD AI 雲講堂</td>
+				<td>情緒運算於數位行銷之應用</td>
+				<td>三創中心</td>
+				<td>2018/08/20</td>
+			</tr>
+			<tr>
+				<td>人工智慧學校</td>
+				<td>Behavior Computing for Emotion and Personality</td>
+				<td>Academia Sinica, Taiwan</td>
+				<td>2018/08/10</td>
+			</tr>
+			<tr>
+				<td>AI MEETUP TAIPEI</td>
+				<td>AI for Personality, Emotion and Mental States Recognition</td>
+				<td>NTU, Taiwan</td>
+				<td>2018/08/09</td>
+			</tr>
+			<tr>
+				<td>APPIER</td>
+				<td>Learning Human-Centered Analytics from Multimodal Data: Case Studies in Health Applications</td>
+				<td>Appier</td>
+				<td>2018/08/09</td>
+			</tr>
+			<tr>
+				<td>林口長庚胸腔內科暨清華大學電機系智慧醫療論壇</td>
+				<td>Advancing Clinical Decisions beyond Status-quo with Learnable Analytics</td>
+				<td>CGMH, Taiwan</td>
+				<td>2018/08/04</td>
+			</tr>
+			<tr>
+				<td>Realtek Semiconductor Corp/td>
+				<td>Learning Intelligent Human-centered Analytics from Multimodal Behavior Signals</td>
+				<td>Realtek</td>
+				<td>2018/08/02</td>
+			</tr>
+			<tr>
+				<td>自強基金會</td>
+				<td>語音處理與情緒辨識</td>
+				<td>NTHU, Taiwan</td>
+				<td>2018/07/30</td>
+			</tr>
+			<tr>
+				<td>IEEE ICME Workshop on Media Analytics for Societal Trend</td>
+				<td>A Pilot Study in Deriving Political Stance Representation with User's Profile and Social Media Posting</td>
+				<td>San Diego, USA</td>
+				<td>2018/07/23</td>
+			</tr>
+			<tr>
+				<td>Rework in Healthcare</td>
+				<td>人工智慧醫療診斷分析與應用</td>
+				<td>Hong Kong</td>
+				<td>2018/06/08</td>
+			</tr>
+			<tr>
+				<td>Artificial intelligence based assistive diagnose and treatment for Autism spectrum disorder</td>
+				<td>Behavioral Signal Processing: Multimodal Behavior Computing for Autism Spectrum Disorder</td>
+				<td>Duke Kunshan University</td>
+				<td>2018/05/24</td>
+			</tr>
+			<tr>
+				<td>台大腦心所</td>
+				<td>Learning from Measurable Signals to Compute Human Emotion</td>
+				<td>NTUH, Taiwan</td>
+				<td>2018/05/01</td>
+			</tr>
+			<tr>
+				<td>工研院產業學院(12 小時課程)</td>
+				<td>人工智慧於人類行為與情緒之分析決策應用</td>
+				<td>ITRI, Hsinchu, Taiwan</td>
+				<td>2018/04/23<br>2018/04/30</td>
+			</tr>
+			<tr>
+				<td>資策會數位教育研究所 (14小時課程)</td>
+				<td>人工智慧醫療診斷分析與應用</td>
+				<td>台北資策會</td>
+				<td>2018/03/17<br>2018/03/18</td>
+			</tr>
+			<tr>
+				<td>中國醫藥大學</td>
+				<td>機器智能與人類行為於醫療應用</td>
+				<td>CMUH, Taiwan</td>
+				<td>2018/04/10</td>
+			</tr>
+			<tr>
+				<td>林口長庚醫院巨量資料及統計中心</td>
+				<td>機器智能與人類行為於醫療應用</td>
+				<td>CGMH, Taiwan</td>
+				<td>2018/03/27</td>
+			</tr>
+			<tr>
+				<td>台灣人智慧學校</td>
+				<td>機器智能與人類行為於醫療應用</td>
+				<td>Academia Sinica, Taiwan</td>
+				<td>2018/03/10</td>
+			</tr>
+			<tr>
+				<td>臺灣認知神經科學學會年會(TSCN)</td>
+				<td>A Perspective on using Machine Learning in fMRI Data Modeling: Human face processing and beyond</td>
+				<td>CMUH, Taiwan</td>
+				<td>2018/01/20</td>
 			</tr>
 			<tr>
 				<td>圖書資訊學專題計畫成果發表暨研究發展趨勢研討會 Keynote</td>
@@ -256,8 +363,7 @@ td {
 				<td>2017/12/16</td>
 			</tr>
 			<tr>
-				<td>台灣人工智慧年會
-				(Datasci.TW)</td>
+				<td>台灣人工智慧年會 (Datasci.TW)</td>
 				<td>機器智能與人類行為: 跨領域決策分析於醫療應用</td>
 				<td>Academia Sinica, Taiwan</td>
 				<td>2017/11/09</td>

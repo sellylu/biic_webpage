@@ -46,7 +46,7 @@
 							<li><b>Domain-aware</b> → Make sure it has grounded societal impact</li>
 							<li><b>Integrity</b> → Science only matters if it is real and rigorous</li>
 						</ol>
-						<p>The BIIC objective is to develop novel human-centric technologies to “<i>computationally innovate human-centric empowerment enabling next-generation entity intelligence</i>”. These human-centric analytics modeling heterogeneous human behaviors in a domain-aware &amp; scientifically-relevant manner with mathematically-principled framework.</p>
+						<p>The BIIC objective is to develop novel human-centric technologies to “<i>computationally innovate human-centric analytics enabling next-generation decision intelligence</i>”. These human-centric analytics modeling heterogeneous human behaviors in a domain-aware &amp; scientifically-relevant manner with mathematically-principled framework.</p>
 					</section>
 					<section>
 						<header>
