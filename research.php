@@ -35,16 +35,16 @@
 				<article class="box post">
 					<div class="slideshow-container image featured">
 						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img1.PNG">
+							<img src="./images/proj_slides/img1.png">
 						</div>
 						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img2.PNG">
+							<img src="./images/proj_slides/img2.png">
 						</div>
 						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img3.PNG">
+							<img src="./images/proj_slides/img3.png">
 						</div>
 						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img4.PNG">
+							<img src="./images/proj_slides/img4.png">
 						</div>
 
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
