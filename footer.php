@@ -9,30 +9,21 @@
 					</header>
 					<ul class="dates">
 						<li>
-							<span class="date">Jan <strong>27</strong></span>
-							<h3><a href="#">Lorem dolor sit amet veroeros</a></h3>
-							<p>Ipsum dolor sit amet veroeros consequat blandit ipsum phasellus lorem consequat etiam.</p>
+							<span class="date">Jul <strong>27</strong></span>
+							<h3><a href="news.php#post-27">ICME in San Diego, USA</a></h3>
+							<p>Oral presentation by Wei-Hao Chang on publication: <br>Wei-Hao Chang, Jeng-Lin Li, Yun-Shao Lin, <strong>Chi-Chun Lee*</strong>, "A Genre-Affect Relationship Network with Task-Specific Uncertainty Weighting for Recognizing Induced Emotion in Music" in Proceedings of the IEEE International Conference on Multimedia &amp; Expo (ICME), 2018</p>
 						</li>
 						<li>
-							<span class="date">Jan <strong>23</strong></span>
-							<h3><a href="#">Ipsum sed blandit nisl consequat</a></h3>
-							<p>Blandit phasellus lorem ipsum dolor tempor sapien tortor hendrerit adipiscing feugiat lorem.</p>
+							<span class="date">Jul <strong>21</strong></span>
+							<h3><a href="news.php#post-26">EMBC in Honolulu, USA</a></h3>
+							<p>Oral presentation and competition for best paper by Chen-Ying Hung on publication: <br>Chen-Ying Hung, Ching-Heng Lin, <strong>Chi-Chun Lee*</strong>, "Improving Young Stroke Prediction by Learning with Active Data Augmenter in a Large-Scale Electronic Medical Claims Database” in Proceedings of Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), 2018</p>
 						</li>
 						<li>
-							<span class="date">Jan <strong>15</strong></span>
-							<h3><a href="#">Magna tempus lorem feugiat</a></h3>
-							<p>Dolore consequat sed phasellus lorem sed etiam nullam dolor etiam sed amet sit consequat.</p>
+							<span class="date">Jun <strong>07</strong></span>
+							<h3><a href="news.php#post-25">AI in Healthcare summit in Hong Kong</a></h3>
+							<p>Given talk by Chi-Chun Lee on topic: "Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis Using Deep Learning Generative Model" in AI in Healthcare summit in Hong Kong</p>
 						</li>
-						<li>
-							<span class="date">Jan <strong>12</strong></span>
-							<h3><a href="#">Dolore tempus ipsum feugiat nulla</a></h3>
-							<p>Feugiat lorem dolor sed nullam tempus lorem ipsum dolor sit amet nullam consequat.</p>
-						</li>
-						<li>
-							<span class="date">Jan <strong>10</strong></span>
-							<h3><a href="#">Blandit tempus aliquam?</a></h3>
-							<p>Feugiat sed tempus blandit tempus adipiscing nisl lorem ipsum dolor sit amet dolore.</p>
-						</li>
+
 					</ul>
 				</section>
 			</div>

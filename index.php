@@ -202,7 +202,7 @@
 					<div class="col-12">
 
 						<!-- Blog -->
-						<section>
+						<!-- <section>
 							<header class="major">
 								<h2>The Blog</h2>
 							</header>
@@ -240,7 +240,7 @@
 									</section>
 								</div>
 							</div>
-						</section>
+						</section> -->
 
 					</div>
 				</div>
