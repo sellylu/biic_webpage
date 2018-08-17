@@ -10,8 +10,8 @@
 			<?php
 				$uris = explode("/", $_SERVER['PHP_SELF']);
 				$here = substr($uris[count($uris)-1],0,-4);
-				$disp = array("Home", "Introduction","News","Our Teams","Research","Professor","Publications");//,"Lab Facilities");
-				$file = array("index", "intro","news","our_teams","research","cclee","publications");//,"lab_fac");
+				$disp = array("Home", "Introduction","News","Our Team","Research","Professor","Publications");//,"Lab Facilities");
+				$file = array("index", "intro","news","our_team","research","cclee","publications");//,"lab_fac");
 				for($j=0;$j<count($disp);$j++) {
 					if ((!strcmp($here,$file[$j])) or ((!strcmp("news",$file[$j])) and (!strcmp($here,"blog")))) {
 						echo "<li class=\"current\"><a href=\"".$file[$j].".php\">".$disp[$j]."</a></li>";

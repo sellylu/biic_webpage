@@ -34,26 +34,19 @@
 				<!-- Content -->
 				<article class="box post">
 					<div class="slideshow-container image featured">
-						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img1.png">
-						</div>
-						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img2.png">
-						</div>
-						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img3.png">
-						</div>
-						<div class="mySlides slide-fade">
-							<img src="./images/proj_slides/img4.png">
-						</div>
-
+						<?php
+						$pages=6;
+						for($i=1; $i<=$pages; $i++) {
+							echo '<div class="mySlides slide-fade"><img src="./images/research-slides/img'.$i.'.PNG"></div>';
+						}
+						?>
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 					</div>
 					<br>
 					<div style="text-align:center">
 						<?php
-						for($i=1; $i<=4; $i++) {
+						for($i=1; $i<=$pages; $i++) {
 							echo "<span class=\"dot\" onclick=\"currentSlide(".$i.")\"></span>";
 						}
 						?>
@@ -63,7 +56,7 @@
 					<!-- <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a> -->
 					<header>
 						<h2>Research</h2>
-						<p>Download the brief introduction <a href="./research_intro.pdf" target="_blank"><strong style="font-weight: 900;">here</strong></a>.</p>
+						<p>Download the brief introduction <a href="./research-slides-Aug2018.pdf" target="_blank"><strong style="font-weight: 900;">here</strong></a>.</p>
 					</header>
 					<section id="special-section" class="col-5 col-12-medium">
 						<header>
@@ -116,14 +109,17 @@
 				</header>
 				<section class="modal-body">
 					<img id="procedure" src="./images/ai4leukemia/ai4leukemia.png">
-					<h4><u>Project Description</u></h4>
+					<h4>Project Description</h4>
 					<p>With a shared vision in revolutionizing clinical practices by developing and deploying state-of-art AI technology to support efficient and objective medical diagnosis for leukemia. In this joint project, our aim is to develop AI-assisted analytics for acute leukemia diagnosis. An AI-assisted Flow Cytometry (FC) interpretation algorithm was developed using over 10,000 unique FC diagnostic samples collected in the National Taiwan University Hospital – achieving accuracy above 0.9 AUC. This AI-assisted interpretation was further clinically validated against patient’s final survival outcomes. This use of learning high-dimensional FC-data representation through deep-learning neural network fundamentally challenges the current status-quo in traditional observation-based manual diagnostic interpretation procedure done by expert physicians.</p>
 					<ol>
 						<li>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "<i>An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data</i>" in Annual Meeting of American Society of Hematology, 2017</li>
 						<li>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "<i>An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry</i>" in Annual Meeting of American Society of Hematology, 2017</li>
 						<li>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "<i>An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data</i>" in Annual Meeting of American Society of Hematology, 2017</li>
 					</ol>
-					<h4><u>Collaborator</u></h4>
+					<div style="margin-bottom: 1.5em">
+						<a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018">Re.Work: AI-in-Healthcare Hong Kong</a>
+					</div>
+					<h4>Collaborator</h4>
 					<div style="text-align: center;">
 						<div class="grid">
 							<img src="./images/ai4leukemia/kevin.png">

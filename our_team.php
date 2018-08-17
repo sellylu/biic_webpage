@@ -31,7 +31,7 @@
 				<article class="box post">
 					<a href="#" class="image featured"><img src="images/biicers_1709.jpg" alt="" /></a>
 					<header>
-						<h2>Our Teams</h2>
+						<h2>Our Team</h2>
 						<!-- <p>Lorem ipsum dolor sit amet feugiat</p> -->
 
 						<div id="team-control">

@@ -222,9 +222,11 @@ td {
 						<!-- <header>
 							<h3>Something else</h3>
 						</header> -->
-						<p class="personal-des"><a title="Google Scholar - Jeremy" href="http://scholar.google.com.tw/citations?user=MGqWqOAAAAAJ&hl=en" target="_blank">Google Scholar Profile</a></p>
-						<p class="personal-des""><a href="./Jeremy-CV_2018-Aug.pdf" target="_blank">Jeremy's CV</a>&emsp;(update: Aug. 2018)</p>
-						<p class="personal-des"><a title="Interdisciplinary Insights into Group and Team Dynamics" href="https://www.4tu.nl/ht/en/news/%21/112600/workshop-group-dynamics/" target="_blank">Workshop on Interdisciplinary Insights into Group and Team Dynamics</a></p>
+						<a title="Google Scholar - Jeremy" href="http://scholar.google.com.tw/citations?user=MGqWqOAAAAAJ&hl=en" target="_blank">Google Scholar Profile</a><br>
+						<a href="./Jeremy-CV_2018-Aug.pdf" target="_blank">Jeremy's CV</a>&emsp;(update: Aug. 2018)<br>
+						<a href="https://www.facebook.com/aintu.tw/posts/239997273318497" target="_blank">AI Meetup - Taipei</a><br>
+						<a href="https://dukekunshan.edu.cn/zh/events/ai-assistive-diagnoses-and-treatment-2018">Artificial intelligence based assistive diagnose and treatment for Autism spectrum disorder</a>
+						<!-- <p class="personal-des"><a title="Interdisciplinary Insights into Group and Team Dynamics" href="https://www.4tu.nl/ht/en/news/%21/112600/workshop-group-dynamics/" target="_blank">Workshop on Interdisciplinary Insights into Group and Team Dynamics</a></p> -->
 					</section>
 					<section>
 						<header>
@@ -298,7 +300,7 @@ td {
 			</tr>
 			<tr>
 				<td>Rework in Healthcare</td>
-				<td>人工智慧醫療診斷分析與應用</td>
+				<td>Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis using Deep Generative Model</td>
 				<td>Hong Kong</td>
 				<td>2018/06/08</td>
 			</tr>
@@ -323,7 +325,7 @@ td {
 			<tr>
 				<td>資策會數位教育研究所 (14小時課程)</td>
 				<td>人工智慧醫療診斷分析與應用</td>
-				<td>台北資策會</td>
+				<td>Institute for Information Industry, Taiwan</td>
 				<td>2018/03/17<br>2018/03/18</td>
 			</tr>
 			<tr>
