@@ -164,7 +164,7 @@
 				</article>
 				<!-- 2018 annual outing -->
 				<?php $id=28; $mon='8'; $name='outing'; $full=" BIIC Annual Outing"; 
-					  $img ="1791/29924550188_2583000864";
+					  $img ="1873/30290723668_d6cb31347e";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
 					<div class="row">
@@ -179,9 +179,8 @@
 									echo $link.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
-									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									// echo substr($link,0,-1).'class="button">Read More →</a>';
-									echo "<h4> Comming soon...</h4>"
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>

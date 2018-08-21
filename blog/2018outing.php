@@ -1,0 +1,3 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/gp/biic-nthuee/BYV662" title="2018 BIIC Annual Outing"><img src="https://farm2.staticflickr.com/1817/29217481697_f185422dae_b.jpg" width="1024" height="681" alt="2018 BIIC Annual Outing"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/gp/biic-nthuee/hBe01Z" title="2018 BIIC Annual Outing VOL.2"><img src="https://farm2.staticflickr.com/1855/44157298651_5fa1c28157_b.jpg" width="1024" height="768" alt="2018 BIIC Annual Outing VOL.2"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
