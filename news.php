@@ -162,6 +162,30 @@
 						</section>
 					</div>
 				</article>
+				<!-- 2018 spark -->
+				<?php $id=29; $mon='8'; $name='spark'; $full=" SPArk Opening"; 
+					  $img ="1834/43326940925_4525a74c6f";
+				?>
+				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
+					<div class="row">
+						<header class="post-meta col-12-medium col-2">
+							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
+						</header>
+						<section class="post-content col-12-medium col-10">
+							<header>
+								<h2>
+									<?php
+									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
+									echo $link.$year.$full.'</a>';
+									echo '</h2></header>';
+									echo '<div>';
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
+									?>
+							</div>	
+						</section>
+					</div>
+				</article>
 				<!-- 2018 annual outing -->
 				<?php $id=28; $mon='8'; $name='outing'; $full=" BIIC Annual Outing"; 
 					  $img ="1873/30290723668_d6cb31347e";
