@@ -8,7 +8,7 @@
 	<title>BIIC Lab</title>
 
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="assets/css/research_slide.css" />
+	<link rel="stylesheet" href="assets/css/swipe.css" />
 	<link rel="stylesheet" href="assets/css/bootstrap_modalonly.min.css" />
 
 	<style type="text/css">
@@ -33,21 +33,26 @@
 
 				<!-- Content -->
 				<article class="box post">
-					<div class="slideshow-container image featured">
-						<?php
-						$pages=6;
-						for($i=1; $i<=$pages; $i++) {
-							echo '<div class="mySlides slide-fade"><img src="./images/research-slides/img'.$i.'.PNG"></div>';
-						}
-						?>
-						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<div id="slider" class="slideshow-container image featured swipe">
+						<div class="swipe-wrap">
+							<?php
+							$pages=6;
+							for($i=1; $i<=$pages; $i++) {
+								echo '<div class="mySlides slide-fade"><img src="./images/research-slides/img'.$i.'.PNG"></div>';
+							}
+							?>
+						</div>
+						<div id="arrow">
+							<a class="prev" onclick="slider.prev()">&#10094;</a>
+							<a class="next" onclick="slider.next()">&#10095;</a>
+						</div>
 					</div>
 					<br>
 					<div style="text-align:center">
+						<span class="dot active" onclick="slider.slide(0)"></span>
 						<?php
-						for($i=1; $i<=$pages; $i++) {
-							echo "<span class=\"dot\" onclick=\"currentSlide(".$i.")\"></span>";
+						for($i=1; $i<$pages; $i++) {
+							echo "<span class=\"dot\" onclick=\"slider.slide(".$i.")\"></span>";
 						}
 						?>
 					</div>
@@ -158,7 +163,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/research_slide.js"></script>
+	<script src="assets/js/swipe.js"></script>
+	<script>window.slider = Swipe(document.getElementById('slider'), {continuous: false});</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
 </html>

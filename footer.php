@@ -47,8 +47,12 @@
 					<ul class="contact">
 						<li>
 							<h3>Address</h3>
+							<h5>BIIC Lab</h5>
+							<p>Room 713, EECS building</p>
+							<h5>SP·ARK</h5>
+							<p>Room 315, General Building III</p>
+							<h4>National Tsing Hua University</h4>
 							<p>
-								Room 713, EECS building,<br>
 								No. 101, Section 2, Kuang-Fu Road,<br>
 								30013 Hsinchu City, Taiwan(R.O.C.)
 							</p>
@@ -59,7 +63,8 @@
 						</li>
 						<li>
 							<h3>Phone</h3>
-							<p><a href="tel: +88635721204">886-3-5721204</a></p>
+							<p><a href="tel: +88635715131,34125">886-3-5715131 #34125</a>&emsp;(BIIC Lab)</p>
+							<p><a href="tel: +88635715131,34050">886-3-5715131 #34050</a>&emsp;(SP·ARK)</p>
 						</li>
 					</ul>
 
