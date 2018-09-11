@@ -2,7 +2,7 @@
 <section id="header" style="padding-top: 2em;">
 
 	<!-- Logo -->
-	<h1><a href="./"><img src="images/icon/logo.png" style="width: initial; height: 3em;"></a></h1>
+	<h1><a href="./"><img src="images/icon/biiclab-1.png" style="width: initial; height: 3em;"></a></h1>
 
 	<!-- Nav -->
 	<nav id="nav">
