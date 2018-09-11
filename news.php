@@ -63,7 +63,7 @@
 				<!-- year 2018 -->
 				<?php $year=2018; ?>
 				<!-- 2018 avec -->
-				<?php $id=32; $mon='10'; $name='avec'; $full=" AVEC in Seoul, Korea"; 
+				<?php $id=33; $mon='10'; $name='avec'; $full=" AVEC in Seoul, Korea"; 
 					  $img ="1791/29924550188_2583000864";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
@@ -76,7 +76,8 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									echo $link.$year.$full.'</a>';
+									// echo $link.$year.$full.'</a>';
+									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
 									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
@@ -88,7 +89,7 @@
 					</div>
 				</article>
 				<!-- 2018 icmi -->
-				<?php $id=31; $mon='10'; $name='icmi'; $full=" ICMI in Boulder, Colorado, USA"; 
+				<?php $id=32; $mon='10'; $name='icmi'; $full=" ICMI in Boulder, Colorado, USA"; 
 					  $img ="1791/29924550188_2583000864";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
@@ -101,7 +102,8 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									echo $link.$year.$full.'</a>';
+									// echo $link.$year.$full.'</a>';
+									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
 									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
@@ -113,7 +115,7 @@
 					</div>
 				</article>
 				<!-- 2018 rocling -->
-				<?php $id=30; $mon='10'; $name='icmi'; $full=" ROCLING"; 
+				<?php $id=31; $mon='10'; $name='icmi'; $full=" ROCLING"; 
 					  $img ="1791/29924550188_2583000864";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
@@ -126,7 +128,8 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									echo $link.$year.$full.'</a>';
+									// echo $link.$year.$full.'</a>';
+									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
 									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
@@ -138,7 +141,7 @@
 					</div>
 				</article>
 				<!-- 2018 interspeech -->
-				<?php $id=29; $mon='9'; $name='interspeech'; $full=" Interspeech in Hyderabad, India"; 
+				<?php $id=30; $mon='9'; $name='interspeech'; $full=" Interspeech in Hyderabad, India"; 
 					  $img ="1791/29924550188_2583000864";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
@@ -151,7 +154,8 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									echo $link.$year.$full.'</a>';
+									// echo $link.$year.$full.'</a>';
+									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
 									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
