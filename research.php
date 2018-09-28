@@ -47,11 +47,9 @@
 							<a class="next" onclick="slider.next()">&#10095;</a>
 						</div>
 					</div>
-					<br>
 					<div style="text-align:center">
-						<span class="dot active" onclick="slider.slide(0)"></span>
 						<?php
-						for($i=1; $i<$pages; $i++) {
+						for($i=0; $i<$pages; $i++) {
 							echo "<span class=\"dot\" onclick=\"slider.slide(".$i.")\"></span>";
 						}
 						?>

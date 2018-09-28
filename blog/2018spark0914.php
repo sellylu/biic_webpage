@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157671416904167" title="2018 SPARK&#x27;s event"><img src="https://farm2.staticflickr.com/1876/44724036462_392e6767ef_b.jpg" width="1024" height="576" alt="2018 SPARK&#x27;s event"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

@@ -1813,7 +1813,7 @@ input, select, textarea {
 
 			ul.contact li:first-child {
 				padding-top: 0;
-				border-top: 0;
+				/*border-top: 0;*/
 			}
 
 				ul.contact li:first-child h3 {
@@ -2048,6 +2048,15 @@ input, select, textarea {
 				.icon.featured.alt2:after {
 					border-top-color: #827a7c;
 				}
+		.ee:before {
+			content: url(../../images/icon/nthuee_white@0.5x.png);
+		}
+		ul.social li a.ee {
+			background: #6B027D;
+		}
+		ul.social li a:before {
+			line-height: 1.75em;
+		}
 
 /* Page Wrapper */
 
