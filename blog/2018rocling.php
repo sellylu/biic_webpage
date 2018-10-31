@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157702579718795" title="2018 ROCLING"><img src="https://farm2.staticflickr.com/1964/44696639124_b79e6f7856_b.jpg" width="728" height="1024" alt="2018 ROCLING"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

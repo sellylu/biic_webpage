@@ -10,31 +10,22 @@
 					<ul class="dates">
 
 						<li>
+							<span class="date">Oct <strong>04-05</strong></span>
+							<h3><a href="news.php#post-33">ROCLING</a></h3>
+							<p>30th Conference on Computational Linguistics and Speech Processing</p>
+						</li>
+						<li>
+							<span class="date">Sep <strong>29</strong></span>
+							<h3><a href="news.php#post-32">Hands-on Workshop on Python, ML, CNN</a></h3>
+							<p>人工智慧(Artificial Intelligence)發展至今，深度學習(Deep Learning)已是當今最炙手可熱的技術 - 正在引領不同產業邁入新的時代。此一技術不僅高度提升現今許多產業的運行效率，並同時運用在多項辨識任務中(語音辨識、圖像辨識)已超越人類的辨識能力。<br>本次舉辦工作坊的目的，便是希望藉由上手實作過程中讓大家了解機器學習及深度學習相關核心知識。首先透過由淺入深的機器學習演算法概覽，及深度類神經網路的介紹，來一窺人工智慧基礎的理論核心。此外，在這一整天工作坊中，我們將有一系列的實作課程: 從安裝使用Python介面、建構基礎辨識器(Support Vector Machine)、撰寫一個卷積類神經網路(Convolutional Neural Network)進行圖形辨識、至熟悉訓練深度學習模型中的ㄧ些小技巧等等。</p>
+						</li>
+						<li>
 							<span class="date">Sep <strong>14</strong></span>
-							<h3><a href="news.php#post-29">馬維欣董事長來訪SP·ARK</a></h3>
+							<h3><a href="news.php#post-31">馬維欣董事長來訪SP·ARK</a></h3>
 							<p>Visitors to SP·ARK held by Chi-Chun Lee.</p>
 						</li>
-						<li>
-							<span class="date">Sep <strong>02</strong></span>
-							<h3><a href="news.php#post-30">Interspeech in Hyderabad, India</a></h3>
-							<p>Oral presentation and competition for best paper by Yun-Shao Lin on: "An Interlocutor-Modulated Attentional LSTM for Differentiating between Subgroups of Autism Spectrum Disorder"</p>
-							<p>Oral presentation by Bo-Hao Su on: "Self-Assessed Affect Recognition using Fusion of Attentional BLSTM and Static Acoustic Features"</p>
-							<p>Oral presentation by Fu-Sheng Tsai on "Automatic Assessment of Individual Culture Attribute of Power Distance using a Social Context-Enhanced Prosodic Network Representation"</p>
-							<p>Oral presentation by Jeng-Ling Li on: "Encoding Individual Acoustic Features using Dyad-Augmented Deep Variational Representations for Dialog-level Emotion Recognition"</p>
-							<p>Poster presentation by Jeng-Ling Li on: "Learning Conditional Acoustic Latent Representation with Gender and Age Attributes for Automatic Pain Level Recognition"</p>
-							
-							
-						</li>
-						<li>
-							<span class="date">Aug <strong>31</strong></span>
-							<h3><a href="news.php#post-29">Spark Opening</a></h3>
-							<p>Opening introduction and ceremony held by Chi-Chun Lee.</p>
-						</li>
-						<li>
-							<span class="date">Jul <strong>27</strong></span>
-							<h3><a href="news.php#post-27">ICME in San Diego, USA</a></h3>
-							<p>Oral presentation by Wei-Hao Chang on: "A Genre-Affect Relationship Network with Task-Specific Uncertainty Weighting for Recognizing Induced Emotion in Music"</p>
-						</li>
+
+
 
 					</ul>
 				</section>

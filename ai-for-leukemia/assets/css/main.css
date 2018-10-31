@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
-}
-
-p {
 	text-align: justify;
 }
 
@@ -88,12 +85,12 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url(images/overlay.png), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
-		background-position: top left, center 0;
+		background-position: top right, center 0;
 		background-attachment: fixed, fixed;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Source Sans Pro', '微軟正黑體', 'Microsoft JhengHei', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
 		font-weight: 300;
@@ -168,6 +165,8 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		overflow-wrap: break-word;
+  		word-wrap: break-word;
 	}
 
 		a:hover {
@@ -225,13 +224,13 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1140px;
+		width: 80%;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			.container {
-				width: 960px;
+				width: 80%;
 			}
 
 		}
@@ -1268,7 +1267,7 @@ input, select, textarea {
 				}
 
 				.row > .off-0-mobile {
-					margin-left: 0%;
+					margin-left: 0;
 				}
 
 				.row > .col-1-mobile {
@@ -1535,8 +1534,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 1.5em;
-			margin-top: 1.5em;
-			text-align: justify;
+			/*margin-top: 1.5em;*/
 		}
 
 			ul li:first-child {
@@ -1551,7 +1549,6 @@ input, select, textarea {
 		ol li {
 			padding-left: 1.25em;
 			margin-top: 1.5em;
-			text-align: justify;
 		}
 
 /* Icons */
@@ -1991,11 +1988,11 @@ input, select, textarea {
 		-ms-transition: opacity 2s ease-in-out;
 		transition: opacity 2s ease-in-out;
 		position: relative;
-		color: #fff;
+		color: #000;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 14em 0 14em 0;
+		padding: 10em 0 12em 0;
 		cursor: default;
 	}
 
@@ -2011,8 +2008,8 @@ input, select, textarea {
 			}
 
 			#header header p {
-				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
+				border-top: solid 1px #5a5959;
+				color: #183026;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -2024,7 +2021,7 @@ input, select, textarea {
 				#header header p:before {
 					content: '';
 					display: block;
-					border-top: solid 1px rgba(255, 255, 255, 0.5);
+					border-top: solid 1px #5a5959;
 					margin: 4px 0 0.8em 0;
 				}
 
@@ -2050,7 +2047,7 @@ input, select, textarea {
 				bottom: -9em;
 				left: 50%;
 				height: 9em;
-				border-left: solid 1px #fff;
+				border-left: solid 1px rgba(24,48,38,0.4);
 			}
 
 			#header footer:before {
@@ -2063,7 +2060,8 @@ input, select, textarea {
 				bottom: -4.5em;
 				margin-left: -45px;
 				margin-bottom: -33px;
-				background: url("images/arrow.png") no-repeat;
+				background: url("images/arrow-dark.png") no-repeat;
+				opacity: 0.4
 			}
 
 		body.is-preload #header {
@@ -2085,8 +2083,8 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
-		padding: 5em 0 5em 0;
+		background: #35b88f url("images/banner.png") bottom center no-repeat;
+		padding: 5em;
 		margin: 0;
 		background-size: 125% auto;
 	}
@@ -2224,7 +2222,7 @@ input, select, textarea {
 				position: absolute;
 				width: 96px;
 				height: 64px;
-				background: url("images/poptrox-nav.svg");
+				background: url("images/poptrox-nav.png");
 				top: calc(50% - 1.5em);
 				margin: -32px 0 0 0;
 			}
@@ -2291,7 +2289,7 @@ input, select, textarea {
 				height: 40px;
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #fff;
-				background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.svg") center center;
+				background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.png") center center;
 				color: #fff !important;
 			}
 
@@ -2328,7 +2326,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 4em 0 4em 0;
+				padding: 4em;
 				background-size: auto, 175% auto;
 			}
 
@@ -2348,7 +2346,7 @@ input, select, textarea {
 
 			body {
 				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;

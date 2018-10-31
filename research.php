@@ -68,6 +68,7 @@
 						<ul>
 							<li><a href="http://biic.ee.nthu.edu.tw/ai-for-leukemia/" target="_blank"><!--  data-toggle="modal" data-target="#ai-flow-modal"> -->AI for Leukemia Diagnosis</a></li>
 							<li><a href="http://nnime.ee.nthu.edu.tw/" target="_blank">NTHU-NTUA Chinese Interactive Emotion Database (NNIME)</a></li>
+							<li><a href="http://biic.ee.nthu.edu.tw/avspnet/" target="_blank">Arousal-Valence Speech Front-End Network (AVSpNET)</a></li>
 						</ul>
 					</section>
 					<!-- <section class="col-7 col-12-medium">

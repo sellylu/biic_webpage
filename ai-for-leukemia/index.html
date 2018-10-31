@@ -1,95 +1,161 @@
 <!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 <head>
-	<title>AI for Leukemia Diagnosis</title>
+	<title>AHEAD: Ai-assisted HEmatologic Analytic and Decision Support</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="Description" content="We develop patient-centered AI algorithms to provide clinical decision support for physicians in treating hematologic diseases by conducting efficient and comprehensive disease status assessment throughout patient treatment course, reducing interpretation idiosyncrasies and alleviate manpower shortage gap for clinical demands.">
+	<meta name="KeyWords" content="ahead,hematologic analytic,leukemia,biic,nthu,tai-cheng,sctc,ntuh,血癌,智能化血液診斷與預後預測,臺大醫院,清大">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link rel="stylesheet" href="assets/css/nav.css" />
+
 	<style type="text/css">
-		.info {
-			width: 100%;
-			position: relative;
-			z-index: 1;
-		}
-		.info p{
-			font-size: 70%;
-			text-align: center;
-		}
 		@media screen and (max-width: 736px) {
-			.info {
-				width: auto;
-			}
-			.info p{
-				font-size: 100%;
+			#mission {
+				margin: 1em 0 !important;
 			}
 		}
-		.box.style2 .inner .row:before {
-			left: calc(100% / 12 * 2 + 21px);
-			width: calc(100% / 12 * 10 - 20px)
+		.background-white {
+			background-color: #fff;
+			position: absolute;
+			z-index: -2;
+			top: 0;
+			opacity: 1;
+			width: 100%;
+			height: 100%;
 		}
-		.menu li {
-			text-align: center;
+		.background {
+			background-color: #fff;
+			background-image: url(./images/bg_top/bg@2x.png);
+			background-size: cover;
+			background-position: center 50%;
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			opacity: .25;
+			width: 100%;
+			height: 100%;
+		}
+		#more {
+			color: #fff;
+			background: #35b88f;
+			box-shadow: inset 0 0 0 1px rgba(24,48,38,0.4);
 		}
 	</style>
+
 </head>
 <body class="is-preload">
+<div id="page-wrapper">
+
+	<!-- Nav -->
+	<header id="navbar">
+		<h1 id="logo"><a href="./">AHEAD</a></h1>
+		<nav id="nav">
+			<ul>
+				<!-- <li><a href="./">Top</a></li> -->
+				<li><a href="#banner">Our Vision</a></li>
+				<li><a href="#flow">Flow Introduction</a></li>
+				<li><a href="#mcap">MCAP Introduction</a></li>
+				<li><a href="#publication">Publications</a></li>
+				<li><a href="#team">Our Team</a></li>
+			</ul>
+		</nav>
+	</header>
 
 	<!-- Header -->
 	<section id="header">
+		<div class="background-white"></div>
+		<div class="background"></div>
 		<header>
-			<h1>AI for Leukemia Diagnosis</h1>
-			<!-- <p>By HTML5 UP</p> -->
+			<img src="images/icon/logo.png" height="150px">
+			<h1>AHEAD</h1>
+			<p><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support</p>
 		</header>
 		<footer>
-			<a href="#procedure" class="button style2 scrolly-middle">See more</a>
+			<a id="more" href="#banner" class="button style2 scrolly-middle">See More</a>
 		</footer>
 	</section>
 
-	<!-- Generic -->
-	<article id="description" class="container box style3">
+	<!-- Banner -->
+	<section id="banner">
 		<header>
-			<h2>Project Description</h2>
+			<h2>Our Vision</h2>
+		</header>
+		<p>We develop patient-centered AI algorithms to provide clinical decision support for physicians in treating hematologic diseases by conducting efficient and comprehensive disease status assessment throughout patient treatment course, reducing interpretation idiosyncrasies and alleviate manpower shortage gap for clinical demands.</p>
+		<br>
+		<div class="row">
+			<div class="off-0-mobile col-6-mobile off-1 col-4">
+				<h4>Impact of Hematologic Cancer</h4>
+			</div>
+			<div class="off-0-mobile col-6-mobile off-2 col-4">
+				<h4>Health Worker Shortage reach 15M by 2030 (WHO)</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="off-0-mobile col-6-mobile off-1 col-4"><img src="images/fig1.jpg" style="width: 100%"></div>
+			<div class="off-0-mobile col-6-mobile off-2 col-4"><img src="images/fig2.jpg" style="width: 100%"></div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-12">
+				<h4>Exponential Growth of Clinical Data Complexity and Scale</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="off-0-mobile col-12-mobile off-3 col-6">
+				<img src="images/fig3.jpg" style="width: 100%">
+			</div>
+		</div> -->
+		<header id="mission">
+			<h3 style="text-shadow: 0 0 2px oldlace; color: red; font-weight: 600;">AHEAD Mission Statement</h3>
+			<p>To provide efficient, comprehensive, and high fidelity diagnostic analytics and disease evaluation tools to support physicians in optimizing treatment plan for patients with hematologic diseases.</p>
+		</header>
+		<footer>
+			<a href="#flow" class="button style2 scrolly">See Introduction</a>
+		</footer>
+	</section>
+
+	<!-- flow -->
+	<article id="flow" class="container box style3">
+		<header>
+			<h2>Flow Introduction</h2>
+			<p>Residual Leukemia Cell Detection Model</p>
 		</header>
 		<section>
-			<img id="procedure" src="./images/ai4leukemia/ai4leukemia.png" width="100%">
-
+			<div style="text-align: center;"><img src="./images/flow.png" width="80%"></div>
 			<p>With a shared vision in revolutionizing clinical practices by developing and deploying state-of-art AI technology to support efficient and objective medical diagnosis for leukemia. In this joint project, our aim is to develop AI-assisted analytics for acute leukemia diagnosis. An AI-assisted Flow Cytometry (FC) interpretation algorithm was developed using over 10,000 unique FC diagnostic samples collected in the National Taiwan University Hospital – achieving accuracy above 0.9 AUC. This AI-assisted interpretation was further clinically validated against patient’s final survival outcomes. This use of learning high-dimensional FC-data representation through deep-learning neural network fundamentally challenges the current status-quo in traditional observation-based manual diagnostic interpretation procedure done by expert physicians.</p>
-			<ol style="font-size: 80%">
-				<li>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "<i>An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data</i>" in Annual Meeting of American Society of Hematology, 2017</li>
-				<li>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "<i>An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry</i>" in Annual Meeting of American Society of Hematology, 2017</li>
-				<li>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "<i>An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data</i>" in Annual Meeting of American Society of Hematology, 2017</li>
-			</ol>
-			<div style="margin-top: 2em">
-				<a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018">Re.Work: AI-in-Healthcare Hong Kong</a>
-			</div>
+			<p style="text-align: center; font-size: 60%">EBioMedicine  DOI: <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">10.1016/j.ebiom.2018.10.042</a></p>
 		</section>
+
 	</article>
 
-	<!-- Banner -->
-	<!-- <section id="banner">
-		<header>
-			<h2>This is Overflow</h2>
-		</header>
-		<p>A brand new site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>.<br />
-		It’s responsive, built on HTML5/CSS3, and entirely free<br />
-		under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
-		<footer>
-			<a href="#first" class="button style2 scrolly">Act on this message</a>
-		</footer>
-	</section> -->
-
 	<!-- Feature 1 -->
-	<!-- <article id="first" class="container box style1 right">
-		<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-		<div class="inner">
+	<article id="demo" class="container box style1 right">
+		<a href="#demo" class="image fit" style="width: 40%"><img src="images/demo.png" alt="Service" style="width: 100%; height: auto;"></a>
+		<div class="inner" style="margin-left: 40%">
 			<header>
-				<h2>Lorem ipsum<br />
-				dolor sit amet</h2>
+				<h2>Residual Leukemia Cell <br>Detection Model <br>Service</h2>
 			</header>
-			<p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
+			<!-- <p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p> -->
 		</div>
-	</article> -->
+	</article>
+
+	<!-- mcap -->
+	<article id="mcap" class="container box style3">
+		<header>
+			<h2>MCAP Introduction</h2>
+			<p><u><b>M</b></u>ulti-<u><b>C</b></u>linical parameters <u><b>A</b></u>ssessment for <u><b>P</b></u>rognosis</p>
+		</header>
+		<section>
+			<div style="text-align: center;"><img id="procedure" src="./images/mcap.png" width="80%"></div>
+			<p></p>
+		</section>
+	</article>
 
 	<!-- Feature 2 -->
 	<!-- <article class="container box style1 left">
@@ -104,79 +170,313 @@
 	</article> -->
 
 	<!-- Portfolio -->
-	<article class="container box style2">
+	<!-- <article class="container box style2">
 		<header>
-			<h2>Collaborator</h2>
+			<h2>Magnis parturient</h2>
+			<p>Justo phasellus et aenean dignissim<br />
+			placerat cubilia purus lectus.</p>
 		</header>
 		<div class="inner gallery">
 			<div class="row gtr-0">
-				<div class="col-12-mobile off-0-mobile col-3 off-2"><div class="image fit"><img src="./images/ai4leukemia/kevin.png"></div></div>
-				<div class="col-2"></div>
-				<div class="col-5 col-12-mobile">
-					<header class="info">
-						<p>
-						Kevin Ko 柯博升 M.D. Ph.D.<br>
-						台大醫院內科部血液科主治醫師<br>
-						台灣骨髓移殖學會秘書長<br>
-						kevinkomd@gmail.com
-						</p>
-					</header>
-				</div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
 			</div>
-			<div class="row gtr-0" style="margin-top: 2em">
-				<div class="col-12-mobile off-0-mobile col-3 off-2"><div class="image fit"><img src="./images/ai4leukemia/andrea.png"></div></div>
-				<div class="col-2"></div>
-				<div class="col-5 col-12-mobile">
-					<header class="info">
-						<p>
-						Andrea Wang 王毓棻<br>
-						專案經理 (Project Manager)<br>
-						台灣大學台成幹細胞治療中心<br>
-						yufenwang82@gmail.com
-						</p>
-					</header>
-				</div>
+			<div class="row gtr-0">
+				<div class="col-3 col-12-mobile"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
+				<div class="col-3 col-12-mobile"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
 			</div>
 		</div>
+	</article> -->
+
+	<article id="publication" class="container box style3">
+		<header>
+			<h2>Publications</h2>
+		</header>
+		<section>
+			<header>
+				<h3>Conference Speech</h3>
+			</header>
+			<ul style="font-size: 80%">
+				<li>Bor-Sheng Ko, “An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome by Detecting Pre and Post-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data “, The 23rd Annual Congress of Asia-Pacific Blood and Marrow Transplantation Group (APBMT 2018)</li>
+				<li>Chi-Chun Lee, “Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis using Deep Generative Model”, 2018 REWORK- AI in Healthcare summit, <a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule">https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule</a></li>
+				<li>Bor-Sheng Ko, “An artificial intelligence approach in classifying AML and MDS for MRD detection using flow cytometry”, 2018 Annual Congress of the Hematology Society of Taiwan and Taiwan Society of Blood and Marrow Transplantation</li>
+				<li>Chi-Chun Lee, “AI-in Health Behavior Analytics“, 2017 Taiwan AI Conference, <a href="http://datasci.tw/cclee/">http://datasci.tw/cclee/</a></li>
+			</ul>
+		</section>
+		<section>
+			<header>
+				<h3>Journal</h3>
+			</header>
+			<ul style="font-size: 80%">
+				<li>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,”Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome”, EBioMedicine, 2018, <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></li>
+			</ul>
+		</section>
+		<section>
+			<header>
+				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
+			</header>
+			<ul style="font-size: 80%">
+				<li>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang, ”RELAPSE AND MORTALITY PREDICTION OF PATIENTS WITH NEWLY DIAGNOSED DE NOVO ACUTE MYELOID LEUKEMIA USING DEEP BIDIRECTIONAL LONG SHORT-TERM MEMORY-DEEP NEURAL NETWORK ARCHITECTURE” in Annual Meeting of American Society of Hematology (ASH), 2018</li>
+				<li>Yu-Fen Wang, Jeng-Lin Li, Bor-Sheng Ko, Chi-Chun Lee, Jih-Luh Tang, “A NATURAL LANGUAGE PROCESSING ALGORITHM TO AUTOMATICALLY CATEGORIZE DISEASE TYPE AND STATUS FROM FREE-TEXT BONE MARROW MORPHOLOGY REPORTS” in European Hematology Association Annual Congress (EHA), 2018, <a href="https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168">https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168</a></li>
+				<li>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/1403">http://www.bloodjournal.org/content/130/Suppl_1/1403</a></li>
+				<li>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/3980">http://www.bloodjournal.org/content/130/Suppl_1/3980</a></li>
+				<li>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></li>
+			</ul>
+		</section>
+	</article>
+
+	<article id="team" class="container box style3">
+		<header>
+			<h2>Our Team</h2>
+		</header>
+		<section>
+			<header style="text-align: left">
+				<img src="./images/icon/ntuh.png" style="width: 15%; float: right">
+				<h3>Hematology Division<br>Department of Internal Medicine<br>National Taiwan University Hospital<br>臺大醫院內科部血液科</h3>
+			</header>
+			<div class="inner row">
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Jih-Luh Tang.png" width="100%">
+					<p style="text-align: center;">Dr. Jih-Luh Tang</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Bor-Sheng Ko.png" width="100%">
+					<p style="text-align: center;">Dr. Bor-Sheng Ko</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<header style="text-align: left">
+				<img src="./images/icon/sctc.png" style="width: 15%; float: right">
+				<h3>Tai-Cheng Stem Cell Therapy Center<br>National Taiwan University<br>國立臺灣大學</h3>
+			</header>
+			<div class="inner row">
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Andrea Wang.png" width="100%">
+					<p style="text-align: center;">Andrea Wang</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Chi-Cheng Li.png" width="100%">
+					<p style="text-align: center;">Dr. Chi-Cheng Li</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Pei-Fang Weng.png" width="100%">
+					<p style="text-align: center;">Pei-Fang Weng</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<header style="text-align: left">
+				<img src="./images/icon/nthu.png" style="width: 15%; float: right">
+				<h3>Behavioral Informatics and Interaction Computation Lab<br>Department of Electrical Engineering<br>National Tsing Hua University<br>國立清華大學</h3>
+			</header>
+			<div class="inner row">
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Chi-Chun Lee.png" width="100%">
+					<p style="text-align: center;">Dr. Chi-Chun Lee</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Jeng-Lin Li.png" width="100%">
+					<p style="text-align: center;">Jeng-Lin Li</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Chih-Chuan Lu.png" width="100%">
+					<p style="text-align: center;">Chih-Chuan Lu</p>
+				</div>
+			</div>
+			<div class="inner row">
+				<div class="col-12-mobile col-9">
+					<a href="http://biic.ee.nthu.edu.tw/"><img src="./images/icon/biiclab.png" style="width: 100%;"></a>
+				</div>
+			</div>
+			<div class="inner row">
+				<div class="col-12-mobile col-9">
+					<img src="./images/member/biicers_1808.jpg" style="width: 100%;">
+				</div>
+			</div>
+				
+		</section>
 	</article>
 
 	<!-- Contact -->
-	<!-- 
-	<article class="container box style3">
-		<header>
-			<h2>Nisl sed ultricies</h2>
-			<p>Diam dignissim lectus eu ornare volutpat orci.</p>
-		</header>
-		<form method="post" action="#">
-			<div class="row gtr-50">
-				<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
-				<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
-				<div class="col-12">
-					<textarea name="message" placeholder="Message"></textarea>
-				</div>
-				<div class="col-12">
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" /></li>
+	<!-- 	<article class="container box style3">
+			<header>
+				<h2>Contact Us</h2>
+			</header>
+			<section>
+				<p>Phone:&emsp;<a href="tel:+886223123456;63576">+886-2-2312-3456 #63576</a></p>
+				<p>Email:&emsp;<a href="mailto:ahead.taiwan@gamil.com">ahead.taiwan@gmail.com </a></p>
+			</section>
+		</article> -->
+
+		<!-- Generic >
+		
+			<article class="container box style3">
+				<header>
+					<h2>Generic Box</h2>
+					<p>Just a generic box. Nothing to see here.</p>
+				</header>
+				<section>
+					<header>
+						<h3>Paragraph</h3>
+						<p>This is a subtitle</p>
+					</header>
+					<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
+					habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
+					leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
+					amet risus elit.</p>
+				</section>
+				<section>
+					<header>
+						<h3>Blockquote</h3>
+					</header>
+					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
+					tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
+				</section>
+				<section>
+					<header>
+						<h3>Divider</h3>
+					</header>
+					<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
+					ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+					facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+					tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+					posuere cubilia.</p>
+					<hr />
+					<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
+					ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
+					facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
+					tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+					posuere cubilia.</p>
+				</section>
+				<section>
+					<header>
+						<h3>Unordered List</h3>
+					</header>
+					<ul>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
 					</ul>
-				</div>
-			</div>
-		</form>
-	</article> -->
+				</section>
+				<section>
+					<header>
+						<h3>Ordered List</h3>
+					</header>
+					<ol>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+						<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+					</ol>
+				</section>
+				<section>
+					<header>
+						<h3>Table</h3>
+					</header>
+					<div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+				<section>
+					<header>
+						<h3>Form</h3>
+					</header>
+					<form method="post" action="#">
+						<div class="row">
+							<div class="col-6 col-12-mobile">
+								<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
+							</div>
+							<div class="col-6 col-12-mobile">
+								<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
+							</div>
+							<div class="col-12">
+								<select name="department" id="department">
+									<option value="">Choose a department</option>
+									<option value="1">Manufacturing</option>
+									<option value="2">Administration</option>
+									<option value="3">Support</option>
+								</select>
+							</div>
+							<div class="col-12">
+								<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
+							</div>
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Enter your message"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Submit" /></li>
+									<li><input type="reset" class="style3" value="Clear Form" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</article>
+		-->
+		
 
-
-	<section id="footer">
-		<!-- <ul class="icons">
-			<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-			<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-		</ul> -->
-		<div class="copyright">
-			<ul class="menu">
-				<li>&copy; <a href="http://biic.ee.nthu.edu.tw/">Behavioral Informatics &amp; Interaction Computation Lab</a>. All rights reserved.</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="tel:+886223123456;63576" class="icon fa-phone"><span class="label">Phone</span></a></li>
+				<li><a href="mailto:ahead.taiwan@gamil.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 			</ul>
-		</div>
-	</section>
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; <u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support (AHEAD). All rights reserved.</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</section>
 
+
+</div>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>

@@ -63,7 +63,7 @@
 				<!-- year 2018 -->
 				<?php $year=2018; ?>
 				<!-- 2018 avec -->
-				<?php $id=34; $mon='10'; $name='avec'; $full=" AVEC in Seoul, Korea"; 
+				<?php $id=35; $mon='10'; $name='avec'; $full=" AVEC in Seoul, Korea"; 
 					  $img ="1791/29924550188_2583000864";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
@@ -89,7 +89,7 @@
 					</div>
 				</article>
 				<!-- 2018 icmi -->
-				<?php $id=33; $mon='10'; $name='icmi'; $full=" ICMI in Boulder, Colorado, USA"; 
+				<?php $id=34; $mon='10'; $name='icmi'; $full=" ICMI in Boulder, Colorado, USA"; 
 					  $img ="1791/29924550188_2583000864";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
@@ -115,8 +115,8 @@
 					</div>
 				</article>
 				<!-- 2018 rocling -->
-				<?php $id=32; $mon='10'; $name='rocling'; $full=" ROCLING"; 
-					  $img ="1791/29924550188_2583000864";
+				<?php $id=33; $mon='10'; $name='rocling'; $full=" ROCLING"; 
+					  $img ="1964/44696639124_b79e6f7856";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
 					<div class="row">
@@ -128,19 +128,41 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									// echo $link.$year.$full.'</a>';
-									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
+									echo $link.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
-									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									// echo substr($link,0,-1).'class="button">Read More →</a>';
-									echo "<h4> Comming soon...</h4>"
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
 					</div>
 				</article>
-				<!-- 2018 interspeech -->
+				<!-- 2018 handson-workshop -->
+				<?php $id=32; $mon='9'; $name='handson-workshop'; $full=" Hands-on Workshop on Python, ML, CNN"; 
+					  $img ="1918/44975517742_0a2cf4e7ae";
+				?>
+				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
+					<div class="row">
+						<header class="post-meta col-12-medium col-2">
+							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
+						</header>
+						<section class="post-content col-12-medium col-10">
+							<header>
+								<h2>
+									<?php
+									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
+									echo $link.$year.$full.'</a>';
+									echo '</h2></header>';
+									echo '<div>';
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
+									?>
+							</div>	
+						</section>
+					</div>
+				</article>
+				<!-- 2018 spark event -->
 				<?php $id=31; $mon='9'; $name='spark0914'; $full=" 馬維欣董事長來訪SP·ARK"; 
 					  $img ="1876/44724036462_392e6767ef";
 				?>

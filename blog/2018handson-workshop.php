@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157671843485787" title="2018 SP·ARK Hands-on Workshop"><img src="https://farm2.staticflickr.com/1918/44975517742_0a2cf4e7ae_b.jpg" width="1024" height="576" alt="2018 SP·ARK Hands-on Workshop"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

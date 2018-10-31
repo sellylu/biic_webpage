@@ -163,6 +163,17 @@
 									<p>zero resource concept learning of corpus</p>
 								</div>
 							</div>
+							<!-- Chieh-Chih -->
+							<div class="card">
+								<img src="./images/member/Chieh-Chih.jpg">
+								<div class="info">
+									<h4 class="name">張傑智<br>Chieh-Chih Chang</h4>
+									<a href="" target="_blank" class="home-icon" title="Chieh-Chih Chang's personal website"><i class="fa fa-home"></i></a>
+									<hr style="margin: 0.2em 0;">
+									<h4>Research Keywords: </h4>
+									<p></p>
+								</div>
+							</div>
 						</div>
 					</section>
 					<section id="sec-master" class="members">
@@ -170,21 +181,6 @@
 							<h3>Master Students</h3>
 						</header>
 						<div class="group">
-							<!-- Yu-Shuo -->
-							<div class="card">
-								<img src="./images/member/Yu-Shuo.jpg">
-								<div class="info">
-									<h4 class="name">劉于碩<br>Yu-Shuo Liu</h4>
-								</div>
-							</div>
-							<!-- Ya-Tse -->
-							<div class="card">
-								<img src="./images/member/Ya-Tse.jpg">
-								<div class="info">
-									<h4 class="name">吳亞澤<br>Ya-Tse Wu</h4>
-								</div>
-							</div>
-
 							<!-- Chih-Chuan -->
 							<div class="card">
 								<img src="./images/member/selly.jpg">
@@ -367,6 +363,19 @@
 								<img src="./images/member/Zhang-Yu.jpg">
 								<div class="info">
 									<h4 class="name">張雨<br>Yu Zhang</h4>
+								</div>
+							</div>
+
+							<div class="card">
+								<img src="./images/member/Yu-Shuo.jpg">
+								<div class="info">
+									<h4 class="name">劉于碩<br>Yu-Shuo Liu</h4>
+								</div>
+							</div>
+							<div class="card">
+								<img src="./images/member/Ya-Tse.jpg">
+								<div class="info">
+									<h4 class="name">吳亞澤<br>Ya-Tse Wu</h4>
 								</div>
 							</div>
 						</div>
