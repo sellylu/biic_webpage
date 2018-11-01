@@ -8,25 +8,26 @@
 						<h2>News</h2>
 					</header>
 					<ul class="dates">
-
+						<li>
+							<span class="date">Oct <strong>22</strong></span>
+							<h3><a href="news.php#post-33">2018 AVEC in Seoul, Korea</a></h3>
+							<p>Oral presentation by Chih-Chuan Lu on:<br>
+							Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, "Learning an Arousal-Valence Speech Front-End Network using Media Data In-the-Wild for Emotion Recognition", in Proceedings of ACM on the Audio/Visual Emotion Challenge and Workshop (AVEC), 2018</p>
+						</li>
+						<li>
+							<span class="date">Oct <strong>16-20</strong></span>
+							<h3><a href="news.php#post-33">2018 ICMI in Boulder, Colorado, USA</a></h3>
+							<p>Oral presentation by Yun-Shao Lin and Gao-Yi Chao on:<br>
+								Gao-Yi Chao, Chun-Min Chang, Jeng-Lin Li, Ya-Tse Wu, Chi-Chun Lee, "Generating fMRI-Enriched Acoustic Vectors using a Cross-Modality Adversarial Network for Emotion Recognition" in Proceedings of ACM International Conference on Multimodal Interaction (ICMI), 2018<br>
+								Yun-Shao Lin, Chi-Chun Lee, "Using Interlocutor-Modulated Attention BLSTM to Predict Personality Traits in Small Group Interactions", in Proceedings of ACM International Conference on Multimodal Interaction (ICMI), 2018
+							</p>
+						</li>
 						<li>
 							<span class="date">Oct <strong>04-05</strong></span>
 							<h3><a href="news.php#post-33">ROCLING</a></h3>
 							<p>30th Conference on Computational Linguistics and Speech Processing</p>
 						</li>
-						<li>
-							<span class="date">Sep <strong>29</strong></span>
-							<h3><a href="news.php#post-32">Hands-on Workshop on Python, ML, CNN</a></h3>
-							<p>人工智慧(Artificial Intelligence)發展至今，深度學習(Deep Learning)已是當今最炙手可熱的技術 - 正在引領不同產業邁入新的時代。此一技術不僅高度提升現今許多產業的運行效率，並同時運用在多項辨識任務中(語音辨識、圖像辨識)已超越人類的辨識能力。<br>本次舉辦工作坊的目的，便是希望藉由上手實作過程中讓大家了解機器學習及深度學習相關核心知識。首先透過由淺入深的機器學習演算法概覽，及深度類神經網路的介紹，來一窺人工智慧基礎的理論核心。此外，在這一整天工作坊中，我們將有一系列的實作課程: 從安裝使用Python介面、建構基礎辨識器(Support Vector Machine)、撰寫一個卷積類神經網路(Convolutional Neural Network)進行圖形辨識、至熟悉訓練深度學習模型中的ㄧ些小技巧等等。</p>
-						</li>
-						<li>
-							<span class="date">Sep <strong>14</strong></span>
-							<h3><a href="news.php#post-31">馬維欣董事長來訪SP·ARK</a></h3>
-							<p>Visitors to SP·ARK held by Chi-Chun Lee.</p>
-						</li>
-
-
-
+						
 					</ul>
 				</section>
 			</div>

@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157702911570304" title="2018 AVEC"><img src="https://farm2.staticflickr.com/1909/43841655430_8d9de4239e_b.jpg" width="1024" height="768" alt="2018 AVEC"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
