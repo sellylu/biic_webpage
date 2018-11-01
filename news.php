@@ -64,7 +64,7 @@
 				<?php $year=2018; ?>
 				<!-- 2018 avec -->
 				<?php $id=35; $mon='10'; $name='avec'; $full=" AVEC in Seoul, Korea"; 
-					  $img ="1791/29924550188_2583000864";
+					  $img ="1909/43841655430_8d9de4239e";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
 					<div class="row">
@@ -76,13 +76,11 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									// echo $link.$year.$full.'</a>';
-									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
+									echo $link.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
-									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									// echo substr($link,0,-1).'class="button">Read More →</a>';
-									echo "<h4> Comming soon...</h4>"
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
@@ -90,7 +88,7 @@
 				</article>
 				<!-- 2018 icmi -->
 				<?php $id=34; $mon='10'; $name='icmi'; $full=" ICMI in Boulder, Colorado, USA"; 
-					  $img ="1791/29924550188_2583000864";
+					  $img ="1911/45609249902_afe0f71c03";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
 					<div class="row">
@@ -102,13 +100,11 @@
 								<h2>
 									<?php
 									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
-									// echo $link.$year.$full.'</a>';
-									echo '<a href="#post-'.$id.'?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">'.$year.$full.'</a>';
+									echo $link.$year.$full.'</a>';
 									echo '</h2></header>';
 									echo '<div>';
-									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
-									// echo substr($link,0,-1).'class="button">Read More →</a>';
-									echo "<h4> Comming soon...</h4>"
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
 									?>
 							</div>	
 						</section>
