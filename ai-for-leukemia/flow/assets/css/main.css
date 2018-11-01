@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+h1 h2 h3 h4 h5 {
+	font-family: Arial, "全字庫正楷體", "TW-Kai", "標楷體", "BiauKai", DFKai-SB, sans-serif;
+}
+
+/* Sidebar */
+#sidebar {
+	width: 200px;
+	position: relative;
+	display: block;
+	z-index: 0;
+}
+#content {
+	position: absolute;
+	display: block;
+	right: 0;
+	width: 500px;
+}
+
+.space {
+	height: 2em;
+}
+
+.ui-autocomplete {
+	max-height: 100px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+* html .ui-autocomplete {
+	height: 100px;
+}
+.func {
+	cursor: pointer;
+	line-height: 2em;
+	width: inherit;
+	text-align: center;
+	border-radius: 100px;
+	width:2em;
+}
+.func:hover{
+	color: #A9A9A9;
+}
+
+.edit {
+	width: inherit;
+}
+
+.plus {
+	color:white;
+	background: yellowgreen;
+
+}
+.plus:hover {
+	color: white;
+	background-color: rgba(154,205,50, 0.5);
+}
+
+.check {
+	color:white;
+	background: red;
+}
+.check:hover{
+	color: white;
+	background-color: rgb(256,128,128, 0.5);
+}
+
+footer {
+	margin-bottom: 1.5rem;
+}
+footer .copyright {
+	font-size: 0.8em;
+	line-height: 1em;
+	margin: 2em 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+footer .copyright li:first-child {
+	border-left: 0;
+	margin-left: 0;
+	padding-left: 0;
+}
+footer .copyright li {
+	display: inline;
+	list-style: none;
+	margin-left: 1.5em;
+	padding-left: 1.5em;
+}
+footer .copyright li a {
+	color: inherit;
+}
