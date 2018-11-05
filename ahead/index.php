@@ -14,43 +14,15 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<link rel="stylesheet" href="assets/css/nav.css" />
+	<link rel="stylesheet" href="assets/css/index.css" />
 
 	<style type="text/css">
-		@media screen and (max-width: 736px) {
-			#mission {
-				margin: 1em 0 !important;
-			}
-		}
-		.background-white {
-			background-color: #fff;
-			position: absolute;
-			z-index: -2;
-			top: 0;
-			opacity: 1;
-			width: 100%;
-			height: 100%;
-		}
-		.background {
-			background-color: #fff;
-			background-image: url(./images/bg_top/bg@2x.png);
-			background-size: cover;
-			background-position: center 50%;
-			position: absolute;
-			z-index: -1;
-			top: 0;
-			opacity: .25;
-			width: 100%;
-			height: 100%;
-		}
-		#more {
-			color: #fff;
-			background: #35b88f;
-			box-shadow: inset 0 0 0 1px rgba(24,48,38,0.4);
-		}
+
 	</style>
 
 </head>
 <body class="is-preload">
+
 <div id="page-wrapper">
 
 	<!-- Nav -->
@@ -62,6 +34,7 @@
 				<li><a href="#banner">Our Vision</a></li>
 				<li><a href="#flow">Flow Introduction</a></li>
 				<li><a href="#mcap">MCAP Introduction</a></li>
+				<li><a href="#advantage">Advantage</a></li>
 				<li><a href="#publication">Publications</a></li>
 				<li><a href="#team">Our Team</a></li>
 			</ul>
@@ -73,9 +46,9 @@
 		<div class="background-white"></div>
 		<div class="background"></div>
 		<header>
-			<img src="images/icon/logo.png" height="150px">
-			<h1>AHEAD</h1>
-			<p><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support</p>
+			<img id="ahead-logo" src="images/icon/logo.png">
+			<h1>智能化血液診斷與預後預測</h1>
+			<p class="ahead-long"><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support</p>
 		</header>
 		<footer>
 			<a id="more" href="#banner" class="button style2 scrolly-middle">See More</a>
@@ -91,29 +64,31 @@
 		<br>
 		<div class="row">
 			<div class="off-0-mobile col-6-mobile off-1 col-4">
-				<h4>Impact of Hematologic Cancer</h4>
+				<h4>Healthcare manpower shortage</h4>
 			</div>
 			<div class="off-0-mobile col-6-mobile off-2 col-4">
-				<h4>Health Worker Shortage reach 15M by 2030 (WHO)</h4>
-			</div>
-		</div>
-		<div class="row">
-			<div class="off-0-mobile col-6-mobile off-1 col-4"><img src="images/fig1.jpg" style="width: 100%"></div>
-			<div class="off-0-mobile col-6-mobile off-2 col-4"><img src="images/fig2.jpg" style="width: 100%"></div>
-		</div>
-		<!-- <div class="row">
-			<div class="col-12">
 				<h4>Exponential Growth of Clinical Data Complexity and Scale</h4>
 			</div>
 		</div>
 		<div class="row">
-			<div class="off-0-mobile col-12-mobile off-3 col-6">
-				<img src="images/fig3.jpg" style="width: 100%">
+			<div class="off-0-mobile col-6-mobile off-1 col-4">
+				<div id="short-chart">
+					<div>15M</div>
+					<div>by 2030</div>
+				</div>
 			</div>
-		</div> -->
-		<header id="mission">
-			<h3 style="text-shadow: 0 0 2px oldlace; color: red; font-weight: 600;">AHEAD Mission Statement</h3>
-			<p>To provide efficient, comprehensive, and high fidelity diagnostic analytics and disease evaluation tools to support physicians in optimizing treatment plan for patients with hematologic diseases.</p>
+			<div class="off-0-mobile col-6-mobile off-2 col-4" style="padding-top: 6vw;">
+			<?php
+				for($i=1; $i<=12; $i++) {
+					echo "<img class=\"icon-data\" src=\"images/data/".sprintf("%02d", $i).".png\" style=\"margin: 3pt;\">";
+				}
+				?>
+			</div>
+		</div>
+		
+		<header id="mission" style="margin: 3em auto 0 auto;">
+			<h3 style="text-shadow: 1px 1px 3px black; color: red; font-weight: 600; font-size: 120%">AHEAD Mission Statement</h3>
+			<p>Provide efficient, comprehensive, and high fidelity disease diagnostic/evaluation tools to support physicians in optimizing treatment plan for patients with malignant hematologic diseases.</p>
 		</header>
 		<footer>
 			<a href="#flow" class="button style2 scrolly">See Introduction</a>
@@ -123,24 +98,45 @@
 	<!-- flow -->
 	<article id="flow" class="container box style3">
 		<header>
-			<h2>Flow Introduction</h2>
+			<h2>AHEAD-Flow Introduction</h2>
 			<p>Residual Leukemia Cell Detection Model</p>
 		</header>
 		<section>
 			<div style="text-align: center;"><img src="./images/flow.png" width="80%"></div>
 			<p>With a shared vision in revolutionizing clinical practices by developing and deploying state-of-art AI technology to support efficient and objective medical diagnosis for leukemia. In this joint project, our aim is to develop AI-assisted analytics for acute leukemia diagnosis. An AI-assisted Flow Cytometry (FC) interpretation algorithm was developed using over 10,000 unique FC diagnostic samples collected in the National Taiwan University Hospital – achieving accuracy above 0.9 AUC. This AI-assisted interpretation was further clinically validated against patient’s final survival outcomes. This use of learning high-dimensional FC-data representation through deep-learning neural network fundamentally challenges the current status-quo in traditional observation-based manual diagnostic interpretation procedure done by expert physicians.</p>
-			<p style="text-align: center; font-size: 60%">EBioMedicine  DOI: <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">10.1016/j.ebiom.2018.10.042</a></p>
+			<p style="text-align: center;">EBioMedicine  DOI: <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">10.1016/j.ebiom.2018.10.042</a></p>
 		</section>
 
 	</article>
 
 	<!-- Feature 1 -->
 	<article id="demo" class="container box style1 right">
-		<a href="#demo" class="image fit" style="width: 40%"><img src="images/demo.png" alt="Service" style="width: 100%; height: auto;"></a>
-		<div class="inner" style="margin-left: 40%">
+		<a href="#demo" class="image fit" style="width: 40%"><img src="images/demo-vert.png" alt="Service" style="width: 100%; height: auto;"></a>
+		<div class="inner" style="margin-left: 40%;padding-left: 2em;">
 			<header>
-				<h2>Residual Leukemia Cell <br>Detection Model <br>Service</h2>
+				<h2>Residual Leukemia Cell Detection Model Service</h2>
 			</header>
+			<section>
+				<div class="row" style="display: flex; align-items: center; text-align: center;">
+					<div class="col-2">
+						<img src="./images/adv/01.png" width="100%">
+					</div>
+					<div class="col-3"><b>Physician</b><br>20 <small>Mins</small></div>
+					<div class="col-3" style="line-height: 70%">
+						<img src="./images/adv/arrow.png" width="60%"><br>
+						<label style="color: red;"><b><small>1000+ times</small></b></label>
+					</div>
+					<div class="col-4"><b>AHEAD-flow</b><br>7 <small>Seconds</small></div>
+				</div>
+				<div class="row" style="display: flex; align-items: center; text-align: center;">
+					<div class="col-2">
+						<img src="./images/adv/04.png" width="100%">
+					</div>
+					<div class="col-10" style="padding-right: 10%">
+						<b>90% concordance with physicians<br>AUC: 0.921-0.950</b>
+					</div>
+				</div>
+			</section>
 			<!-- <p>Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p> -->
 		</div>
 	</article>
@@ -148,7 +144,7 @@
 	<!-- mcap -->
 	<article id="mcap" class="container box style3">
 		<header>
-			<h2>MCAP Introduction</h2>
+			<h2>AHEAD-MCAP Introduction</h2>
 			<p><u><b>M</b></u>ulti-<u><b>C</b></u>linical parameters <u><b>A</b></u>ssessment for <u><b>P</b></u>rognosis</p>
 		</header>
 		<section>
@@ -157,8 +153,50 @@
 		</section>
 	</article>
 
+	<!-- advantage -->
+	<article id="advantage" class="container box style2">
+		<header>
+			<h2>AHEAD Advantage</h2>
+		</header>
+		<div class="inner gallery">
+			<div class="row gtr-0">
+				<div class="col-6-mobile off-3-mobile col-2 off-2">
+					<div class="image fit" style="background-color: white"><img src="./images/adv/01.png"></div>
+				</div>
+				<div class="col-3"></div>
+				<div class="col-5 col-12-mobile" style="display: flex; align-items: center;">
+					<header class="info">
+						<p>100+ times faster interpretation</p>
+					</header>
+				</div>
+			</div>
+			<div class="row gtr-0" style="margin-top: 2em">
+				<div class="col-6-mobile off-3-mobile col-2 off-2">
+					<div class="image fit" style="background-color: white"><img src="./images/adv/02.png"></div>
+				</div>
+				<div class="col-3"></div>
+				<div class="col-5 col-12-mobile">
+					<header class="info">
+						<p>Reduce Inter-physician assessment variability</p>
+					</header>
+				</div>
+			</div>
+			<div class="row gtr-0" style="margin-top: 2em">
+				<div class="col-6-mobile off-3-mobile col-2 off-2">
+					<div class="image fit" style="background-color: white"><img src="./images/adv/03.png"></div>
+				</div>
+				<div class="col-3"></div>
+				<div class="col-5 col-12-mobile">
+					<header class="info">
+						<p>Enable all-around quantitative assessment by including all available exams and treatment history in consideration</p>
+					</header>
+				</div>
+			</div>
+		</div>
+	</article>
+
 	<!-- Feature 2 -->
-	<!-- <article class="container box style1 left">
+	<!-- <article class="container box style1 right">
 		<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 		<div class="inner">
 			<header>
@@ -235,7 +273,7 @@
 		</header>
 		<section>
 			<header style="text-align: left">
-				<img src="./images/icon/ntuh.png" style="width: 15%; float: right">
+				<img class="org-logo" src="./images/icon/ntuh.png" style="width: 15%; ">
 				<h3>Hematology Division<br>Department of Internal Medicine<br>National Taiwan University Hospital<br>臺大醫院內科部血液科</h3>
 			</header>
 			<div class="inner row">
@@ -251,7 +289,7 @@
 		</section>
 		<section>
 			<header style="text-align: left">
-				<img src="./images/icon/sctc.png" style="width: 15%; float: right">
+				<img class="org-logo" src="./images/icon/sctc.png" style="width: 15%; float: right">
 				<h3>Tai-Cheng Stem Cell Therapy Center<br>National Taiwan University<br>國立臺灣大學</h3>
 			</header>
 			<div class="inner row">
@@ -263,15 +301,15 @@
 					<img src="./images/member/Chi-Cheng Li.png" width="100%">
 					<p style="text-align: center;">Dr. Chi-Cheng Li</p>
 				</div>
-				<div class="col-4-mobile col-3">
+				<!-- <div class="col-4-mobile col-3">
 					<img src="./images/member/Pei-Fang Weng.png" width="100%">
 					<p style="text-align: center;">Pei-Fang Weng</p>
-				</div>
+				</div> -->
 			</div>
 		</section>
 		<section>
 			<header style="text-align: left">
-				<img src="./images/icon/nthu.png" style="width: 15%; float: right">
+				<img class="org-logo" src="./images/icon/nthu.png" style="width: 15%; float: right">
 				<h3>Behavioral Informatics and Interaction Computation Lab<br>Department of Electrical Engineering<br>National Tsing Hua University<br>國立清華大學</h3>
 			</header>
 			<div class="inner row">
@@ -465,8 +503,8 @@
 
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="tel:+886223123456;63576" class="icon fa-phone"><span class="label">Phone</span></a></li>
-				<li><a href="mailto:ahead.taiwan@gamil.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="tel:+886223123456;63576" class="icon fa-phone"><span class="label">Phone</span></a>+886-2-2312-3456 #63576</li>
+				<li><a href="mailto:ahead.taiwan@gamil.com" class="icon fa-envelope"><span class="label">Email</span></a>ahead.taiwan@gamil.com</li>
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
@@ -485,6 +523,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
 
 </body>
 </html>

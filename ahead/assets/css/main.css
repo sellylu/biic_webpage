@@ -185,6 +185,10 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+	small {
+		font-size: 0.6em;
+	}
+
 	hr {
 		border: 0;
 		border-top: solid 1px #dad9d9;
@@ -1992,7 +1996,7 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 10em 0 12em 0;
+		padding: 6em 0 7em 0;
 		cursor: default;
 	}
 
@@ -2035,7 +2039,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			position: absolute;
-			bottom: 9em;
+			bottom: 7em;
 			margin: 0;
 			width: 100%;
 		}
@@ -2128,7 +2132,7 @@ input, select, textarea {
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		margin: 4.5em 0 0 0;
+		margin: 4.5em 1em;
 	}
 
 		#footer:after {
@@ -2314,7 +2318,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 10em 0 12em 0;
+				padding: 9em 0 9em 0;
 			}
 
 	}
@@ -2560,7 +2564,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0;
+				padding: 4em 0 6em 0;
 			}
 
 				#header header {
