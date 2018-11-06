@@ -259,7 +259,7 @@
 				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
 			</header>
 			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang, ”RELAPSE AND MORTALITY PREDICTION OF PATIENTS WITH NEWLY DIAGNOSED DE NOVO ACUTE MYELOID LEUKEMIA USING DEEP BIDIRECTIONAL LONG SHORT-TERM MEMORY-DEEP NEURAL NETWORK ARCHITECTURE” in Annual Meeting of American Society of Hematology (ASH), 2018</li>
+				<li>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, ”RELAPSE AND MORTALITY PREDICTION OF PATIENTS WITH NEWLY DIAGNOSED DE NOVO ACUTE MYELOID LEUKEMIA USING DEEP BIDIRECTIONAL LONG SHORT-TERM MEMORY-DEEP NEURAL NETWORK ARCHITECTURE” in Annual Meeting of American Society of Hematology (ASH), 2018</li>
 				<li>Yu-Fen Wang, Jeng-Lin Li, Bor-Sheng Ko, Chi-Chun Lee, Jih-Luh Tang, “A NATURAL LANGUAGE PROCESSING ALGORITHM TO AUTOMATICALLY CATEGORIZE DISEASE TYPE AND STATUS FROM FREE-TEXT BONE MARROW MORPHOLOGY REPORTS” in European Hematology Association Annual Congress (EHA), 2018, <a href="https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168">https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168</a></li>
 				<li>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/1403">http://www.bloodjournal.org/content/130/Suppl_1/1403</a></li>
 				<li>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/3980">http://www.bloodjournal.org/content/130/Suppl_1/3980</a></li>
@@ -509,7 +509,9 @@
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; <u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support (AHEAD). All rights reserved.</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; <u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support (AHEAD). All rights reserved.</li>
+					<li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>Icon adapted from <a href="http://www.flaticon.com/">Flaticon</a> or <a href="https://www.designevo.com/">DesignEvo</a></li>
 				</ul>
 			</div>
 		</section>
