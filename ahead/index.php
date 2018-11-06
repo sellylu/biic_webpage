@@ -13,6 +13,7 @@
 	<meta name="KeyWords" content="ahead,hematologic analytic,leukemia,prognosis,biic,nthu,tai-cheng,sctc,ntuh,血癌,智能化,血液診斷,預後預測,臺大醫院,清大">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Orbitron">
 	<link rel="stylesheet" href="assets/css/nav.css" />
 	<link rel="stylesheet" href="assets/css/index.css" />
 
@@ -124,7 +125,7 @@
 					<div class="col-3"><b>Physician</b><br>20 <small>Mins</small></div>
 					<div class="col-3" style="line-height: 70%">
 						<img src="./images/adv/arrow.png" width="60%"><br>
-						<label style="color: red;"><b><small>1000+ times</small></b></label>
+						<label style="color: red;"><b><small>100+ times</small></b></label>
 					</div>
 					<div class="col-4"><b>AHEAD-flow</b><br>7 <small>Seconds</small></div>
 				</div>
