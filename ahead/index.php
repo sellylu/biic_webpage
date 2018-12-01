@@ -35,8 +35,8 @@
 				<li><a href="#about">About Us</a></li>
 				<li><a href="#products">Products</a></li>
 				<li><a href="#publications">Publications</a></li>
-				<li><a href="#conferences">Conferences</a></li>
-				<li><a href="#news">News</a></li>
+				<!-- <li><a href="#conferences">Conferences</a></li> -->
+				<!-- <li><a href="#news">News</a></li> -->
 				<li><a href="#footer">Contact Us</a></li>
 			</ul>
 		</nav>
@@ -47,7 +47,7 @@
 		<div class="background-white"></div>
 		<div class="background"></div>
 		<header>
-			<img id="ahead-logo" src="images/icon/logo_red.svg">
+			<img id="ahead-logo" src="images/icon/logo-red.png">
 			<h1>智能化血液診斷與預後預測</h1>
 			<p class="ahead-long"><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support</p>
 			<div style="width: 82.35%;padding-left:15%;padding-top: 2em;text-align: center;">We focus on developing diagnostic and disease assessment tools for hematologic diseases using artificial intelligence.</div>
@@ -189,21 +189,21 @@
 			<a href="#flow" class="button">AHEAD-flow</a>
 			<a href="#mcap" class="button">AHEAD-mcap</a>
 		</div>
-		<div class="inner" style="margin-left: 30%; padding-left: 2em;">
+		<div id="advantage" class="inner" style="margin-left: 30%; padding-left: 2em;">
 			<header style="text-align: center;">
 				<h2>AHEAD Advantage</h2>
 			</header>
 			<section>
-				<div class="row" style="text-align: center;">
-					<div class="col-4">
+				<div class="row aln-center gtr-50" style="text-align: center;">
+					<div class="col-12-narrow col-4">
 						<h3>Efficient</h3>
 						<img src="./images/data/efficient.png" width="80%">
 					</div>
-					<div class="col-4">
+					<div class="col-12-narrow col-4">
 						<h3>Objective</h3>
 						<img src="./images/data/unbiased.png" width="80%">
 					</div>
-					<div class="col-4">
+					<div class="col-12-narrow col-4">
 						<h3>Comprehensive</h3>
 						<img src="./images/data/comp-circle.png" width="80%">
 					</div>
@@ -229,7 +229,7 @@
 
 	<!-- flow-demo -->
 	<article id="demo" class="container box style1 right">
-		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo-vert.png" alt="Service" style="width: 100%; height: auto;"></a>
+		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo.png" alt="Service" style=" width: 100%; height: auto; margin: auto; bottom: 0"></a>
 		<div class="inner" style="margin-left: 40%;padding-left: 2em;">
 			<header>
 				<h2>Residual Leukemia Cell Detection Model Service</h2>

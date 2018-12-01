@@ -43,6 +43,11 @@
 #demo {
      padding: 2em;
 }
+
+#advantage img {
+    width: 80%;
+}
+
 #products-list {
     width: 25%;
     position: absolute;
@@ -107,6 +112,15 @@
     .org-logo {
         right: 2.5em;
     }
+
+    #advantage img {
+        width: 10vw;
+        margin: 0 0 0 auto;
+    }
+    #advantage .row > div {
+        display: inline-flex;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 736px) {
     #mission {
@@ -132,6 +146,10 @@
     }
     #demo {
         padding: 0;
+    }
+
+    #advantage img {
+        width: 20vw;
     }
 
     #products-list {
