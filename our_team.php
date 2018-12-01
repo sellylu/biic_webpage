@@ -160,7 +160,7 @@
 									<a href="https://borrissu.wixsite.com/borris" target="_blank" class="home-icon" title="Bo-Hao Su's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									<p>zero resource concept learning of corpus</p>
+									<p>Behavior Signal Processing, Zero Resource Learning, Cross Corpora Behavior Learning</p>
 								</div>
 							</div>
 							<!-- Chieh-Chih -->
@@ -171,7 +171,7 @@
 									<a href="" target="_blank" class="home-icon" title="Chieh-Chih Chang's personal website"><i class="fa fa-home"></i></a>
 									<hr style="margin: 0.2em 0;">
 									<h4>Research Keywords: </h4>
-									<p></p>
+									<p>Affective Computing, Vocal Emotion, In-the-wild Learning</p>
 								</div>
 							</div>
 						</div>

@@ -1,0 +1,169 @@
+.sr-only {
+position:absolute;
+width:1px;
+height:1px;
+margin:-1px;
+padding:0;
+overflow:hidden;
+clip:rect(0, 0, 0, 0);
+border:0
+}
+
+.sr-only-focusable:active,.sr-only-focusable:focus {
+position:static;
+width:auto;
+height:auto;
+margin:0;
+overflow:visible;
+clip:auto
+}
+
+[role="button"] {
+cursor:pointer
+}
+
+.fade {
+opacity:0;
+-webkit-transition:opacity .15s linear;
+-o-transition:opacity .15s linear;
+transition:opacity .15s linear
+}
+
+.fade.in {
+opacity:1
+}
+
+.collapse {
+display:none
+}
+
+.collapse.in {
+display:block
+}
+
+tr.collapse.in {
+display:table-row
+}
+
+tbody.collapse.in {
+display:table-row-group
+}
+
+.collapsing {
+position:relative;
+height:0;
+overflow:hidden;
+-webkit-transition-property:height, visibility;
+-o-transition-property:height, visibility;
+transition-property:height, visibility;
+-webkit-transition-duration:.35s;
+-o-transition-duration:.35s;
+transition-duration:.35s;
+-webkit-transition-timing-function:ease;
+-o-transition-timing-function:ease;
+transition-timing-function:ease
+}
+
+.clearfix:before,.clearfix:after {
+content:" ";
+display:table
+}
+
+.clearfix:after {
+clear:both
+}
+
+.center-block {
+display:block;
+margin-left:auto;
+margin-right:auto
+}
+
+.pull-right {
+float:right !important
+}
+
+.pull-left {
+float:left !important
+}
+
+.hide {
+display:none !important
+}
+
+.show {
+display:block !important
+}
+
+.invisible {
+visibility:hidden
+}
+
+.text-hide {
+font:0/0 a;
+color:transparent;
+text-shadow:none;
+background-color:transparent;
+border:0
+}
+
+.hidden {
+display:none !important
+}
+
+.affix {
+position:fixed
+}
+
+.card {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+.card-body {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-header:first-child {
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-button {
+	color: inherit !important;
+	background: transparent;
+	padding: 0;
+	font-size: inherit;
+}
+.card-button:hover {
+	background: transparent;
+}
+td {
+	color: black;
+	vertical-align: middle;
+}
+.title {
+    display: block;
+    font-style: italic;
+    margin: 0.5em 0 0 0;
+    padding-bottom: 0.5em;
+}
