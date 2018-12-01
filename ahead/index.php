@@ -37,7 +37,7 @@
 				<li><a href="#publications">Publications</a></li>
 				<li><a href="#conferences">Conferences</a></li>
 				<li><a href="#news">News</a></li>
-				<li><a href="#team">Our Team</a></li>
+				<li><a href="#footer">Contact Us</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -72,19 +72,21 @@
 		</ul>
 		</p>
 		<br>
-		<div class="row">
-			<div class="off-0-mobile col-6-mobile off-1 col-4">
+		<div class="row aln-center">
+			<div class="col-6">
 				<h4>Manpower Shortage</h4>
 			</div>
-			<div class="off-0-mobile col-6-mobile off-2 col-4">
+			<div class="col-6">
 				<h4>Clinical Data Complexity and Scale</h4>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row aln-center">
 			<div class="off-0-mobile col-6-mobile off-1 col-4">
 				<div id="short-chart">
-					<div>15M</div>
-					<div>by 2030</div>
+					<div>
+						<div>15M</div>
+						<div>by 2030</div>
+					</div>
 				</div>
 			</div>
 			<div class="off-0-mobile col-6-mobile off-2 col-4" style="padding-top: 6vw;">
@@ -94,6 +96,7 @@
 				}
 				?>
 			</div>
+			<div class="col-1"></div>
 		</div>
 		
 		<header id="mission" style="margin: 3em auto 0 auto;">
@@ -372,34 +375,8 @@
 			<header>
 				<h3>Journal</h3>
 			</header>
-			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,"Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", EBioMedicine, 2018, <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></li>
-			</ul>
-		</section>
-		<section>
-			<header>
-				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
-			</header>
-			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Patients with Newly Diagnosed de novo Acute Myeloid Leukemia Using Deep Bidirectional Long Short-term Memory Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</li>
-				<li>Yu-Fen Wang, Jeng-Lin Li, Bor-Sheng Ko, Chi-Chun Lee, Jih-Luh Tang, "A Natural Language Processing Algorithm to Automatically Categorize Disease Type and Status from Free-text Bone Marrow Morphology Reports" in European Hematology Association Annual Congress (EHA), 2018, <a href="https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168">https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168</a></li>
-				<li>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/1403">http://www.bloodjournal.org/content/130/Suppl_1/1403</a></li>
-				<li>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/3980">http://www.bloodjournal.org/content/130/Suppl_1/3980</a></li>
-				<li>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></li>
-			</ul>
-		</section>
-	</article>
-
-	<article id="publications" class="container box style3">
-		<header>
-			<h2>Publications</h2>
-		</header>
-		<section>
-			<header>
-				<h3>Journal</h3>
-			</header>
 			<div id="pub-list" class="row" style="font-size: 80%; line-height: 1.8em;">
-				<div class="col-12-mobile col-6-normal col-3">
+				<div class="col-12-mobile col-6-normal col-4">
 					<div class="img-conf"><img src="./images/conf/2018ebiom.png" width="80%"></div>
 					<p>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,"Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", EBioMedicine, 2018</p>
 					<p><a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></p>
@@ -410,7 +387,7 @@
 			<header>
 				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
 			</header>
-			<div id="pub-list" class="row" style="font-size: 80%; line-height: 1.8em;">
+			<div id="pub-list" class="row gtr-50" style="font-size: 80%; line-height: 1.8em;">
 				<div class="col-12-mobile col-6-normal col-4">
 					<div class="img-conf"><img src="./images/conf/2018ash.png"></div>
 					<p>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Patients with Newly Diagnosed de novo Acute Myeloid Leukemia Using Deep Bidirectional Long Short-term Memory Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</p>
@@ -429,26 +406,6 @@
 					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
 					<p>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
 					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/3980">http://www.bloodjournal.org/content/130/Suppl_1/3980</a></p>
-				</div>
-				<div class="col-12-mobile col-6-normal col-4">
-					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
-					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
-					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
-				</div>
-				<div class="col-12-mobile col-6-normal col-4">
-					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
-					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
-					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
-				</div>
-				<div class="col-12-mobile col-6-normal col-4">
-					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
-					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
-					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
-				</div>
-				<div class="col-12-mobile col-6-normal col-4">
-					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
-					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
-					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
 				</div>
 				<div class="col-12-mobile col-6-normal col-4">
 					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>

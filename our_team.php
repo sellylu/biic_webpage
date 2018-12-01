@@ -63,9 +63,9 @@
 						<header>
 							<h3>PhD Students</h3>
 						</header>
-						<div class="group">
+						<div class="row aln-left gtr-0">
 							<!-- Chen-Ying -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Chen-Ying.jpg">
 								<div class="info">
 									<h4 class="name">洪振瀛<br>Chen-Ying Hung</h4>
@@ -76,7 +76,7 @@
 								</div>
 							</div>
 							<!-- Chin-Po -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/chingbao.jpg">
 								<div class="info">
 									<h4 class="name">陳金博<br>Chin-Po Chen</h4>
@@ -87,7 +87,7 @@
 								</div>
 							</div>
 							<!-- Chun-Min -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Jimmy-Chang.jpg">
 								<div class="info">
 									<h4 class="name">張鈞閔<br>Chun-Min Chang</h4>
@@ -98,7 +98,7 @@
 								</div>
 							</div>
 							<!-- Fu-Sheng Tsai -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/fu-sheng.jpg">
 								<div class="info">
 									<h4 class="name">蔡福昇<br>Fu-Sheng Tsai</h4>
@@ -109,7 +109,7 @@
 								</div>
 							</div>
 							<!-- Huang-Cheng -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Huang-Cheng.jpg">
 								<div class="info">
 									<h4 class="name">周惶振<br>Huang-Cheng Chou</h4>
@@ -120,7 +120,7 @@
 								</div>
 							</div>
 							<!-- Jeng-Lin -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/CHENG-LIN.jpg"">
 								<div class="info">
 									<h4 class="name">李政霖<br>Jeng-Lin Li</h4>
@@ -131,7 +131,7 @@
 								</div>
 							</div>
 							<!-- Yun-Shao -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Yun-Shao.jpg">
 								<div class="info">
 									<h4 class="name">林畇劭<br>Yun-Shao Lin</h4>
@@ -142,7 +142,7 @@
 								</div>
 							</div>
 							<!-- Hao-Chun -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Hao-Chun.jpg">
 								<div class="info">
 									<h4 class="name">楊皓鈞<br>Hao-Chun Yang</h4>
@@ -153,7 +153,7 @@
 								</div>
 							</div>
 							<!-- Bo-Hao -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Bo-Hao.jpg">
 								<div class="info">
 									<h4 class="name">蘇柏豪<br>Bo-Hao Su</h4>
@@ -164,7 +164,7 @@
 								</div>
 							</div>
 							<!-- Chieh-Chih -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Chieh-Chih.jpg">
 								<div class="info">
 									<h4 class="name">張傑智<br>Chieh-Chih Chang</h4>
@@ -180,44 +180,44 @@
 						<header>
 							<h3>Master Students</h3>
 						</header>
-						<div class="group">
+						<div class="row aln-left aln-middle gtr-0">
 							<!-- Chih-Chuan -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/selly.jpg">
 								<div class="info">
 									<h4 class="name">呂志娟<br>Chih-Chuan Lu</h4>
 								</div>
 							</div>
 							<!-- Wei-Hao -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Wei-Hao.jpg">
 								<div class="info">
 									<h4 class="name">張為皓<br>Wei-Hao Chang</h4>
 								</div>
 							</div>
 							<!-- Hui-Ting -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Hui-Ting.jpg">
 								<div class="info">
 									<h4 class="name">洪彗庭<br>Hui-Ting Hong</h4>
 								</div>
 							</div>
 							<!-- Wan-Ting -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Wan-Ting.jpg">
 								<div class="info">
 									<h4 class="name">謝宛庭<br>Wan-Ting Hsieh</h4>
 								</div>
 							</div>
 							<!-- Gao-Yi -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Gao-Yi.jpg">
 								<div class="info">
 									<h4 class="name">趙高逸<br>Gao-Yi Chao</h4>
 								</div>
 							</div>
 							<!-- Tzu-Yun -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Tzu-Yun.jpg">
 								<div class="info">
 									<h4 class="name">黃姿云<br>Tzu-Yun Huang</h4>
@@ -225,42 +225,42 @@
 							</div>
 
 							<!-- Ming-Ya -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Ming-Ya.jpg">
 								<div class="info">
 									<h4 class="name">柯明亜<br>Ming-Ya Ko</h4>
 								</div>
 							</div>
 							<!-- Huan-Yu -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Huan-Yu.jpg">
 								<div class="info">
 									<h4 class="name">陳奐宇<br>Huan-Yu Chen</h4>
 								</div>
 							</div>
 							<!-- Shun-Chang -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Shun-Chang.jpg">
 								<div class="info">
 									<h4 class="name">鍾舜昌<br>Shun-Chang Zhong</h4>
 								</div>
 							</div>
 							<!-- Song-Lin -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Song-Lin.jpg">
 								<div class="info">
 									<h4 class="name">葉松霖<br>Song-Lin Yeh</h4>
 								</div>
 							</div>
 							<!-- Ming-Shan -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Ming-Shan.jpg">
 								<div class="info">
 									<h4 class="name">高銘杉<br>Ming-Shan Gao</h4>
 								</div>
 							</div>
 							<!-- Jung-Ying -->
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Jung-Ying.jpg">
 								<div class="info">
 									<h4 class="name">謝駿熒<br>Jung-Ying Hsieh</h4>
@@ -273,106 +273,106 @@
 						<header>
 							<h3>Alumni Students</h3>
 						</header>
-						<div class="group">
-							<div class="card">
+						<div class="row aln-left gtr-0">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Po-Hsuan.jpg">
 								<div class="info">
 									<h4 class="name">陳柏軒<br>Po-Hsuan Chen</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/yi-an.jpg">
 								<div class="info">
 									<h4 class="name">陳奕安<br>Yi-An Chen</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/shiuan-yu.jpg">
 								<div class="info">
 									<h4 class="name">陳亘宇<br>Hsuan-Yu Chen</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Wei-Cheng.jpg">
 								<div class="info">
 									<h4 class="name">林維誠<br>Wei-Cheng Lin</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Shan-Wen.jpg">
 								<div class="info">
 									<h4 class="name">蕭善文<br>Shan-Wen Hsiao</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Hung-Ching.jpg">
 								<div class="info">
 									<h4 class="name">孫泓敬<br>Hung-Ching Sun</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/WeiChen.jpg">
 								<div class="info">
 									<h4 class="name">陳瑋晨<br>Wei-Chen Chen</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Yu-Hsien.jpg">
 								<div class="info">
 									<h4 class="name">廖育賢<br>Yu-Hsien Liao</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/po-tsun.jpg">
 								<div class="info">
 									<h4 class="name">賴柏村<br>Po-Tsun Lai</h4>
 								</div>
 							</div>
 
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Wen-Yu.jpg">
 								<div class="info">
 									<h4 class="name">黃文俞<br>Wen-Yu Huang</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Ling-Ling.jpg">
 								<div class="info">
 									<h4 class="name">廖伶伶<br>Ling-Ling Liao</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Xian-Hong.jpg">
 								<div class="info">
 									<h4 class="name">曾憲泓<br>Xian-Hong Zeng</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Ya-Ling.jpg">
 								<div class="info">
 									<h4 class="name">徐雅玲<br>Ya-Ling Hsu</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/shiuan-kai.jpg">
 								<div class="info">
 									<h4 class="name">高炫凱<br>Shiuan-Kai Kao</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Zhang-Yu.jpg">
 								<div class="info">
 									<h4 class="name">張雨<br>Yu Zhang</h4>
 								</div>
 							</div>
 
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Yu-Shuo.jpg">
 								<div class="info">
 									<h4 class="name">劉于碩<br>Yu-Shuo Liu</h4>
 								</div>
 							</div>
-							<div class="card">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Ya-Tse.jpg">
 								<div class="info">
 									<h4 class="name">吳亞澤<br>Ya-Tse Wu</h4>
@@ -384,8 +384,8 @@
 						<header>
 							<h3>Staff</h3>
 						</header>
-						<div class="group">
-							<div class="card">
+						<div class="row aln-left gtr-0">
+							<div class="col-12-small col-6-medium col-4 card">
 								<img src="./images/member/Sheau-Ying.jpg">
 								<div class="info">
 									<h4 class="name">石曉瑩<br>Sheau-Ying Sek</h4>
