@@ -31,12 +31,12 @@
 		<h1 id="logo"><a href="./">AHEAD</a></h1>
 		<nav id="nav">
 			<ul>
-				<!-- <li><a href="./">Top</a></li> -->
-				<li><a href="#banner">Our Vision</a></li>
-				<li><a href="#flow">Flow Introduction</a></li>
-				<li><a href="#mcap">MCAP Introduction</a></li>
-				<li><a href="#advantage">Advantage</a></li>
-				<li><a href="#publication">Publications</a></li>
+				<!-- <li><a href="#banner">Our Vision</a></li> -->
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#publications">Publications</a></li>
+				<li><a href="#conferences">Conferences</a></li>
+				<li><a href="#news">News</a></li>
 				<li><a href="#team">Our Team</a></li>
 			</ul>
 		</nav>
@@ -47,10 +47,12 @@
 		<div class="background-white"></div>
 		<div class="background"></div>
 		<header>
-			<img id="ahead-logo" src="images/icon/logo.png">
+			<img id="ahead-logo" src="images/icon/logo_red.svg">
 			<h1>智能化血液診斷與預後預測</h1>
 			<p class="ahead-long"><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support</p>
+			<div style="width: 82.35%;padding-left:15%;padding-top: 2em;text-align: center;">We focus on developing diagnostic and disease assessment tools for hematologic diseases using artificial intelligence.</div>
 		</header>
+
 		<footer>
 			<a id="more" href="#banner" class="button style2 scrolly-middle">See More</a>
 		</footer>
@@ -61,14 +63,21 @@
 		<header>
 			<h2>Our Vision</h2>
 		</header>
-		<p>We develop patient-centered AI algorithms to provide clinical decision support for physicians in treating hematologic diseases by conducting efficient and comprehensive disease status assessment throughout patient treatment course, reducing interpretation idiosyncrasies and alleviate manpower shortage gap for clinical demands.</p>
+		<p style="text-align: justify;">We are a team focusing on developing solution using artificial intelligence to solve challenges in treating hematologic malignancies:
+		<ul type=""style="text-align: justify;">
+			<li>Healthcare manpower shortage</li>
+			<li>Growth of clinical data complexity and scale</li>
+			<li>Inter-physician idiosyncrasy</li>
+			<li>Poor prognosis</li>
+		</ul>
+		</p>
 		<br>
 		<div class="row">
 			<div class="off-0-mobile col-6-mobile off-1 col-4">
-				<h4>Healthcare manpower shortage</h4>
+				<h4>Manpower Shortage</h4>
 			</div>
 			<div class="off-0-mobile col-6-mobile off-2 col-4">
-				<h4>Exponential Growth of Clinical Data Complexity and Scale</h4>
+				<h4>Clinical Data Complexity and Scale</h4>
 			</div>
 		</div>
 		<div class="row">
@@ -88,13 +97,118 @@
 		</div>
 		
 		<header id="mission" style="margin: 3em auto 0 auto;">
-			<h3 style="text-shadow: 1px 1px 3px black; color: red; font-weight: 600; font-size: 120%">AHEAD Mission Statement</h3>
-			<p>Provide efficient, comprehensive, and high fidelity disease diagnostic/evaluation tools to support physicians in optimizing treatment plan for patients with malignant hematologic diseases.</p>
+			<h3 style="text-shadow: 1px 1px 3px #888; color: red; font-weight: 600; font-size: 120%">AHEAD Mission Statement</h3>
+			<p>Provide efficient, comprehensive, and high fidelity disease diagnostic &amp; disease evaluation solutions to support physicians in optimizing treatment plan for patients with malignant hematologic diseases.</p>
 		</header>
 		<footer>
 			<a href="#flow" class="button style2 scrolly">See Introduction</a>
 		</footer>
 	</section>
+
+	<!-- about us -->
+	<article id="about" class="container box style3">
+		<header>
+			<h2>About Us</h2>
+		</header>
+		<section>
+			<header style="text-align: left">
+				<img class="org-logo" src="./images/icon/ntuh-blood.png" style="width: 15%; right: calc(3em + 15%)">
+				<img class="org-logo" src="./images/icon/ntuh.png" style="width: 15%; ">
+				<h3>Hematology Division<br>Department of Internal Medicine<br>National Taiwan University Hospital<br>臺大醫院內科部血液科</h3>
+			</header>
+			<div class="inner row">
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Jih-Luh Tang.png" width="100%">
+					<p style="text-align: center;">Dr. Jih-Luh Tang</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Bor-Sheng Ko.png" width="100%">
+					<p style="text-align: center;">Dr. Bor-Sheng Ko</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<header style="text-align: left">
+				<img class="org-logo" src="./images/icon/ntu.png" style="width: 15%; float: right">
+				<h3>Tai-Cheng Stem Cell Therapy Center<br>National Taiwan University<br>國立臺灣大學台成幹細胞治療中心</h3>
+			</header>
+			<div class="inner row">
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Andrea Wang.png" width="100%">
+					<p style="text-align: center;">Andrea Wang</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Chi-Cheng Li.png" width="100%">
+					<p style="text-align: center;">Dr. Chi-Cheng Li</p>
+				</div>
+				<!-- <div class="col-4-mobile col-3">
+					<img src="./images/member/Pei-Fang Weng.png" width="100%">
+					<p style="text-align: center;">Pei-Fang Weng</p>
+				</div> -->
+			</div>
+		</section>
+		<section>
+			<header style="text-align: left">
+				<img class="org-logo" src="./images/icon/nthu.png" style="width: 15%; float: right">
+				<h3>Department of Electrical Engineering<br>National Tsing Hua University<br>國立清華大學電機工程學系</h3>
+			</header>
+			<div class="inner row">
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Chi-Chun Lee.png" width="100%">
+					<p style="text-align: center;">Dr. Chi-Chun Lee</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Jeng-Lin Li.png" width="100%">
+					<p style="text-align: center;">Jeng-Lin Li</p>
+				</div>
+				<div class="col-4-mobile col-3">
+					<img src="./images/member/Chih-Chuan Lu.png" width="100%">
+					<p style="text-align: center;">Chih-Chuan Lu</p>
+				</div>
+			</div>
+			<div class="inner row">
+				<div class="col-12-mobile col-9">
+					<a href="http://biic.ee.nthu.edu.tw/"><img src="./images/icon/biiclab.png" style="width: 100%;"></a>
+				</div>
+			</div>
+			<div class="inner row">
+				<div class="col-12-mobile col-9">
+					<img src="./images/member/biicers_1808.jpg" style="width: 100%;">
+				</div>
+			</div>
+				
+		</section>
+	</article>
+
+	<!-- product -->
+	<article id="products" class="container box style1 right">
+		<div id="products-list">
+			<a href="#flow" class="button">AHEAD-flow</a>
+			<a href="#mcap" class="button">AHEAD-mcap</a>
+		</div>
+		<div class="inner" style="margin-left: 30%; padding-left: 2em;">
+			<header style="text-align: center;">
+				<h2>AHEAD Advantage</h2>
+			</header>
+			<section>
+				<div class="row" style="text-align: center;">
+					<div class="col-4">
+						<h3>Efficient</h3>
+						<img src="./images/data/efficient.png" width="80%">
+					</div>
+					<div class="col-4">
+						<h3>Objective</h3>
+						<img src="./images/data/unbiased.png" width="80%">
+					</div>
+					<div class="col-4">
+						<h3>Comprehensive</h3>
+						<img src="./images/data/comp-circle.png" width="80%">
+					</div>
+				</div>
+			</section>
+		</div>
+	</article>
+
 
 	<!-- flow -->
 	<article id="flow" class="container box style3">
@@ -110,9 +224,9 @@
 
 	</article>
 
-	<!-- Feature 1 -->
+	<!-- flow-demo -->
 	<article id="demo" class="container box style1 right">
-		<a href="#demo" class="image fit" style="width: 40%"><img src="images/demo-vert.png" alt="Service" style="width: 100%; height: auto;"></a>
+		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo-vert.png" alt="Service" style="width: 100%; height: auto;"></a>
 		<div class="inner" style="margin-left: 40%;padding-left: 2em;">
 			<header>
 				<h2>Residual Leukemia Cell Detection Model Service</h2>
@@ -120,21 +234,29 @@
 			<section>
 				<div class="row" style="display: flex; align-items: center; text-align: center;">
 					<div class="col-2">
-						<img src="./images/adv/01.png" width="100%">
+						<img src="./images/data/efficient.png" width="100%">
 					</div>
 					<div class="col-3"><b>Physician</b><br>20 <small>Mins</small></div>
 					<div class="col-3" style="line-height: 70%">
-						<img src="./images/adv/arrow.png" width="60%"><br>
+						<img src="./images/data/arrow.png" width="60%"><br>
 						<label style="color: red;"><b><small>100+ times</small></b></label>
 					</div>
 					<div class="col-4"><b>AHEAD-flow</b><br>7 <small>Seconds</small></div>
 				</div>
 				<div class="row" style="display: flex; align-items: center; text-align: center;">
 					<div class="col-2">
-						<img src="./images/adv/04.png" width="100%">
+						<img src="./images/data/acc.png" width="100%">
 					</div>
 					<div class="col-10" style="padding-right: 10%">
 						<b>90% concordance with physicians<br>AUC: 0.921-0.950</b>
+					</div>
+				</div>
+				<div class="row" style="display: flex; align-items: center; text-align: center;">
+					<div class="col-2">
+						<img src="./images/data/acc.png" width="100%">
+					</div>
+					<div class="col-10" style="padding-right: 10%">
+						<b>7+ years of clinical data incorporated</b>
 					</div>
 				</div>
 			</section>
@@ -155,14 +277,14 @@
 	</article>
 
 	<!-- advantage -->
-	<article id="advantage" class="container box style2">
+	<!-- <article id="advantage" class="container box style2">
 		<header>
 			<h2>AHEAD Advantage</h2>
 		</header>
 		<div class="inner gallery">
 			<div class="row gtr-0">
 				<div class="col-6-mobile off-3-mobile col-2 off-2">
-					<div class="image fit" style="background-color: white"><img src="./images/adv/01.png"></div>
+					<div class="image fit" style="background-color: white"><img src="./images/data/efficient.png"></div>
 				</div>
 				<div class="col-3"></div>
 				<div class="col-5 col-12-mobile" style="display: flex; align-items: center;">
@@ -173,7 +295,7 @@
 			</div>
 			<div class="row gtr-0" style="margin-top: 2em">
 				<div class="col-6-mobile off-3-mobile col-2 off-2">
-					<div class="image fit" style="background-color: white"><img src="./images/adv/02.png"></div>
+					<div class="image fit" style="background-color: white"><img src="./images/data/unbiased.png"></div>
 				</div>
 				<div class="col-3"></div>
 				<div class="col-5 col-12-mobile">
@@ -184,7 +306,7 @@
 			</div>
 			<div class="row gtr-0" style="margin-top: 2em">
 				<div class="col-6-mobile off-3-mobile col-2 off-2">
-					<div class="image fit" style="background-color: white"><img src="./images/adv/03.png"></div>
+					<div class="image fit" style="background-color: white"><img src="./images/data/comp-circle.png"></div>
 				</div>
 				<div class="col-3"></div>
 				<div class="col-5 col-12-mobile">
@@ -194,7 +316,7 @@
 				</div>
 			</div>
 		</div>
-	</article>
+	</article> -->
 
 	<!-- Feature 2 -->
 	<!-- <article class="container box style1 right">
@@ -231,7 +353,7 @@
 		</div>
 	</article> -->
 
-	<article id="publication" class="container box style3">
+	<article id="publications" class="container box style3">
 		<header>
 			<h2>Publications</h2>
 		</header>
@@ -240,10 +362,10 @@
 				<h3>Conference Speech</h3>
 			</header>
 			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, “An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome by Detecting Pre and Post-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data “, The 23rd Annual Congress of Asia-Pacific Blood and Marrow Transplantation Group (APBMT 2018)</li>
-				<li>Chi-Chun Lee, “Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis using Deep Generative Model”, 2018 REWORK- AI in Healthcare summit, <a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule">https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule</a></li>
-				<li>Bor-Sheng Ko, “An artificial intelligence approach in classifying AML and MDS for MRD detection using flow cytometry”, 2018 Annual Congress of the Hematology Society of Taiwan and Taiwan Society of Blood and Marrow Transplantation</li>
-				<li>Chi-Chun Lee, “AI-in Health Behavior Analytics“, 2017 Taiwan AI Conference, <a href="http://datasci.tw/cclee/">http://datasci.tw/cclee/</a></li>
+				<li>Bor-Sheng Ko, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome by Detecting Pre and Post-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data", The 23rd Annual Congress of Asia-Pacific Blood and Marrow Transplantation Group (APBMT 2018)</li>
+				<li>Chi-Chun Lee, "Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis using Deep Generative Model", 2018 REWORK- AI in Healthcare summit, <a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule">https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule</a></li>
+				<li>Bor-Sheng Ko, "An artificial intelligence approach in classifying AML and MDS for MRD detection using flow cytometry", 2018 Annual Congress of the Hematology Society of Taiwan and Taiwan Society of Blood and Marrow Transplantation</li>
+				<li>Chi-Chun Lee, "AI-in Health Behavior Analytics", 2017 Taiwan AI Conference, <a href="http://datasci.tw/cclee/">http://datasci.tw/cclee/</a></li>
 			</ul>
 		</section>
 		<section>
@@ -251,7 +373,7 @@
 				<h3>Journal</h3>
 			</header>
 			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,”Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome”, EBioMedicine, 2018, <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></li>
+				<li>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,"Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", EBioMedicine, 2018, <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></li>
 			</ul>
 		</section>
 		<section>
@@ -259,8 +381,8 @@
 				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
 			</header>
 			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, ”RELAPSE AND MORTALITY PREDICTION OF PATIENTS WITH NEWLY DIAGNOSED DE NOVO ACUTE MYELOID LEUKEMIA USING DEEP BIDIRECTIONAL LONG SHORT-TERM MEMORY-DEEP NEURAL NETWORK ARCHITECTURE” in Annual Meeting of American Society of Hematology (ASH), 2018</li>
-				<li>Yu-Fen Wang, Jeng-Lin Li, Bor-Sheng Ko, Chi-Chun Lee, Jih-Luh Tang, “A NATURAL LANGUAGE PROCESSING ALGORITHM TO AUTOMATICALLY CATEGORIZE DISEASE TYPE AND STATUS FROM FREE-TEXT BONE MARROW MORPHOLOGY REPORTS” in European Hematology Association Annual Congress (EHA), 2018, <a href="https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168">https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168</a></li>
+				<li>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Patients with Newly Diagnosed de novo Acute Myeloid Leukemia Using Deep Bidirectional Long Short-term Memory Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</li>
+				<li>Yu-Fen Wang, Jeng-Lin Li, Bor-Sheng Ko, Chi-Chun Lee, Jih-Luh Tang, "A Natural Language Processing Algorithm to Automatically Categorize Disease Type and Status from Free-text Bone Marrow Morphology Reports" in European Hematology Association Annual Congress (EHA), 2018, <a href="https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168">https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168</a></li>
 				<li>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/1403">http://www.bloodjournal.org/content/130/Suppl_1/1403</a></li>
 				<li>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/3980">http://www.bloodjournal.org/content/130/Suppl_1/3980</a></li>
 				<li>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017, <a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></li>
@@ -268,76 +390,72 @@
 		</section>
 	</article>
 
-	<article id="team" class="container box style3">
+	<article id="publications" class="container box style3">
 		<header>
-			<h2>Our Team</h2>
+			<h2>Publications</h2>
 		</header>
 		<section>
-			<header style="text-align: left">
-				<img class="org-logo" src="./images/icon/ntuh.png" style="width: 15%; ">
-				<h3>Hematology Division<br>Department of Internal Medicine<br>National Taiwan University Hospital<br>臺大醫院內科部血液科</h3>
+			<header>
+				<h3>Journal</h3>
 			</header>
-			<div class="inner row">
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Jih-Luh Tang.png" width="100%">
-					<p style="text-align: center;">Dr. Jih-Luh Tang</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Bor-Sheng Ko.png" width="100%">
-					<p style="text-align: center;">Dr. Bor-Sheng Ko</p>
+			<div id="pub-list" class="row" style="font-size: 80%; line-height: 1.8em;">
+				<div class="col-12-mobile col-6-normal col-3">
+					<div class="img-conf"><img src="./images/conf/2018ebiom.png" width="80%"></div>
+					<p>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,"Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", EBioMedicine, 2018</p>
+					<p><a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></p>
 				</div>
 			</div>
 		</section>
 		<section>
-			<header style="text-align: left">
-				<img class="org-logo" src="./images/icon/sctc.png" style="width: 15%; float: right">
-				<h3>Tai-Cheng Stem Cell Therapy Center<br>National Taiwan University<br>國立臺灣大學</h3>
+			<header>
+				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
 			</header>
-			<div class="inner row">
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Andrea Wang.png" width="100%">
-					<p style="text-align: center;">Andrea Wang</p>
+			<div id="pub-list" class="row" style="font-size: 80%; line-height: 1.8em;">
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2018ash.png"></div>
+					<p>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Patients with Newly Diagnosed de novo Acute Myeloid Leukemia Using Deep Bidirectional Long Short-term Memory Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</p>
 				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Chi-Cheng Li.png" width="100%">
-					<p style="text-align: center;">Dr. Chi-Cheng Li</p>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2018eha.png"></div>
+					<p>Yu-Fen Wang, Jeng-Lin Li, Bor-Sheng Ko, Chi-Chun Lee, Jih-Luh Tang, "A Natural Language Processing Algorithm to Automatically Categorize Disease Type and Status from Free-text Bone Marrow Morphology Reports" in European Hematology Association Annual Congress (EHA), 2018</p>
+					<p><a href="https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168">https://learningcenter.ehaweb.org/eha/2018/stockholm/216547/yu-fen.wang.html?f=ce_id=1346*media=3*marker=168</a></p>
 				</div>
-				<!-- <div class="col-4-mobile col-3">
-					<img src="./images/member/Pei-Fang Weng.png" width="100%">
-					<p style="text-align: center;">Pei-Fang Weng</p>
-				</div> -->
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Bor-Sheng Ko, Chi-Cheng Li, Yu-Fen Wang, Jeng-Lin Li, Hsin-An Hou, Pei-Fang Weng, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach in Classifying Acute Myeloid Leukemia and Myelodysplastic Syndrome for Minimal Residual Disease Detection with Post Induction Prognosis Analysis Using Flow Cytometry" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/1403">http://www.bloodjournal.org/content/130/Suppl_1/1403</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Yu-Fen Wang, Bor-Sheng Ko, Chi-Cheng Li, Jeng-Lin Li, Pei-Fang Weng, Huai-Hsuan Huang, Hsin-An Hou, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for B Lymphoblastic Leukemia Minimal Residual Disease Detection and Clinical Prognosis Prediction Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/3980">http://www.bloodjournal.org/content/130/Suppl_1/3980</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ash.png"></div>
+					<p>Chi-Cheng Li, Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Pei-Fang Weng, Hsin-An Hou, Xiu-Wen Liao, Chien-Ting Lin, Jia-Hou Liu, Hsun-I Sun, Hwei-Fang Tien, Chi-Chun Lee, and Jih-Luh Tang, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome By Detecting Pre-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data" in Annual Meeting of American Society of Hematology (ASH), 2017</p>
+					<p><a href="http://www.bloodjournal.org/content/130/Suppl_1/2042">http://www.bloodjournal.org/content/130/Suppl_1/2042</a></p>
+				</div>
 			</div>
-		</section>
-		<section>
-			<header style="text-align: left">
-				<img class="org-logo" src="./images/icon/nthu.png" style="width: 15%; float: right">
-				<h3>Behavioral Informatics and Interaction Computation Lab<br>Department of Electrical Engineering<br>National Tsing Hua University<br>國立清華大學</h3>
-			</header>
-			<div class="inner row">
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Chi-Chun Lee.png" width="100%">
-					<p style="text-align: center;">Dr. Chi-Chun Lee</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Jeng-Lin Li.png" width="100%">
-					<p style="text-align: center;">Jeng-Lin Li</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Chih-Chuan Lu.png" width="100%">
-					<p style="text-align: center;">Chih-Chuan Lu</p>
-				</div>
-			</div>
-			<div class="inner row">
-				<div class="col-12-mobile col-9">
-					<a href="http://biic.ee.nthu.edu.tw/"><img src="./images/icon/biiclab.png" style="width: 100%;"></a>
-				</div>
-			</div>
-			<div class="inner row">
-				<div class="col-12-mobile col-9">
-					<img src="./images/member/biicers_1808.jpg" style="width: 100%;">
-				</div>
-			</div>
-				
 		</section>
 	</article>
 

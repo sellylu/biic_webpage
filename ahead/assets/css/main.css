@@ -1847,7 +1847,7 @@ input, select, textarea {
 			background: url("images/arrow.png") no-repeat;
 		}
 
-		.box :last-child {
+		.box:last-child {
 			margin-bottom: 0;
 		}
 
@@ -1886,8 +1886,8 @@ input, select, textarea {
 				}
 
 			.box.style1.right .inner {
-				margin-left: 50%;
-				padding-left: 3em;
+				margin-left: 30%;
+				padding-left: 2em;
 			}
 
 			.box.style1.left .image {
@@ -1996,7 +1996,7 @@ input, select, textarea {
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
-		padding: 8em 0 7em 0;
+		padding: 6em 0 7em 0;
 		cursor: default;
 	}
 
@@ -2318,7 +2318,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 9em 0 9em 0;
+				padding: 6em 0 9em 0;
 			}
 
 	}
