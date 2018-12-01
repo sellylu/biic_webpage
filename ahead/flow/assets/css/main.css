@@ -1911,7 +1911,7 @@ input::-moz-focus-inner {
 		text-align: left;
 	}
 
-		table tbody tr:nth-child(2n+2) {
+		table tbody tr.active {
 			background: #f4f4f4;
 		}
 

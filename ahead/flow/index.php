@@ -38,6 +38,29 @@
 			font-size: 200px !important;
 			cursor: pointer;
 		}
+		table td {
+			padding: 0.1em 0.4em;
+		}
+		table {
+			text-align: center;
+			color: #888;
+			font-size: 80%;
+		}
+		#header {
+			width: 450px;
+		}
+		#main {
+			margin-left: 450px;
+		}
+		#myProgress {
+			width: 100%;
+			background-color: grey;
+		}
+		#myBar {
+			width: 0.1%;
+			height: 30px;
+			background-color: green;
+		}
 	</style>
 </head>
 <body class="is-preload">
@@ -49,16 +72,46 @@
 			<!-- Logo -->
 			<div id="logo">
 				<a href="./">
-					<span class="image avatar48"><img src="../images/icon/logo.png" alt="AHEAD" /></span>
+					<span class="image" style="width: auto; height: calc(3em + 15px); ">
+						<img src="../images/icon/logo_dark.png" alt="AHEAD" style="width: auto; height: 100%;" />
+					</span>
 					<h1 id="title" style="padding-top: 15px">AHEAD-Flow</h1>
 					<p style="margin-top: 1.5em">Residual Leukemia Cell Detection Model</p>
 				</a>
 			</div>
 			<!-- Nav -->
-			<nav id="nav">
+			<div style="text-align: left; padding: 0 1em;">
+				<div style="text-align: justify;">
+					<h5 style="display: inline;">Search by&emsp;</h5>
+					<select style="display: inline; width: calc(100% - 10em);" >
+						<option>Panel</option>
+						<option>ID</option>
+						<option>Test Date</option>
+					</select>
+					<select style="display: block; width: 100%; margin: 10pt 0;">
+						<option>AML</option>
+					</select>
+					<table id="filter-sample">
+						<thead>
+							<tr>
+								<td>ID</td>
+								<td>Tested</td>
+								<td>Panel</td>
+								<td>Specimen</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+			<!-- <nav id="nav">
 				<ul>
 				</ul>
-			</nav>
+
+
+			</nav> -->
 
 		</div>
 		<div class="bottom">
@@ -80,34 +133,34 @@
 		<!-- submit -->
 		<section id="request" class="one dark cover">
 			<div class="container" style="font-size: 80%">
-				<form method="post" action="">
+				<form method="post" action="write.php">
 					<div class="row">
 						<div class="col">
 							<label for="org">Request Organization</label>
-							<input type="text" class="form-control" name="org" placeholder="">
+							<input id="org" type="text" class="form-control" name="org" placeholder="">
 						</div>
 						<div class="col">
 							<label for="sID">Sample ID</label>
-							<input type="text" class="form-control" name="sID" placeholder="0000" disabled>
+							<input type="text" class="form-control" name="sID" placeholder="0000">
 						</div>
 						<div class="col">
 							<label for="tDate">Test Date</label>
-							<input type="text" id="datepicker" class="form-control" name="tDate" placeholder="2018/08/30">
+							<input type="text" id="datepicker" class="form-control" name="tDate" placeholder=<?php echo '"'.date("Y-m-d").'"'?>>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col">
 							<label for="cytometer">Flow Cytometer</label>
-							<select>
-								<option value="BD®Calibur">BD®Calibur</option>
-								<option value="BD®Calibur-II">BD®Calibur-II</option>
+							<select name="cytometer">
+								<option value="BD®Calibur" selected>BD®Calibur</option>
+								<option value="BD®Calibur-II">BD®Cantol-II</option>
 								<option value="other">Other</option>
 							</select>
 						</div>
 						<div class="col">
 							<label for="specimen">Specimen Type</label>
-							<select id="specimen">
-								<option value="Bone Marrow">Bone Marrow</option>
+							<select name="specimen">
+								<option value="Bone Marrow" selected>Bone Marrow</option>
 								<option value="Peripheral Blood">Peripheral Blood</option>
 								<option value="Lymph node">Lymph node</option>
 								<option value="CSF">CSF</option>
@@ -117,11 +170,11 @@
 						</div>
 						<div class="col" style="text-align: left;">
 							<label for="testPanel">Test Panel(Select or Upload)</label>
-							<select id="testPanel" style="display:inline; position: inherit;width: 8em;">
-								<option value="AML">AML</option>
+							<select id="testPanel" name="testPanel" style="display:inline; position: inherit;width: 8em;">
+								<option value="AML" selected>AML</option>
 								<option value="other">Other</option>
 							</select>
-							<input type="file" name="panelToUploaded" id="panelToUploaded" style="position: relative;" hidden>
+							<input type="file" name="panelToUploaded" id="panelToUploaded" style="position: relative;" hidden multiple>
 							<input type="text" name="panelNew" id="panelNew" placeholder="input panel name" style="position: relative; width: 10em; display: none;" hidden>
 						</div>
 						<!-- <div class="col">
@@ -157,13 +210,16 @@
 							<textarea type="text" name="remark" id="remark" rows="2" cols="80"></textarea>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-success" style="float: right; font-size: 95%">Submit Request</button>
+					<div class="btn btn-success" onclick="move()" style="float: right; font-size: 95%">Submit Request</div>
 				</form>
+				<div id="myProgress" style="margin-top: 5em;">
+					<div id="myBar"></div>
+				</div>
 			</div>
 		</section>
 
-		<section id="report" class="two">
-			<header>
+		<section id="report" class="two" style="padding-top: 1em;">
+			<header style="margin-bottom: 1em">
 				<h3>Prediction Result</h3>
 			</header>
 			<div class="container" style="font-size: 80%">
@@ -171,29 +227,29 @@
 					<div class="row">
 						<div class="col">
 							<label for="sID">Sample ID</label>
-							<input type="text" class="form-control" name="sID" value="00001" disabled>
+							<input type="text" class="form-control" name="sID" readonly>
 						</div>
 						<div class="col">
 							<label for="tDate">Test Date</label>
-							<input type="text" class="form-control" name="tDate" value="2018/08/30" disabled>
+							<input type="text" class="form-control" name="tDate" readonly>
 						</div>
 						<div class="col">
 							<label for="rDate">Prediction Report Date</label>
-							<input type="text" class="form-control" name="rDate" value="2018/09/10" disabled>
+							<input type="text" class="form-control" name="rDate" readonly>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col">
 							<label for="cytometer">Flow Cytometer</label>
-							<input type="text" class="form-control" name="cytometer" value="BD®Calibur" disabled>
+							<input type="text" class="form-control" name="cytometer" readonly>
 						</div>
 						<div class="col">
 							<label for="specimen">Specimen Type</label>
-							<input type="text" class="form-control" name="specimen" value="Bone Marrow" disabled>
+							<input type="text" class="form-control" name="specimen" readonly>
 						</div>
 						<div class="col">
 							<label for="testPanel">Test Panel</label>
-							<input type="text" class="form-control" name="testPanel" value="AML" disabled>
+							<input type="text" class="form-control" name="testPanel" readonly>
 						</div>
 						<div class="col">
 							<label for="low">Low Event count Flag</label>
@@ -204,63 +260,73 @@
 							<h3 style="text-align: left;"><span name="hemodilution" class="badge badge-secondary">False</span></h3>
 						</div>
 					</div>
-					<div class="row" style="margin-top: .75em">
+					<div class="row" style="margin-top: .75em; font-size: 1.2em;">
 						<div class="col">
 							<h3 style="display: inline; font-weight: 600" >Prediction Result &amp; Probability:&emsp;</h3>
-							<em><h3 id="result" style="display: inline;"></h3></em>
+							<h3 id="result" style="display: inline;"></h3>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-success" style="float: right; font-size: 95%">Export your report</button>
+					<button type="submit" class="btn btn-success" style="float: right; font-size: 95%; margin-top: -2em;">Export your report</button>
 				</form>
 
 
-				<div class="row" style="margin-top: 2em">
-					<div class="col-6">
-						<img src="images/result_3d.png" style="width: 100%;">
+				<div class="row">
+					<div class="col-7">
+						<img id="3d" src="samples_result/plot/0001_3d.png" style="width: 100%;">
 					</div>
-					<div class="col-6">
-						<form method="post" action="">
-							<div class="row">
-								<div class="col">
-									<label for="">Select Tube and</label>
-									<select>
-										<option>1</option>
-										<option>2</option>
-										<option>3</option>
-									</select>
-								</div>
-								<div class="col">
-									<label for="xAX">X-axis</label>
-									<select class="form-control" name="xAX">
-										<option>aaaa</option>
-										<option>bbbb</option>
-										<option>cccc</option>
-									</select>
-								</div>
-								<div class="col">
-									<label for="yAX">Y-axis</label>
-									<select class="form-control" name="yAX">
-										<option>aaaa</option>
-										<option>bbbb</option>
-										<option>cccc</option>
-									</select>
-								</div>
-								<div class="col">
-									<label for="zAX">Z-axis</label>
-									<select class="form-control" name="zAX">
-										<option>aaaa</option>
-										<option>bbbb</option>
-										<option>cccc</option>
-									</select>
+					<div class="col-5">
+						<div class="row">
+							<div class="col-2" style="padding-left: 10px;">Select Tube</div>
+							<div class="col-10">Select Markers for X-axis and Y-axis</div>
+						</div>
+						<div class="row" style="margin-top: -20px">
+							<div class="col-2" style="padding-left: 10px;">
+								<select disabled><option>1</option></select>
+							</div>
+							<div class="col-10" style="padding-left: 0; display: flex; align-items: center; text-align: justify;">
+								<div class="row">
+									<div class="col-4">
+										<select disabled><option>CD45-PerCP</option></select>
+									</div>
+									<div class="col-8" style="padding-left: 20px; text-align: center;">
+										<img id="scatter-A" src="samples/plot/0001_A.png" width="100%">
+										<select disabled><option>SSC-H</option></select>
+									</div>
 								</div>
 							</div>
-						</form>
-						<div style="margin-top: 2em;">
-							<img src="images/result_tube.png" style="width: 30%; display: inline;">
-							<img src="images/result_tube.png" style="width: 30%; display: inline;">
-							<img src="images/result_tube.png" style="width: 30%; display: inline;">
 						</div>
-
+						<div class="row" style="margin-top: -20px">
+							<div class="col-2" style="padding-left: 10px;">
+								<select disabled><option>2</option></select>
+							</div>
+							<div class="col-10" style="padding-left: 0; display: flex; align-items: center; text-align: justify;">
+								<div class="row">
+									<div class="col-4">
+										<select disabled><option>CD11b-PE</option></select>
+									</div>
+									<div class="col-8" style="padding-left: 20px; text-align: center;">
+										<img id="scatter-B" src="samples_result/plot/0001_B.png" width="100%">
+										<select disabled><option>HLA-DR-FITC</option></select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row" style="margin-top: -20px">
+							<div class="col-2" style="padding-left: 10px;">
+								<select disabled><option>5</option></select>
+							</div>
+							<div class="col-10" style="padding-left: 0; display: flex; align-items: center; text-align: justify;">
+								<div class="row">
+									<div class="col-4">
+										<select disabled><option>CD13PE</option></select>
+									</div>
+									<div class="col-8" style="padding-left: 20px; text-align: center;">
+										<img id="scatter-C" src="samples_result/plot/0001_A.png" width="100%">
+										<select disabled><option>CD16-FITC</option></select>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -284,7 +350,7 @@
 	<div id="footer">
 		<!-- Copyright -->
 		<ul class="copyright">
-			<li>&copy; <u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support (AHEAD). All rights reserved.</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+			<li>&copy; <a href="../"><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support (AHEAD)</a>. All rights reserved.</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
 		</ul>
 	</div>
 
@@ -300,19 +366,32 @@
 
 	<script>
 		var files = <?php $out = array();
-		foreach (glob('samples/*') as $filename) {
-		    $p = pathinfo($filename);
-		    $out[] = $p['filename'];
+		foreach (glob('samples/*.out') as $filename) {
+			$p = pathinfo($filename);
+			$out[] = $p['filename'];
 		}
 		echo json_encode($out); ?>;
-		for(var i=0; i<files.length; i++) {
-			$("#nav ul").append('<li><a class="report scrolly" href="#report"><span class="icon fa-user">'+files[i]+'</span></a></li>');
-		}
-		$("#request [name*=sID]").attr("placeholder", ("0000" + (Number(files[files.length-1])+1)).slice(-4));
 
+		for(var i=0; i<files.length; i++) {
+			getBrief(i);
+		}
+		function getBrief(i) {
+			$.get("samples/"+files[i]+".out", function(data) {
+				tr='<tr id="'+files[i]+'"><td><a class="report scrolly" href="#report" onclick="refresh(\''+files[i]+'\')">'+files[i]+'</a></td><td>';
+				tr+=data.split('\n')[1].split(': ')[1].trim()+'</td><td>';
+				tr+=data.split('\n')[5].split(': ')[1].trim()+'</td><td>';
+				tr+=data.split('\n')[4].split(': ')[1].trim()+'</td></tr>';
+				$("#filter-sample tbody").append(tr);
+			});
+		}
+
+		$("#request [name*=sID]").val(("0000" + (Number(files[files.length-1])+1)).slice(-4));
+		$("#request [name*=sID]").prop("readonly","readonly")
+		// $("#request [name*=sID]").attr("placeholder", ("0000" + (Number(files[files.length-1])+1)).slice(-4));
 
 		$( function() {
-			$( "#datepicker" ).datepicker();
+			$( "#datepicker" ).datepicker({ dateFormat: 'yy-mm-dd' });
+
 		} );
 		$("#testPanel").change(function() {
 			var op = $(this).children().filter(":selected").val();
@@ -333,19 +412,30 @@
 			}
 		});
 		
-		$(".report").click(function() {
-			$("nav ul li a").removeClass("active");
-			$(this).toggleClass("active");
-			var sID = $(this).text();
-			$.get("samples/"+sID, function(data) {
+		function refresh(sID) {
+			$("tr").removeClass("active");
+			$("#"+sID).toggleClass("active");
+			
+			console.log(sID);
+			$("#3d").attr("src","samples_result/plot/"+sID+"_3d.png");
+			$("#scatter-A").attr("src","samples_result/plot/"+sID+"_A.png");
+			$("#scatter-B").attr("src","samples_result/plot/"+sID+"_B.png");
+			$("#scatter-C").attr("src","samples_result/plot/"+sID+"_C.png");
+			$("#result").html("");
+			$.get("samples/"+sID+".out", function(data) {
 				console.log(data);
-				$("#result").html("");
 				data = data.split("\n")
 				for(var i=0; i<data.length; i++) {
 					var con = data[i].split(": ")[1].trim();
-					if(i<6) {
-						$("#report input")[i].value = con;
-					} else if(i<8) {
+					$("#report input")[i].value = con;
+				}
+			});
+			$.get("samples_result/"+sID+".out", function(data) {
+				console.log(data);
+				data = data.split("\n")
+				for(var i=0; i<data.length; i++) {
+					var con = data[i].split(": ")[1].trim();
+					if(i<2) {
 						$($("#report span")[i-6]).html(con);
 						$($("#report span")[i-6]).removeClass("badge-danger badge-secondary")
 						if(con=="True"){
@@ -358,7 +448,24 @@
 					}
 				}
 			});
-		});
+		}
+		function move() {
+			setTimeout(submit, 2500)
+			var elem = document.getElementById("myBar"); 
+			var width = 1;
+			var id = setInterval(frame, 10);
+			function frame() {
+				if (width >= 100) {
+					clearInterval(id);
+				} else {
+					width++; 
+					elem.style.width = width + '%'; 
+				}
+			}
+		}
+		function submit() {
+			$("#request form").submit();
+		}
 	</script>
 
 
