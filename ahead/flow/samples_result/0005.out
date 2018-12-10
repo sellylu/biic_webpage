@@ -1,4 +1,4 @@
-Low Event Count: False
+Low Event Count: True
 Hemodilution: False
-Prediction Result: Abnormal
-Probability: 90.2%
+Prediction Result: No Abnormality
+Probability: 52.0%

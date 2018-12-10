@@ -16,6 +16,29 @@ Test Panel: $_POST[testPanel]";
 fwrite($myfile, $txt);
 fclose($myfile);
 
+$fileCount = count($_FILES['fcsToUploaded']['name']);
+
+for ($i = 0; $i < $fileCount; $i++) {
+
+	if ($_FILES["fcsToUploaded"]["error"][$i] === UPLOAD_ERR_OK) {
+		echo "File name: " . $_FILES["fcsToUploaded"]["name"][$i]."<br/>";
+		echo "File type: " . $_FILES["fcsToUploaded"]["type"][$i]."<br/>";
+		echo "File size: " . ($_FILES["fcsToUploaded"]["size"][$i] / 1024 / 1024)." Mb<br />";
+		echo "Cache name: " . $_FILES["fcsToUploaded"]["tmp_name"][$i];
+
+		if (!file_exists("samples/fcs/$_POST[sID]/")) {
+			mkdir("samples/fcs/$_POST[sID]/");
+		}
+		if (!file_exists("samples/fcs/$_POST[sID]/".$_FILES["fcsToUploaded"]["name"][$i])) {
+			move_uploaded_file($_FILES["fcsToUploaded"]["tmp_name"][$i],"samples/fcs/$_POST[sID]/".$_FILES["fcsToUploaded"]["name"][$i]);
+		} else {
+			echo "Error: File $_FILES[fcsToUploaded][name][$i] exists";
+		}
+	} else {
+		echo "Error: ".$_FILES["fcsToUploaded"]["error"][$i];
+	}
+
+}
 http_response_code(200);
-header("location:./#report");
+// header("location:./#report");
 ?>
