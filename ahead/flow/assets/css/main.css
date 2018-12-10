@@ -2048,7 +2048,7 @@ input::-moz-focus-inner {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 22vw/*375px*/;
+		width: 22vw;
 	}
 
 		#header .top {

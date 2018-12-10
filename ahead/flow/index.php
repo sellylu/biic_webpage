@@ -149,21 +149,21 @@
 			<div class="container" style="font-size: 80%">
 				<form method="post" action="write.php"  enctype="multipart/form-data">
 					<div class="row">
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="org">Request Organization</label>
 							<input id="org" type="text" class="form-control" name="org" placeholder="">
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="sID">Sample ID</label>
 							<input type="text" class="form-control" name="sID" placeholder="0000">
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="tDate">Test Date</label>
 							<input type="text" id="datepicker" class="form-control" name="tDate" placeholder=<?php echo '"'.date("Y-m-d").'"'?>>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="cytometer">Flow Cytometer</label>
 							<select name="cytometer">
 								<option value="BD®Calibur" selected>BD®Calibur</option>
@@ -171,7 +171,7 @@
 								<option value="other">Other</option>
 							</select>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="specimen">Specimen Type</label>
 							<select name="specimen">
 								<option value="Bone Marrow" selected>Bone Marrow</option>
@@ -183,7 +183,7 @@
 							</select>
 						</div>
 						<div class="col-4-narrow col-0">&nbsp;</div>
-						<div class="col-4-narrow col-8" style="text-align: left;">
+						<div class="col-4-narrow col-6-normal col-8" style="text-align: left;">
 							<label for="testPanel">Test Panel(Select or Upload)</label>
 							<select id="testPanel" name="testPanel" style="display:inline; position: inherit;width: 8em;">
 								<option value="AML" selected>AML</option>
@@ -220,7 +220,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12-narrow col-6" style="text-align: left;">
+						<div class="col-12-narrow col-9-normal col-6" style="text-align: left;">
 							<label for="remark">Remark</label>
 							<textarea type="text" name="remark" id="remark" rows="2" cols="80" style="margin-bottom: 2em;"></textarea>
 						</div>
@@ -240,37 +240,38 @@
 			<div class="container" style="font-size: 80%">
 				<form method="post" action="">
 					<div class="row">
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="sID">Sample ID</label>
 							<input type="text" class="form-control" name="sID" readonly>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="tDate">Test Date</label>
 							<input type="text" class="form-control" name="tDate" readonly>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="rDate">Prediction Report Date</label>
 							<input type="text" class="form-control" name="rDate" readonly>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-4-narrow col-2">
+					<div class="row gtr">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="cytometer">Flow Cytometer</label>
 							<input type="text" class="form-control" name="cytometer" readonly>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="specimen">Specimen Type</label>
 							<input type="text" class="form-control" name="specimen" readonly>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="testPanel">Test Panel</label>
 							<input type="text" class="form-control" name="testPanel" readonly>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-0-narrow col-1-normal"></div>
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="low">Low Event count Flag</label>
 							<h3 style="text-align: left;"><span name="low" class="badge badge-secondary">False</span></h3>
 						</div>
-						<div class="col-4-narrow col-2">
+						<div class="col-4-narrow col-3-normal col-2">
 							<label for="hemodilution">Hemodilution Flag</label>
 							<h3 style="text-align: left;"><span name="hemodilution" class="badge badge-secondary">False</span></h3>
 						</div>
@@ -285,11 +286,11 @@
 				</form>
 
 
-				<div class="row" style="width: 100%">
-					<div class="col-12-narrow col-7">
+				<div class="row gtr-25" style="width: auto">
+					<div class="col-12-narrow col-6-normal col-7">
 						<img id="3d" src="samples_result/plot/0001_3d.png" style="width: 100%;">
 					</div>
-					<div class="col-12-narrow col-5">
+					<div class="col-12-narrow col-6-normal col-5">
 						<div class="row gtr-25 aln-middle">
 							<div class="col-3">Select Tube</div>
 							<div class="col-9">Select Markers for X-axis and Y-axis</div>
