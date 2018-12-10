@@ -1043,6 +1043,11 @@ input::-moz-focus-inner {
 					order: -1;
 				}
 
+				.row > .col-0-narrow {
+					width: 0%;
+					padding: 0;
+				}
+
 				.row > .col-1-narrow {
 					width: 8.3333333333%;
 				}

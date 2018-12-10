@@ -40,5 +40,5 @@ for ($i = 0; $i < $fileCount; $i++) {
 
 }
 http_response_code(200);
-// header("location:./#report");
+header("location:./#report");
 ?>
