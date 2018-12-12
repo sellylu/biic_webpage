@@ -167,7 +167,7 @@
 							<label for="cytometer">Flow Cytometer</label>
 							<select name="cytometer">
 								<option value="BD®Calibur" selected>BD®Calibur</option>
-								<option value="BD®Calibur-II">BD®Cantol-II</option>
+								<option value="BD®Calibur-II">BD®Canto-II</option>
 								<option value="other">Other</option>
 							</select>
 						</div>
@@ -288,7 +288,7 @@
 
 				<div class="row gtr-25" style="width: auto">
 					<div class="col-12-narrow col-6-normal col-7">
-						<img id="3d" src="samples_result/plot/0001_3d.png" style="width: 100%;">
+						<img id="3d" src="samples_result/plot_bak/0001_3d.png" style="width: 100%;">
 					</div>
 					<div class="col-12-narrow col-6-normal col-5">
 						<div class="row gtr-25 aln-middle">
@@ -305,7 +305,7 @@
 										<select><option>CD45-PerCP</option></select>
 									</div>
 									<div class="col-8">
-										<img id="scatter-A" src="samples_result/plot/0001_A.png" width="100%">
+										<img id="scatter-A" src="samples_result/plot_bak/0001_A.png" width="100%">
 										<select><option>SSC-H</option></select>
 									</div>
 								</div>
@@ -321,7 +321,7 @@
 										<select><option>CD11b-PE</option></select>
 									</div>
 									<div class="col-8">
-										<img id="scatter-B" src="samples_result/plot/0001_B.png" width="100%">
+										<img id="scatter-B" src="samples_result/plot_bak/0001_B.png" width="100%">
 										<select><option>HLA-DR-FITC</option></select>
 									</div>
 								</div>
@@ -337,7 +337,7 @@
 										<select><option>CD13PE</option></select>
 									</div>
 									<div class="col-8">
-										<img id="scatter-C" src="samples_result/plot/0001_A.png" width="100%">
+										<img id="scatter-C" src="samples_result/plot_bak/0001_C.png" width="100%">
 										<select><option>CD16-FITC</option></select>
 									</div>
 								</div>
@@ -389,11 +389,13 @@
 		echo json_encode($out); ?>;
 
 		for(var i=0; i<files.length; i++) {
-			getBrief(i);
+			getBrief(files[i]);
 		}
-		function getBrief(i) {
-			$.get("samples/"+files[i]+".out", function(data) {
-				tr='<tr id="'+files[i]+'"><td><a class="report scrolly" href="#report" onclick="refresh(\''+files[i]+'\')">'+files[i]+'</a></td><td>';
+		function getBrief(f) {
+			// id = f.split("_")[0];
+			$.get("samples/"+f+".out", function(data) {
+				sID=data.split('\n')[0].split(': ')[1].trim();
+				tr='<tr id="'+f+'"><td><a class="report scrolly" href="#report" onclick="refresh(\''+f+'\')">'+sID+'</a></td><td>';
 				tr+=data.split('\n')[1].split(': ')[1].trim()+'</td><td>';
 				tr+=data.split('\n')[5].split(': ')[1].trim()+'</td><td>';
 				tr+=data.split('\n')[4].split(': ')[1].trim()+'</td></tr>';
@@ -401,7 +403,7 @@
 			});
 		}
 
-		$("#request [name*=sID]").val(("0000" + (Number(files[files.length-1])+1)).slice(-4));
+		$("#request [name*=sID]").val(("0000" + (Number(files[files.length-1].split("_",1))+1)).slice(-4));
 		$("#request [name*=sID]").prop("readonly","readonly")
 		// $("#request [name*=sID]").attr("placeholder", ("0000" + (Number(files[files.length-1])+1)).slice(-4));
 
@@ -428,17 +430,21 @@
 			}
 		});
 		
-		function refresh(sID) {
+		function refresh(f) {
+			console.log(f);
+			sID  = f.split('_')[0];
+			name = f.split('_')[1] + "_" + f.split('_')[2];
 			$("tr").removeClass("active");
-			$("#"+sID).toggleClass("active");
+			$("#"+f).toggleClass("active");
 			
 			console.log(sID);
-			$("#3d").attr("src","samples_result/plot/"+sID+"_3d.png");
-			$("#scatter-A").attr("src","samples_result/plot/"+sID+"_A.png");
-			$("#scatter-B").attr("src","samples_result/plot/"+sID+"_B.png");
-			$("#scatter-C").attr("src","samples_result/plot/"+sID+"_C.png");
+			console.log(name);
+			$("#3d").attr("src","samples_result/plot/"+name+"_3d.png");
+			$("#scatter-A").attr("src","samples_result/plot/"+name+"_A.png");
+			$("#scatter-B").attr("src","samples_result/plot/"+name+"_B.png");
+			$("#scatter-C").attr("src","samples_result/plot/"+name+"_C.png");
 			$("#result").html("");
-			$.get("samples/"+sID+".out", function(data) {
+			$.get("samples/"+f+".out", function(data) {
 				console.log(data);
 				data = data.split("\n")
 				for(var i=0; i<data.length; i++) {
@@ -446,7 +452,7 @@
 					$("#report input")[i].value = con;
 				}
 			});
-			$.get("samples_result/"+sID+".out", function(data) {
+			$.get("samples_result/"+name+".out", function(data) {
 				console.log(data);
 				data = data.split("\n")
 				for(var i=0; i<data.length; i++) {
