@@ -236,7 +236,7 @@
 							<textarea type="text" name="remark" id="remark" rows="2" cols="80" style="margin-bottom: 2em;"></textarea>
 						</div>
 					</div>
-					<button class="btn btn-success" type="submit" style="float: right; font-size: 95%">Submit Request</button>
+					<div class="btn btn-success" onclick="move()" style="float: right; font-size: 95%">Submit Request</div>
 				</form>
 				<div id="myProgress" style="margin-top: 5em;">
 					<div id="myBar"></div>
@@ -488,15 +488,15 @@
 			});
 		}
 		function move() {
-			// if ($("#fcsToUploaded").val()!='') {
+			if ($("#fcsToUploaded").val()!='') {
 				setTimeout(submit, 2500)
 				var elem = $("#myBar"); 
 				var width = 1;
 				var id = setInterval(frame, 10);
-			// } else {
-			// 	$("#fcsToUploaded").css("border", "1px solid red");
-			// 	$("#warn").show();
-			// }
+			} else {
+				$("#fcsToUploaded").css("border", "1px solid red");
+				$("#warn").show();
+			}
 			function frame() {
 				if (width >= 100) {
 					clearInterval(id);
