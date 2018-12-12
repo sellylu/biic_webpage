@@ -75,6 +75,17 @@
 				margin-top: -7em;
 			}
 		}
+
+		input, textarea, select, label, div, button, h5{
+			/*color: black;*/
+			font-weight: 600;
+		}
+		input {
+			border-radius: 5px;
+		}
+		#report {
+			background-color: #dddadd;
+		}
 	</style>
 </head>
 <body class="is-preload">
@@ -147,31 +158,31 @@
 		<!-- submit -->
 		<section id="request" class="one dark cover">
 			<div class="container" style="font-size: 80%">
-				<form method="post" action="write.php"  enctype="multipart/form-data">
+				<form method="post" action="write.php" enctype="multipart/form-data">
 					<div class="row">
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="org">Request Organization</label>
-							<input id="org" type="text" class="form-control" name="org" placeholder="">
+							<input id="org" type="text" class="form-control" name="org">
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="sID">Sample ID</label>
-							<input type="text" class="form-control" name="sID" placeholder="0000">
+							<input type="text" class="form-control" name="sID" placeholder="0000" style="background-color: #ccc !important; color: #555;">
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="tDate">Test Date</label>
-							<input type="text" id="datepicker" class="form-control" name="tDate" placeholder=<?php echo '"'.date("Y-m-d").'"'?>>
+							<input type="text" id="datepicker" class="form-control" name="tDate" value=<?php echo '"'.date("Y-m-d").'"'?>>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="cytometer">Flow Cytometer</label>
 							<select name="cytometer">
-								<option value="BD®Calibur" selected>BD®Calibur</option>
-								<option value="BD®Calibur-II">BD®Canto-II</option>
+								<option value="BD&reg;Calibur" selected>BD<sup>&reg;</sup>Calibur</option>
+								<option value="BD&reg;Canto-II">BD<sup>&reg;</sup>Canto-II</option>
 								<option value="other">Other</option>
 							</select>
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="specimen">Specimen Type</label>
 							<select name="specimen">
 								<option value="Bone Marrow" selected>Bone Marrow</option>
@@ -183,7 +194,7 @@
 							</select>
 						</div>
 						<div class="col-4-narrow col-0">&nbsp;</div>
-						<div class="col-4-narrow col-6-normal col-8" style="text-align: left;">
+						<div class="col-4-narrow col-6-normal col-6" style="text-align: left;">
 							<label for="testPanel">Test Panel(Select or Upload)</label>
 							<select id="testPanel" name="testPanel" style="display:inline; position: inherit;width: 8em;">
 								<option value="AML" selected>AML</option>
@@ -202,7 +213,7 @@
 						</div> -->
 					</div>
 					<div class="row">
-						<div class="col-6" style="text-align: left;">
+						<div class="col-12" style="text-align: left;">
 							<label for="low">Low Event Flag Threshold</label>
 							<select id="low" style="display: inline; position: inherit; width: 8em">
 								<option value="1000">&lt;1000</option>
@@ -214,18 +225,18 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-6" style="text-align: left;">
+						<div class="col-12" style="text-align: left;">
 							<label for="fcsToUploaded">Upload fcs files</label>
-							<input type="file" name="fcsToUploaded[]" id="fcsToUploaded" multiple>
+							<input type="file" name="fcsToUploaded[]" id="fcsToUploaded" multiple><span id="warn" hidden style="font-weight:600; color: red; text-shadow: 0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;">&nbsp;&nbsp;&nbsp;Please select files to upload!</span>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12-narrow col-9-normal col-6" style="text-align: left;">
+						<div class="col-12-narrow col-9-normal col-9" style="text-align: left;">
 							<label for="remark">Remark</label>
 							<textarea type="text" name="remark" id="remark" rows="2" cols="80" style="margin-bottom: 2em;"></textarea>
 						</div>
 					</div>
-					<div class="btn btn-success" onclick="move()" style="float: right; font-size: 95%">Submit Request</div>
+					<button class="btn btn-success" type="submit" style="float: right; font-size: 95%">Submit Request</button>
 				</form>
 				<div id="myProgress" style="margin-top: 5em;">
 					<div id="myBar"></div>
@@ -240,38 +251,38 @@
 			<div class="container" style="font-size: 80%">
 				<form method="post" action="">
 					<div class="row">
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="sID">Sample ID</label>
 							<input type="text" class="form-control" name="sID" readonly>
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="tDate">Test Date</label>
 							<input type="text" class="form-control" name="tDate" readonly>
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="rDate">Prediction Report Date</label>
 							<input type="text" class="form-control" name="rDate" readonly>
 						</div>
 					</div>
 					<div class="row gtr">
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="cytometer">Flow Cytometer</label>
 							<input type="text" class="form-control" name="cytometer" readonly>
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="specimen">Specimen Type</label>
 							<input type="text" class="form-control" name="specimen" readonly>
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="testPanel">Test Panel</label>
 							<input type="text" class="form-control" name="testPanel" readonly>
 						</div>
-						<div class="col-0-narrow col-1-normal"></div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-0-narrow col-1-normal col-1"></div>
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="low">Low Event count Flag</label>
 							<h3 style="text-align: left;"><span name="low" class="badge badge-secondary">False</span></h3>
 						</div>
-						<div class="col-4-narrow col-3-normal col-2">
+						<div class="col-4-narrow col-3-normal col-3">
 							<label for="hemodilution">Hemodilution Flag</label>
 							<h3 style="text-align: left;"><span name="hemodilution" class="badge badge-secondary">False</span></h3>
 						</div>
@@ -363,7 +374,7 @@
 	</div>
 
 	<!-- Footer -->
-	<div id="footer">
+	<div id="footer" style="font-weight: inherit;">
 		<!-- Copyright -->
 		<ul class="copyright">
 			<li>&copy; <a href="//biic.ee.nthu.edu.tw/ahead/"><u><b>A</b></u>i-assisted <u><b>HE</b></u>matologic <u><b>A</b></u>nalytic and <u><b>D</b></u>ecision Support (AHEAD)</a>. All rights reserved.</li><li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
@@ -388,6 +399,8 @@
 		}
 		echo json_encode($out); ?>;
 
+		// files.sort();
+
 		for(var i=0; i<files.length; i++) {
 			getBrief(files[i]);
 		}
@@ -402,8 +415,11 @@
 				$("#filter-sample tbody").append(tr);
 			});
 		}
-
-		$("#request [name*=sID]").val(("0000" + (Number(files[files.length-1].split("_",1))+1)).slice(-4));
+		if (files.length != 0) {
+			$("#request [name*=sID]").val(("0000" + (Number(files[files.length-1].split("_",1))+1)).slice(-4));
+		} else {
+			$("#request [name*=sID]").val("0001");
+		}
 		$("#request [name*=sID]").prop("readonly","readonly")
 		// $("#request [name*=sID]").attr("placeholder", ("0000" + (Number(files[files.length-1])+1)).slice(-4));
 
@@ -472,16 +488,21 @@
 			});
 		}
 		function move() {
-			setTimeout(submit, 2500)
-			var elem = document.getElementById("myBar"); 
-			var width = 1;
-			var id = setInterval(frame, 10);
+			// if ($("#fcsToUploaded").val()!='') {
+				setTimeout(submit, 2500)
+				var elem = $("#myBar"); 
+				var width = 1;
+				var id = setInterval(frame, 10);
+			// } else {
+			// 	$("#fcsToUploaded").css("border", "1px solid red");
+			// 	$("#warn").show();
+			// }
 			function frame() {
 				if (width >= 100) {
 					clearInterval(id);
 				} else {
 					width++; 
-					elem.style.width = width + '%'; 
+					elem.css("width", width + '%'); 
 				}
 			}
 		}

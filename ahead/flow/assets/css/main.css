@@ -2204,7 +2204,7 @@ input::-moz-focus-inner {
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 22vw/*375px*/;
 	}
 
 		#main > section {
@@ -2251,7 +2251,7 @@ input::-moz-focus-inner {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #dddadd;/*#f5fafa;*/
 			}
 
 			#main > section.three {
