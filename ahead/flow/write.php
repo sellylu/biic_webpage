@@ -1,6 +1,9 @@
 <?php
 http_response_code(500);
-$myfile = fopen("samples/$_POST[sID].out", "w") or die("Unable to open file!");
+
+$name = explode('.', $_FILES['fcsToUploaded']['name'][0])[0];
+
+$myfile = fopen("samples/$_POST[sID]_$name.out", "w") or die("Unable to open file!");
 
 $txt = "Sample ID: $_POST[sID]
 Test Date: $_POST[tDate]
@@ -26,11 +29,11 @@ for ($i = 0; $i < $fileCount; $i++) {
 		echo "File size: " . ($_FILES["fcsToUploaded"]["size"][$i] / 1024 / 1024)." Mb<br />";
 		echo "Cache name: " . $_FILES["fcsToUploaded"]["tmp_name"][$i];
 
-		if (!file_exists("samples/fcs/$_POST[sID]/")) {
-			mkdir("samples/fcs/$_POST[sID]/");
+		if (!file_exists("samples/fcs/$_POST[sID]_$name/")) {
+			mkdir("samples/fcs/$_POST[sID]_$name/");
 		}
-		if (!file_exists("samples/fcs/$_POST[sID]/".$_FILES["fcsToUploaded"]["name"][$i])) {
-			move_uploaded_file($_FILES["fcsToUploaded"]["tmp_name"][$i],"samples/fcs/$_POST[sID]/".$_FILES["fcsToUploaded"]["name"][$i]);
+		if (!file_exists("samples/fcs/$_POST[sID]_$name/".$_FILES["fcsToUploaded"]["name"][$i])) {
+			move_uploaded_file($_FILES["fcsToUploaded"]["tmp_name"][$i],"samples/fcs/$_POST[sID]_$name/".$_FILES["fcsToUploaded"]["name"][$i]);
 		} else {
 			echo "Error: File $_FILES[fcsToUploaded][name][$i] exists";
 		}
@@ -40,5 +43,5 @@ for ($i = 0; $i < $fileCount; $i++) {
 
 }
 http_response_code(200);
-header("location:./#report");
+header("location: ./#report");
 ?>
