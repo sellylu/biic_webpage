@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157703545711811" title="2018 Genius for home"><img src="https://farm8.staticflickr.com/7891/45745285324_50d9a293f5_b.jpg" width="1024" height="768" alt="2018 Genius for home"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

@@ -13,7 +13,9 @@
 		.select {
 			display: inline;
 		}
-		
+		.box.post h2 {
+			line-height: 1;
+		}
 	</style>
 
 </head>
@@ -60,8 +62,84 @@
 
 				</article>
 
+				<!-- year 2019 -->
+				<?php $year=2019; ?>
+				<!-- genuisforhome -->
+				<?php $id=38; $mon='01'; $name='genuisforhome'; $full=" CES, Las Vegas, USA "; 
+					  $img ="1909/43841655430_8d9de4239e";
+				?>
+				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
+					<div class="row">
+						<header class="post-meta col-12-medium col-2">
+							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
+						</header>
+						<section class="post-content col-12-medium col-10">
+							<header>
+								<h2>
+									<?php
+									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
+									// echo $link.$year.$full.'</a>';
+									echo '<a href="#post-'.$id.'">'.$year.$full.'</a>';
+									echo '</h2></header>';
+									echo '<div>';
+									// echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									// echo substr($link,0,-1).'class="button">Read More →</a>';
+									echo '<h3>Coming soon...</h3>';
+									?>
+							</div>	
+						</section>
+					</div>
+				</article>
 				<!-- year 2018 -->
 				<?php $year=2018; ?>
+				<!-- futuretech -->
+				<?php $id=37; $mon='12'; $name='futuretech'; $full=" Future Tech Expo, Taiwan"; 
+					  $img ="4830/45438064585_3441343d9c";
+				?>
+				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
+					<div class="row">
+						<header class="post-meta col-12-medium col-2">
+							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
+						</header>
+						<section class="post-content col-12-medium col-10">
+							<header>
+								<h2>
+									<?php
+									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
+									echo $link.$year.$full.'</a>';
+									echo '</h2></header>';
+									echo '<div>';
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
+									?>
+							</div>	
+						</section>
+					</div>
+				</article>
+				<!-- genuisforhome -->
+				<?php $id=36; $mon='12'; $name='genuisforhome'; $full=" 聯發科智在家鄉 (MediaTek genuisforhome) Final Competition, Taiwan"; 
+					  $img ="7891/45745285324_50d9a293f5";
+				?>
+				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
+					<div class="row">
+						<header class="post-meta col-12-medium col-2">
+							<h3 class="entry-time" itemprop="datePublished"><?php echo $year.'.'.$mon; ?></h3>
+						</header>
+						<section class="post-content col-12-medium col-10">
+							<header>
+								<h2>
+									<?php
+									$link='<a href="./blog.php?id='.$id.'&name='.$year.$name.'&full='.$year.$full.'">';
+									echo $link.$year.$full.'</a>';
+									echo '</h2></header>';
+									echo '<div>';
+									echo $link.'<img src="https://farm2.staticflickr.com/'.$img.'_b.jpg"></a>';
+									echo substr($link,0,-1).'class="button">Read More →</a>';
+									?>
+							</div>	
+						</section>
+					</div>
+				</article>
 				<!-- 2018 avec -->
 				<?php $id=35; $mon='10'; $name='avec'; $full=" AVEC in Seoul, Korea"; 
 					  $img ="1909/43841655430_8d9de4239e";

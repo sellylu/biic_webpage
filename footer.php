@@ -9,24 +9,30 @@
 					</header>
 					<ul class="dates">
 						<li>
+							<span class="date">Dec <strong>19</strong></span>
+							<h3><a href="news.php#post-37">2018 聯發科智在家鄉 (MediaTek genuisforhome) Final Competition, Taiwan</a></h3>
+							<p>We received the special prize out of top 10 groups!</p>
+						</li>
+						<li>
+							<span class="date">Dec <strong>13-15</strong></span>
+							<h3><a href="news.php#post-37">2018 Future Tech Expo, Taiwan</a></h3>
+							<p>Our AHEAD team received the innovation award!</p>
+						</li>
+						<li>
 							<span class="date">Oct <strong>22</strong></span>
-							<h3><a href="news.php#post-33">2018 AVEC in Seoul, Korea</a></h3>
+							<h3><a href="news.php#post-35">2018 AVEC in Seoul, Korea</a></h3>
 							<p>Oral presentation by Chih-Chuan Lu on:<br>
 							Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, "Learning an Arousal-Valence Speech Front-End Network using Media Data In-the-Wild for Emotion Recognition", in Proceedings of ACM on the Audio/Visual Emotion Challenge and Workshop (AVEC), 2018</p>
 						</li>
 						<li>
 							<span class="date">Oct <strong>16-20</strong></span>
-							<h3><a href="news.php#post-33">2018 ICMI in Boulder, Colorado, USA</a></h3>
+							<h3><a href="news.php#post-34">2018 ICMI in Boulder, Colorado, USA</a></h3>
 							<p>Oral presentation by Yun-Shao Lin and Gao-Yi Chao on:<br>
 								Gao-Yi Chao, Chun-Min Chang, Jeng-Lin Li, Ya-Tse Wu, Chi-Chun Lee, "Generating fMRI-Enriched Acoustic Vectors using a Cross-Modality Adversarial Network for Emotion Recognition" in Proceedings of ACM International Conference on Multimodal Interaction (ICMI), 2018<br>
 								Yun-Shao Lin, Chi-Chun Lee, "Using Interlocutor-Modulated Attention BLSTM to Predict Personality Traits in Small Group Interactions", in Proceedings of ACM International Conference on Multimodal Interaction (ICMI), 2018
 							</p>
 						</li>
-						<li>
-							<span class="date">Oct <strong>04-05</strong></span>
-							<h3><a href="news.php#post-33">ROCLING</a></h3>
-							<p>30th Conference on Computational Linguistics and Speech Processing</p>
-						</li>
+						
 						
 					</ul>
 				</section>

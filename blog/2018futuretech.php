@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157704718141815" title="2018 Future Tech"><img src="https://farm5.staticflickr.com/4830/45438064585_3441343d9c_b.jpg" width="1024" height="683" alt="2018 Future Tech"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

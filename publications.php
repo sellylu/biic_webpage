@@ -63,6 +63,7 @@
 		<h3>Journal</h3>
 	</header>
 	<ol>
+		<li class="pub">Chin-Po Chen, Susan Shur-Fen Gau, <strong>Chi-Chun Lee</strong>, "Toward Differential Diagnosis of Autism Spectrum Disorder using Multimodal Behavior Descriptors and Executive Functions", in Journal of Computer Speech and Language (CSL)</li>
 		<li class="pub">Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, <strong>Chi-Chun Lee</strong>, Jih-Luh Tang , "Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", in EBioMedicine (2018), DOI: 10.1016/j.ebiom.2018.10.042 (in press)</li>
 		<li class="pub">Wei-Cheng Lin and <strong>Chi-Chun Lee*</strong>, "Computational Analyses of Thin-sliced Behavior Segments in Session-level Affect Perception" in IEEE Transactions on Affective Computing (2018) </li>
 		<li class="pub">Shan-Wen Hsiao, Hung-Ching Sun, Ming-Chuan Hsieh, Ming-Hsueh Tsai, Yu Tsao, and <strong>Chi-Chun Lee*</strong>, "Toward Automating Oral Presentation Scoring during Principal Certification Program using Audio-video Low-level Behavior Profiles", in IEEE Transactions on Affective Computing (2017) DOI: 10.1109/TAFFC.2017.2749569</li>
