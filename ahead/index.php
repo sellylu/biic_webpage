@@ -89,7 +89,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="off-0-mobile col-6-mobile off-2 col-4" style="padding-top: 6vw;">
+			<div class="off-0-mobile col-6-mobile off-1-normal col-6-normal off-2 col-4" style="padding-top: 6vw;">
 			<?php
 				for($i=1; $i<=12; $i++) {
 					echo "<img class=\"icon-data\" src=\"images/data/".sprintf("%02d", $i).".png\" style=\"margin: 3pt;\">";
@@ -112,10 +112,54 @@
 	<article id="about" class="container box style3">
 		<header>
 			<h2>About Us</h2>
+			<p>National Taiwan University Hospital | 臺大醫院內科部血液科<br>
+				National Taiwan University | 國立臺灣大學台成幹細胞治療中心<br>
+				National Tsing Hua University | 國立清華大學電機工程學系
+			</p>
+			<div>
+				<img class="org-logo" src="./images/icon/ntuh.png" width="10%">
+				<img class="org-logo" src="./images/icon/ntu.png" width="10%">
+				<img class="org-logo" src="./images/icon/nthu.png" width="10%">
+			</div>
+
 		</header>
 		<section>
+			<header>
+				<h3>Co-founders</h3>
+				<div class="row aln-center gtr-0" style="margin: 0.5em 0;">
+					<div class="col-4-mobile col-4">
+						<img src="./images/member/Bor-Sheng Ko.png" width="60%">
+						<p style="text-align: center;">Dr. Bor-Sheng Ko</p>
+					</div>
+					<div class="col-4-mobile col-4">
+						<img src="./images/member/Andrea Wang.png" width="60%">
+						<p style="text-align: center;">Andrea Wang</p>
+					</div>
+					<div class="col-4-mobile col-4">
+						<img src="./images/member/Chi-Chun Lee.png" width="60%">
+						<p style="text-align: center;">Dr. Chi-Chun Lee</p>
+					</div>
+				</div>
+			</header>
+		</section>
+		<section>
+			<header>
+				<h3>C</h3>
+				<div class="row aln-center gtr-0" style="margin: 0.5em 0;">
+					<div class="col-4-mobile col-3">
+						<img src="./images/member/Jih-Luh Tang.png" width="100%">
+						<p style="text-align: center;">Dr. Jih-Luh Tang</p>
+					</div>
+					<div class="col-4-mobile col-3">
+						<img src="./images/member/Chi-Cheng Li.png" width="100%">
+						<p style="text-align: center;">Dr. Chi-Cheng Li</p>
+					</div>
+				</div>
+			</header>
+		</section>
+		<section>
 			<header style="text-align: left">
-				<img class="org-logo" src="./images/icon/ntuh-blood.png" style="width: 15%; right: calc(3em + 15%)">
+				<!-- <img class="org-logo" src="./images/icon/ntuh-blood.png" style="width: 15%; right: calc(3em + 15%)"> -->
 				<img class="org-logo" src="./images/icon/ntuh.png" style="width: 15%; ">
 				<h3>Hematology Division<br>Department of Internal Medicine<br>National Taiwan University Hospital<br>臺大醫院內科部血液科</h3>
 			</header>
@@ -197,15 +241,15 @@
 				<div class="row aln-center gtr-50" style="text-align: center;">
 					<div class="col-12-narrow col-4">
 						<h3>Efficient</h3>
-						<img src="./images/data/efficient.png" width="80%">
+						<img src="./images/data/efficient.png">
 					</div>
 					<div class="col-12-narrow col-4">
 						<h3>Objective</h3>
-						<img src="./images/data/unbiased.png" width="80%">
+						<img src="./images/data/unbiased.png">
 					</div>
 					<div class="col-12-narrow col-4">
 						<h3>Comprehensive</h3>
-						<img src="./images/data/comp-circle.png" width="80%">
+						<img src="./images/data/comp-circle.png">
 					</div>
 				</div>
 			</section>
@@ -229,7 +273,7 @@
 
 	<!-- flow-demo -->
 	<article id="demo" class="container box style1 right">
-		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo.png" alt="Service" style=" width: 100%; height: auto; margin: auto; bottom: 0"></a>
+		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo_vert.png" alt="Service" style=" width: 100%; height: auto; margin: auto; bottom: 0"></a>
 		<div class="inner" style="margin-left: 40%;padding-left: 2em;">
 			<header>
 				<h2>Residual Leukemia Cell Detection Model Service</h2>
@@ -256,7 +300,7 @@
 				</div>
 				<div class="row" style="display: flex; align-items: center; text-align: center;">
 					<div class="col-2">
-						<img src="./images/data/acc.png" width="100%">
+						<img src="./images/data/hist.png" width="100%">
 					</div>
 					<div class="col-10" style="padding-right: 10%">
 						<b>7+ years of clinical data incorporated</b>
@@ -391,6 +435,7 @@
 				<div class="col-12-mobile col-6-normal col-4">
 					<div class="img-conf"><img src="./images/conf/2018ash.png"></div>
 					<p>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Patients with Newly Diagnosed de novo Acute Myeloid Leukemia Using Deep Bidirectional Long Short-term Memory Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</p>
+					<p><a href="https://ash.confex.com/ash/2018/webprogram/Paper115778.html">https://ash.confex.com/ash/2018/webprogram/Paper115778.html</a></p>
 				</div>
 				<div class="col-12-mobile col-6-normal col-4">
 					<div class="img-conf"><img src="./images/conf/2018eha.png"></div>
@@ -580,7 +625,9 @@
 		<section id="footer">
 			<ul class="icons">
 				<li><a href="tel:+886223123456;63576" class="icon fa-phone"><span class="label">Phone</span></a>+886-2-2312-3456 #63576</li>
-				<li><a href="mailto:ahead.taiwan@gamil.com" class="icon fa-envelope"><span class="label">Email</span></a>ahead.taiwan@gamil.com</li>
+				<li><a href="mailto:ahead.taiwan@gamil.com" class="icon fa-envelope"><span class="label">Email</span></a>ahead.taiwan@gamil.com</li><br>
+				<li ><a href="https://twitter.com/AHEAD_Taiwan" class="icon fa-twitter" target="__blank"><span class="label">Twitter</span></a></li>
+				<li><a href="https://linkedin.com/company/ahead-taiwan" class="icon fa-linkedin" target="__blank"><span class="label">Linkedin</span></a></li>
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
