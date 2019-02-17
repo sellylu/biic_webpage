@@ -1,17 +1,34 @@
 <tr>
+	<td>老年精神醫學會年會</td>
+	<td>AI for behavior computing</td>
+	<td>NTU, Taiwan</td>
+	<td>2019/03/10</td>
+</tr>
+<tr>
+	<td>人工智慧學校</td>
+	<td>AI-enabled decision analytics in our daily life</td>
+	<td>Hsinchu, Taiwan</td>
+	<td>2019/03/09</td>
+<tr>
+	<td>Nvdia deep learning community</td>
+	<td>Behavioral Informatics and Interaction Computation Lab</td>
+	<td>君品飯店</td>
+	<td>2019/01/17</td>
+</tr>
+<tr>
 	<td>人工智慧學校</td>
 	<td>深度學習應用於醫療行為、政治媒體與電影分析</td>
-	<td>中研院</td>
+	<td>Academia Sinica, Taiwan</td>
 	<td>2018/12/08</td>
 </tr>
 	<td>International Symposium on Affective Science and Application (Keynote)</td>
 	<td>Advancing emotion AI sensing technology by learning to integrate neuroperceptual information</td>
-	<td>NCCU</td>
+	<td>NCCU, Taiwan</td>
 	<td>2018/12/10</td>
 </tr>
 	<td>社政資料治理論壇</td>
 	<td>深度學習應用於醫療行為、政治媒體與電影分析</td>
-	<td>台大</td>
+	<td>NTU</td>
 	<td>2018/11/27</td>
 </tr>
 	<td>Bilateral Workshop between NTHU and Tohoku University GSIS</td>
@@ -21,12 +38,12 @@
 </tr>
 	<td>AI工作坊：社科院人工智慧初探講座</td>
 	<td>Human-Centered AI: Learning Human-centered  Analytics from Multimodal Data</td>
-	<td>中正大學</td>
+	<td>NCCU</td>
 	<td>2018/11/10</td>
 </tr>
 	<td>台灣精神醫學會</td>
 	<td>AI for Behavior Computing:<br> Case Studies in Healthcare Applications</td>
-	<td>中國醫</td>
+	<td>CMUH, Taiwan</td>
 	<td>2018/11/03</td>
 </tr>
 	<td>ACM AVEC 2018<br>(Keynote)</td>
@@ -36,17 +53,17 @@
 </tr>
 	<td>人工智慧學校</td>
 	<td>AI for Personality, Emotion and Mental States Recognition</td>
-	<td>新竹</td>
+	<td>Hsinchu, Taiwan</td>
 	<td>2018/10/06</td>
 </tr>
 	<td>陽明醫工</td>
 	<td>AI for Human-Centered Behavior Analytics:<br>Health Applications</td>
-	<td>陽明大學</td>
+	<td>NYMU, Taiwan</td>
 	<td>2018/09/27</td>
 </tr>
 	<td>台大醫院精神部</td>
 	<td>AI for Human-Centered Behavior Analytics:<br>Health Applications</td>
-	<td>臺大醫院</td>
+	<td>NTUH, Taiwan</td>
 	<td>2018/09/17</td>
 </tr>
 	<td>台灣電通</td>
