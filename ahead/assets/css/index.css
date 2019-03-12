@@ -56,15 +56,19 @@
 #products-list {
     width: 25%;
     position: absolute;
-    margin-top: 1em;
+    /*margin-top: 1em;*/
 }
 #products-list a { 
     width: -webkit-fill-available;
-    padding: 1em;
+    padding: 0.5em;
     margin-bottom: 0;
 }
 #products-list a:first-child {
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
+}
+#pub-list {
+    font-size: 80%;
+    line-height: 1.8em;
 }
 #pub-list > div {
     position: relative;
@@ -89,11 +93,15 @@
     padding-right: 20px;
 }
 .img-conf {
-    height: 120px;
+    height: 150px;
     display: flex;
 }
+.img-conf a {
+    margin: auto;
+    text-decoration: none;
+}
 .img-conf img {
-    max-height: 120px;
+    max-height: 150px;
     max-width: 100%;
     height: auto;
     margin: auto;

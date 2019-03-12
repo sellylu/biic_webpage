@@ -2,6 +2,7 @@
 http_response_code(500);
 
 $name = explode('.', $_FILES['fcsToUploaded']['name'][0])[0];
+// var_dump($_POST);
 
 $myfile = fopen("samples/$_POST[sID]_$name.out", "w") or die("Unable to open file!");
 

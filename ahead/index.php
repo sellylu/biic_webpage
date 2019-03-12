@@ -36,7 +36,7 @@
 				<li><a href="#products">Products</a></li>
 				<li><a href="#publications">Publications</a></li>
 				<!-- <li><a href="#conferences">Conferences</a></li> -->
-				<!-- <li><a href="#news">News</a></li> -->
+				<li><a href="#news">News</a></li>
 				<li><a href="#footer">Contact Us</a></li>
 			</ul>
 		</nav>
@@ -116,122 +116,91 @@
 				National Taiwan University | 國立臺灣大學台成幹細胞治療中心<br>
 				National Tsing Hua University | 國立清華大學電機工程學系
 			</p>
-			<div>
-				<img class="org-logo" src="./images/icon/ntuh.png" width="10%">
-				<img class="org-logo" src="./images/icon/ntu.png" width="10%">
-				<img class="org-logo" src="./images/icon/nthu.png" width="10%">
+			<div class="row aln-center gtr-0">
+				<div class="col-4-mobile col-4">
+					<img class="org-logo" src="./images/icon/ntuh.png" width="30%">
+				</div>
+				<div class="col-4-mobile col-4">
+					<img class="org-logo" src="./images/icon/ntu.png" width="30%">
+				</div>
+				<div class="col-4-mobile col-4">
+					<img class="org-logo" src="./images/icon/nthu.png" width="30%">
+				</div>
 			</div>
 
 		</header>
-		<section>
+		<section style="margin-bottom: 1em;">
 			<header>
 				<h3>Co-founders</h3>
 				<div class="row aln-center gtr-0" style="margin: 0.5em 0;">
-					<div class="col-4-mobile col-4">
+					<div class="col-4">
 						<img src="./images/member/Bor-Sheng Ko.png" width="60%">
 						<p style="text-align: center;">Dr. Bor-Sheng Ko</p>
 					</div>
-					<div class="col-4-mobile col-4">
+					<div class="col-4">
 						<img src="./images/member/Andrea Wang.png" width="60%">
 						<p style="text-align: center;">Andrea Wang</p>
 					</div>
-					<div class="col-4-mobile col-4">
+					<div class="col-4">
 						<img src="./images/member/Chi-Chun Lee.png" width="60%">
 						<p style="text-align: center;">Dr. Chi-Chun Lee</p>
 					</div>
 				</div>
 			</header>
 		</section>
-		<section>
+		<section style="margin-bottom: 1.5em;">
 			<header>
-				<h3>C</h3>
+				<h3>AI Engineers</h3>
 				<div class="row aln-center gtr-0" style="margin: 0.5em 0;">
-					<div class="col-4-mobile col-3">
-						<img src="./images/member/Jih-Luh Tang.png" width="100%">
+					<div class="col-4">
+						<img src="./images/member/Jeng-Lin Li.png" width="60%">
+						<p style="text-align: center; padding: 0;">Jeng-Lin Li</p>
+					</div>
+					<div class="col-4">
+						<img src="./images/member/Chih-Chuan Lu.png" width="60%">
+						<p style="text-align: center; padding: 0;">Chih-Chuan Lu</p>
+					</div>
+				</div>
+			</header>
+			<div class="inner row aln-center gtr-0">
+				<div class="col-12-mobile col-9">
+					<a href="http://biic.ee.nthu.edu.tw/"><img src="./images/icon/biiclab.png" style="width: 100%;"></a>
+				</div>
+			</div>
+			<div class="inner row aln-center gtr-0">
+				<div class="col-12-mobile col-9">
+					<img src="./images/member/biicers_1808.jpg" style="width: 100%;">
+				</div>
+			</div>
+		</section>
+		<section style="margin-bottom: 1em;">
+			<header>
+				<h3>Clinicians</h3>
+				<div class="row aln-center gtr-0" style="margin: 0.5em 0;">
+					<div class="col-4">
+						<img src="./images/member/Jih-Luh Tang.png" width="60%">
 						<p style="text-align: center;">Dr. Jih-Luh Tang</p>
 					</div>
-					<div class="col-4-mobile col-3">
-						<img src="./images/member/Chi-Cheng Li.png" width="100%">
+					<div class="col-4">
+						<img src="./images/member/Chi-Cheng Li.png" width="60%">
 						<p style="text-align: center;">Dr. Chi-Cheng Li</p>
 					</div>
 				</div>
 			</header>
 		</section>
-		<section>
-			<header style="text-align: left">
-				<!-- <img class="org-logo" src="./images/icon/ntuh-blood.png" style="width: 15%; right: calc(3em + 15%)"> -->
-				<img class="org-logo" src="./images/icon/ntuh.png" style="width: 15%; ">
-				<h3>Hematology Division<br>Department of Internal Medicine<br>National Taiwan University Hospital<br>臺大醫院內科部血液科</h3>
-			</header>
-			<div class="inner row">
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Jih-Luh Tang.png" width="100%">
-					<p style="text-align: center;">Dr. Jih-Luh Tang</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Bor-Sheng Ko.png" width="100%">
-					<p style="text-align: center;">Dr. Bor-Sheng Ko</p>
-				</div>
-			</div>
-		</section>
-		<section>
-			<header style="text-align: left">
-				<img class="org-logo" src="./images/icon/ntu.png" style="width: 15%; float: right">
-				<h3>Tai-Cheng Stem Cell Therapy Center<br>National Taiwan University<br>國立臺灣大學台成幹細胞治療中心</h3>
-			</header>
-			<div class="inner row">
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Andrea Wang.png" width="100%">
-					<p style="text-align: center;">Andrea Wang</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Chi-Cheng Li.png" width="100%">
-					<p style="text-align: center;">Dr. Chi-Cheng Li</p>
-				</div>
-				<!-- <div class="col-4-mobile col-3">
-					<img src="./images/member/Pei-Fang Weng.png" width="100%">
-					<p style="text-align: center;">Pei-Fang Weng</p>
-				</div> -->
-			</div>
-		</section>
-		<section>
-			<header style="text-align: left">
-				<img class="org-logo" src="./images/icon/nthu.png" style="width: 15%; float: right">
-				<h3>Department of Electrical Engineering<br>National Tsing Hua University<br>國立清華大學電機工程學系</h3>
-			</header>
-			<div class="inner row">
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Chi-Chun Lee.png" width="100%">
-					<p style="text-align: center;">Dr. Chi-Chun Lee</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Jeng-Lin Li.png" width="100%">
-					<p style="text-align: center;">Jeng-Lin Li</p>
-				</div>
-				<div class="col-4-mobile col-3">
-					<img src="./images/member/Chih-Chuan Lu.png" width="100%">
-					<p style="text-align: center;">Chih-Chuan Lu</p>
-				</div>
-			</div>
-			<div class="inner row">
-				<div class="col-12-mobile col-9">
-					<a href="http://biic.ee.nthu.edu.tw/"><img src="./images/icon/biiclab.png" style="width: 100%;"></a>
-				</div>
-			</div>
-			<div class="inner row">
-				<div class="col-12-mobile col-9">
-					<img src="./images/member/biicers_1808.jpg" style="width: 100%;">
-				</div>
-			</div>
-				
-		</section>
+
 	</article>
 
 	<!-- product -->
 	<article id="products" class="container box style1 right">
 		<div id="products-list">
-			<a href="#flow" class="button">AHEAD-flow</a>
-			<a href="#mcap" class="button">AHEAD-mcap</a>
+			<header style="text-align: center;">
+				<h2>AHEAD Model</h2>
+			</header>
+			<div class="row aln-center aln-bottom gtr-0" style="height: 12vw;">
+				<div class="col-12"><a href="#flow" class="button">AHEAD-flow</a></div>
+				<div class="col-12"><a href="#mcap" class="button">AHEAD-mcap</a></div>
+			</div>
 		</div>
 		<div id="advantage" class="inner" style="margin-left: 30%; padding-left: 2em;">
 			<header style="text-align: center;">
@@ -264,8 +233,9 @@
 			<p>Residual Leukemia Cell Detection Model</p>
 		</header>
 		<section>
-			<div style="text-align: center;"><img src="./images/flow.png" width="80%"></div>
-			<p>With a shared vision in revolutionizing clinical practices by developing and deploying state-of-art AI technology to support efficient and objective medical diagnosis for leukemia. In this joint project, our aim is to develop AI-assisted analytics for acute leukemia diagnosis. An AI-assisted Flow Cytometry (FC) interpretation algorithm was developed using over 10,000 unique FC diagnostic samples collected in the National Taiwan University Hospital – achieving accuracy above 0.9 AUC. This AI-assisted interpretation was further clinically validated against patient’s final survival outcomes. This use of learning high-dimensional FC-data representation through deep-learning neural network fundamentally challenges the current status-quo in traditional observation-based manual diagnostic interpretation procedure done by expert physicians.</p>
+			<div style="text-align: center;"><img src="./images/flow-struc.png" width="100%"></div>
+			<!-- <div style="text-align: center;"><img src="./images/flow.png" width="80%"></div>
+			<p>With a shared vision in revolutionizing clinical practices by developing and deploying state-of-art AI technology to support efficient and objective medical diagnosis for leukemia. In this joint project, our aim is to develop AI-assisted analytics for acute leukemia diagnosis. An AI-assisted Flow Cytometry (FC) interpretation algorithm was developed using over 10,000 unique FC diagnostic samples collected in the National Taiwan University Hospital – achieving accuracy above 0.9 AUC. This AI-assisted interpretation was further clinically validated against patient’s final survival outcomes. This use of learning high-dimensional FC-data representation through deep-learning neural network fundamentally challenges the current status-quo in traditional observation-based manual diagnostic interpretation procedure done by expert physicians.</p> -->
 			<p style="text-align: center;">EBioMedicine  DOI: <a href="https://doi.org/10.1016/j.ebiom.2018.10.042">10.1016/j.ebiom.2018.10.042</a></p>
 		</section>
 
@@ -273,7 +243,7 @@
 
 	<!-- flow-demo -->
 	<article id="demo" class="container box style1 right">
-		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo_vert.png" alt="Service" style=" width: 100%; height: auto; margin: auto; bottom: 0"></a>
+		<a href="./flow" class="image fit" style="width: 40%"><img src="images/demo-vert.png" alt="Service" style=" width: 100%; height: auto; margin: auto; bottom: 0"></a>
 		<div class="inner" style="margin-left: 40%;padding-left: 2em;">
 			<header>
 				<h2>Residual Leukemia Cell Detection Model Service</h2>
@@ -318,8 +288,9 @@
 			<p><u><b>M</b></u>ulti-<u><b>C</b></u>linical parameters <u><b>A</b></u>ssessment for <u><b>P</b></u>rognosis</p>
 		</header>
 		<section>
-			<div style="text-align: center;"><img id="procedure" src="./images/mcap.png" width="80%"></div>
-			<p></p>
+			<div style="text-align: center;"><img src="./images/mcap-struc.png" width="100%"></div>
+			<!-- <div style="text-align: center;"><img id="procedure" src="./images/mcap.png" width="80%"></div> -->
+			<!-- <p></p> -->
 		</section>
 	</article>
 
@@ -408,20 +379,38 @@
 			<header>
 				<h3>Conference Speech</h3>
 			</header>
-			<ul style="font-size: 80%">
-				<li>Bor-Sheng Ko, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome by Detecting Pre and Post-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data", The 23rd Annual Congress of Asia-Pacific Blood and Marrow Transplantation Group (APBMT 2018)</li>
-				<li>Chi-Chun Lee, "Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis using Deep Generative Model", 2018 REWORK- AI in Healthcare summit, <a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule">https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule</a></li>
-				<li>Bor-Sheng Ko, "An artificial intelligence approach in classifying AML and MDS for MRD detection using flow cytometry", 2018 Annual Congress of the Hematology Society of Taiwan and Taiwan Society of Blood and Marrow Transplantation</li>
-				<li>Chi-Chun Lee, "AI-in Health Behavior Analytics", 2017 Taiwan AI Conference, <a href="http://datasci.tw/cclee/">http://datasci.tw/cclee/</a></li>
-			</ul>
+			<div id="pub-list" class="row gtr-50">
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2018futuretech.png" width="80%"></div>
+					<p>Chi-Chun Lee, "智能化血液病診斷與預後預測(Ai-assisted HEmatologic Analytic and Decision Support)", 2018 Future Tech Expo, Taiwan</p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2018apbmt.png"></div>
+					<p>Bor-Sheng Ko, "An Artificial Intelligence Approach for Predicting Allogeneic Hematopoietic Stem Cell Transplantation Outcome by Detecting Pre and Post-Transplant Minimal Residual Disease in Acute Myeloid Leukemia Using Flow Cytometry Data", The 23rd Annual Congress of Asia-Pacific Blood and Marrow Transplantation Group (APBMT 2018)</p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/rework.png"></div>
+					<p>Chi-Chun Lee, "Learning a Phenotype Representation for AI-assisted Leukemia Diagnosis using Deep Generative Model", 2018 REWORK- AI in Healthcare summit</p>
+					<p><a href="https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule">https://www.re-work.co/events/ai-in-healthcare-summit-hong-kong-2018/schedule</a></p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2018tsbmt_hst.png"></div>
+					<p>Bor-Sheng Ko, "An artificial intelligence approach in classifying AML and MDS for MRD detection using flow cytometry", 2018 Annual Congress of the Hematology Society of Taiwan and Taiwan Society of Blood and Marrow Transplantation</p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><img src="./images/conf/2017ai.png"></div>
+					<p>Chi-Chun Lee, "AI-in Health Behavior Analytics", 2017 Taiwan AI Conference</p>
+					<p><a href="http://datasci.tw/cclee/">http://datasci.tw/cclee/</a></p>
+				</div>
+			</div>
 		</section>
 		<section>
 			<header>
 				<h3>Journal</h3>
 			</header>
-			<div id="pub-list" class="row" style="font-size: 80%; line-height: 1.8em;">
+			<div id="pub-list" class="row">
 				<div class="col-12-mobile col-6-normal col-4">
-					<div class="img-conf"><img src="./images/conf/2018ebiom.png" width="80%"></div>
+					<div class="img-conf"><img src="./images/conf/2018ebiom.png"></div>
 					<p>Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, Chi-Chun Lee, Jih-Luh Tang ,"Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", EBioMedicine, 2018</p>
 					<p><a href="https://doi.org/10.1016/j.ebiom.2018.10.042">https://doi.org/10.1016/j.ebiom.2018.10.042</a></p>
 				</div>
@@ -431,7 +420,7 @@
 			<header>
 				<h3>Peer-Reviewed Conference/Workshop Paper</h3>
 			</header>
-			<div id="pub-list" class="row gtr-50" style="font-size: 80%; line-height: 1.8em;">
+			<div id="pub-list" class="row gtr-50">
 				<div class="col-12-mobile col-6-normal col-4">
 					<div class="img-conf"><img src="./images/conf/2018ash.png"></div>
 					<p>Bor-Sheng Ko, Yu-Fen Wang, Chih-Chuan Lu, Jeng-Lin Li, Chi-Chun Lee, Jih-Luh Tang, and Hwei-Fang Tien, "Relapse and Mortality Prediction of Patients with Newly Diagnosed de novo Acute Myeloid Leukemia Using Deep Bidirectional Long Short-term Memory Deep Neural Network Architecture" in Annual Meeting of American Society of Hematology (ASH), 2018</p>
@@ -460,6 +449,33 @@
 			</div>
 		</section>
 	</article>
+
+	<!-- News -->
+	<article id="news" class="container box style3">
+		<header>
+			<h2>News</h2>
+		</header>
+		<section>
+			<!-- <header>
+				<h3>Conference Speech</h3>
+			</header> -->
+			<div id="pub-list" class="row gtr-50">
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><a href="https://www.facebook.com/taiwantecharena/videos/vb.2092953727660240/445060232692824/?type=2&theater"><img src="./images/conf/tta.png"></a></div>
+					<!-- <h5 style="padding: 5pt 0;">Taiwan Tech Arena</h5> -->
+					<p>[TEAM INTRO #15] - AHEAD "Ai-assisted HEmatologic Analytics and Decision support" AHEAD focuses on developing diagnostic and clinical decision support tools for blood cancer using AI. C.E.S 2019...</p>
+					<p>(Taiwan Tech Arena | Facebook, 2018-12-29 14:00)</p>
+				</div>
+				<div class="col-12-mobile col-6-normal col-4">
+					<div class="img-conf"><a href="https://technews.tw/2018/12/20/ntu-nthu-ai-blood-measure-equipment-ahead/"><img src="https://img.technews.tw/wp-content/uploads/2018/12/20140148/DSC_8258-e1545285721667.jpg"></a></div>
+					<h5 style="padding: 5pt 0;">台大清大開發 AI 血液檢測工具，血癌判讀精準度躍升、大幅節省時間</h5>
+					<p>今年 FDA 批准 12 個演算法輔助醫療產品，如從視網膜判讀糖尿病，以及對急性中風病人判讀病源等等，隨著演算法與機器學習技術日益進步，類似的 AI 醫療應用案例將越來越多。而台灣擁有高聲譽的醫療水準，學術界又深藏許多 AI 運算上的技術高手，為醫療新創注入巨大的能量，明年要與科技部一同進軍拉斯維加...</p>
+					<p>(TechNews 科技新報, <time datetime="2018-12-20 14:30">2018-12-20 14:30</time>)</p>
+				</div>
+			</div>
+		</section>
+	</article>
+
 
 	<!-- Contact -->
 	<!-- 	<article class="container box style3">
