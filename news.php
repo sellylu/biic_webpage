@@ -18,6 +18,16 @@
 		}
 	</style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128677328-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-128677328-2');
+	</script>
+
 </head>
 <body class="no-sidebar is-preload">
 	<div id="page-wrapper">
@@ -65,7 +75,7 @@
 				<!-- year 2019 -->
 				<?php $year=2019; ?>
 				<!-- genuisforhome -->
-				<?php $id=38; $mon='01'; $name='ces'; $full=" CES, Las Vegas, USA "; 
+				<?php $id=38; $mon='01'; $name='genuisforhome'; $full=" CES, Las Vegas, USA "; 
 					  $img ="1909/43841655430_8d9de4239e";
 				?>
 				<article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">

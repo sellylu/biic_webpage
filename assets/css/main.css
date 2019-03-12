@@ -1985,6 +1985,14 @@ input, select, textarea {
 						background: #ea3723;
 					}
 
+				ul.social li a.ee {
+					background: #6B027D;
+				}
+
+					ul.social li a.ee:hover {
+						background: #7B128D;
+					}
+
 /* Icons */
 
 	.icon {
@@ -2047,16 +2055,21 @@ input, select, textarea {
 
 				.icon.featured.alt2:after {
 					border-top-color: #827a7c;
-				}
-		.ee:before {
-			content: url(../../images/icon/nthuee_white@0.5x.png);
-		}
-		ul.social li a.ee {
-			background: #6B027D;
-		}
-		ul.social li a:before {
-			line-height: 1.75em;
-		}
+					}
+
+			.ee:before {
+				content: ' '/*url(../../images/icon/nthuee_white@0.5x.png)*/;
+			}
+
+			.ee img {
+				width: 2em;
+				height: 2em;
+				transform: translateY(10%);
+				-webkit-transform: translateY(10%);
+				-moz-transform: translateY(10%);
+				-ms-transform: translateY(10%);
+			}
+
 
 /* Page Wrapper */
 

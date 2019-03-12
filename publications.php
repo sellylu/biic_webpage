@@ -21,6 +21,16 @@
 	}
 	</style>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128677328-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-128677328-2');
+	</script>
+
 </head>
 <body class="no-sidebar is-preload">
 	<div id="page-wrapper">
@@ -63,6 +73,7 @@
 		<h3>Journal</h3>
 	</header>
 	<ol>
+		<li class="pub">Chen-Ying Hung, Ching-Heng Lin, Tsuo-Hung Lan, Giia-Sheun Peng, <strong>Chi-Chun Lee</strong>, "Development of an Intelligent Decision Support System for Ischemic Stroke Risk Assessment in a Population-based Electronic Health Record Database", in PLOS ONE, 2019</li>
 		<li class="pub">Chin-Po Chen, Susan Shur-Fen Gau, <strong>Chi-Chun Lee</strong>, "Toward Differential Diagnosis of Autism Spectrum Disorder using Multimodal Behavior Descriptors and Executive Functions", in Journal of Computer Speech and Language (CSL)</li>
 		<li class="pub">Bor-Sheng Ko, Yu-Fen Wang, Jeng-Lin Li, Chi-Cheng Li, Pei-Fang Weng, Szu-Chun Hsu, Hsin-An Hou, Huai-Hsuan Huang, Ming Yao, Chien-Ting Lin, Jia-Hau Liu, Cheng-Hong Tsai, Tai-Chung Huang, Shang-Ju Wu, Shang-Yi Huang, Wen-Chien Chou, Hwei-Fang Tien, <strong>Chi-Chun Lee</strong>, Jih-Luh Tang , "Clinically validated machine learning algorithm for detecting residual diseases with multicolor flow cytometry analysis in acute myeloid leukemia and myelodysplastic syndrome", in EBioMedicine (2018), DOI: 10.1016/j.ebiom.2018.10.042 (in press)</li>
 		<li class="pub">Wei-Cheng Lin and <strong>Chi-Chun Lee</strong>, "Computational Analyses of Thin-sliced Behavior Segments in Session-level Affect Perception" in IEEE Transactions on Affective Computing (2018) </li>
@@ -86,6 +97,7 @@
 		<h3>Peer-Reviewed Conference/Workshop Paper</h3>
 	</header>
 	<ol>
+		<li class="pub">Ming-Ya Ko, Jeng-Lin Li, <strong>Chi-Chun Lee</strong>, "Learning Minimal Intra-Genre Multimodal Embedding from Trailer Content and Reactor Expressions for Box Office Prediction", in Proceedings of the IEEE International Conference on Multimedia &amp; Expo (ICME), 2019</li>
 		<li class="pub">Wei-Hao Chang, Jeng-Lin Li,<strong>Chi-Chun Lee</strong>, "Learning Semantic-Preserving Space Using User Profile and Multimodal Media Content From Political Social Network", in Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2019</li>
 		<li class="pub">Chun-Min Chang,<strong>Chi-Chun Lee</strong>, "Adversarially-Enriched Acoustic Code Vector Learned from Out-Of-Context Affective Corpus for Robust Emotion Recognition", in Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2019</li>
 		<li class="pub">Huang-Cheng Chou,<strong>Chi-Chun Lee</strong>, "Every Rating Matters: Joint Learning of Subjective Labels and Individual Annotators for Speech Emotion Classification", in Proceedings of International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2019</li>
