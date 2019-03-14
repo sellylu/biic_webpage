@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157705560471801" title="2018 Year End Party"><img src="https://farm5.staticflickr.com/4831/46891626801_519f172f78_b.jpg" width="1024" height="768" alt="2018 Year End Party"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
