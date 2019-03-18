@@ -9,7 +9,7 @@ $data = $db->query("SELECT id, full_name, short, year, date_format(`date`, \"%Y.
 while($r = $db->fetch_array()) {
 	$id=$r['id']; $year=$r['year']; $date=$r['date'];
 	$short=$year.$r['short']; $name=$year." ".$r['full_name'];
-	$img="https://farm2.staticflickr.com/".$r['album']."_b.jpg";
+	$img=$r['album'];
 	echo "<!-- ".$short." -->\n";
 ?>
 <article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
