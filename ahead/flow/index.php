@@ -212,7 +212,7 @@
 							<h3 style="text-align: left;"><span class="badge badge-secondary">False</span></h3>
 						</div> -->
 					</div>
-					<div class="row">
+					<div class="row gtr-0">
 						<div class="col-12" style="text-align: left;">
 							<label for="low">Low Event Flag Threshold</label>
 							<select id="low" style="display: inline; position: inherit; width: 8em">
@@ -224,13 +224,13 @@
 							<input type="number" name="lowNew" id="lowNew" placeholder="input threshold" style="position: relative; width: 10em; display: none;">
 						</div>
 					</div>
-					<div class="row">
+					<div class="row gtr-0">
 						<div class="col-12" style="text-align: left;">
 							<label for="fcsToUploaded">Upload fcs files</label>
 							<input type="file" name="fcsToUploaded[]" id="fcsToUploaded" multiple><span id="warn" hidden style="font-weight:600; color: red; text-shadow: 0 0 3px #fff,0 0 3px #fff,0 0 3px #fff;">&nbsp;&nbsp;&nbsp;Please select files to upload!</span>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row gtr-0">
 						<div class="col-12-narrow col-9-normal col-9" style="text-align: left;">
 							<label for="remark">Remark</label>
 							<textarea type="text" name="remark" id="remark" rows="2" cols="80" style="margin-bottom: 2em;"></textarea>

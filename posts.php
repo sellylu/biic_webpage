@@ -4,12 +4,12 @@ require_once 'db_class.php';
 
 $db = new DB();
 $db->connect_db($_DB['host'], $_DB['username'], $_DB['password'], $_DB['dbname']);
-$data = $db->query("SELECT id, full_name, short, year, date_format(`date`, \"%Y.%m\") as `date`, album FROM base_news where display=true order by id desc;");
+$data = $db->query("SELECT id, full_name, short, year, date_format(`date`, \"%Y.%m\") as `date`, album FROM news where display=true order by id desc;");
 
 while($r = $db->fetch_array()) {
 	$id=$r['id']; $year=$r['year']; $date=$r['date'];
 	$short=$year.$r['short']; $name=$year." ".$r['full_name'];
-	$img="https://farm2.staticflickr.com/".$r['album']."_b.jpg";
+	$img=$r['album'];
 	echo "<!-- ".$short." -->\n";
 ?>
 <article id=<?php echo '"post-'.$id.'"'; ?> class="box post card <?php echo $year; ?>">
