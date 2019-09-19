@@ -1,3 +1,14 @@
+<?php
+require_once 'db_config.php';
+require_once 'db_class.php';
+
+$db = new DB();
+$db->connect_db($_DB['host'], $_DB['username'], $_DB['password'], $_DB['dbname']);
+$data = $db->query("SELECT * FROM base_team;");
+
+// while($r = $db->fetch_array()) {
+	
+?>
 <!DOCTYPE HTML>
 <html>
 <head>

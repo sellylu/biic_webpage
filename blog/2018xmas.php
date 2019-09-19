@@ -1,0 +1,1 @@
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/biic-nthuee/albums/72157677338732458" title="2018 BIIC x CCRG Christmas Party"><img src="https://farm8.staticflickr.com/7833/44773901550_3b0cddc263_b.jpg" width="1024" height="768" alt="2018 BIIC x CCRG Christmas Party"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
